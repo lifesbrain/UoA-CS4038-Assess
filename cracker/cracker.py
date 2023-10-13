@@ -39,7 +39,7 @@ class Cracking:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
   # Function to rebase a base 10 integer - take a int and a string of characters to use as the base (default base 36)
-  def rebase (self, number, alphabet="abcdefghijklmnopqrstuvwxyz0123456789"):
+  def rebase (self, number, alphabet="0123456789abcdefghijklmnopqrstuvwxyz"):
     base = len(alphabet) # Set the base to the length of the alphabet
     # If the number is less than the base, return the character at the index of the number
     if number < base:
@@ -61,12 +61,11 @@ class Cracking:
     try:
       # While there are still passwords to crack
       while len(toCrack) > 0:
-        count += 1 # Increment the count
         tryPassword = self.rebase(count) # Convert the count to password
         tryHash = hashlib.sha512(tryPassword.encode()).hexdigest() # Hash the password
 
         # For each uncracked password try the hash
-        for i in range(len(toCrack)-1):
+        for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
           if tryHash == toCrack[i].hash: # If the hash matches
             toCrack[i].password = tryPassword
             toCrack[i].cracked = True
@@ -75,7 +74,9 @@ class Cracking:
 
         # Print count every 100,000
         if count % 100000 == 0:
-          print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining\r")
+          print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining", end="\r")
+
+        count += 1 # Increment the count
 
       # Print the number of attempts on completion
       print(f"Cracking Complete | {count} attempts")
