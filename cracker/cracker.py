@@ -34,6 +34,25 @@ class Cracking:
       except:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
+  # Function to rebase a base 10 integer - take a int and a string of characters to use as the base (default base 36)
+  def rebase (number, alphabet='abcdefghijklmnopqrstuvwxyz0123456789'):
+    # If the number is less than the base, return the character at the index of the number
+    if number < len(alphabet):
+      return alphabet[number]
+    else: # Else, calculate the new base number
+      newNumber = ''
+      while number > 0:
+        newNumber = alphabet[number % len(alphabet)] + newNumber # Add remainder character to the front of the string (equivilent of, 1, then 10, then 100 etc, in base 10)
+        number //= len(alphabet) # Calculate quotient for the next iteration
+
+      return newNumber
+
+  # Task 01 Brute Force
+  def bruteForce (self):
+    # Possible characters
+    alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789'
+
+
   # Default print function
   def __str__ (self):
     # Create an array of password objects for printing
