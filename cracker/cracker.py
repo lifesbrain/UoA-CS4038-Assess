@@ -18,9 +18,13 @@ class Cracking:
       else: # Else just set the hash
         self.hash = hash
 
+    # Return the password object as a string
+    def info (self):
+      return str(f"Hash:     {self.hash}\nSalt:     {self.salt}\nPassword: {self.password}\nAttempts: {self.attempts}")
+
     # Default print function
     def __str__ (self):
-      return str(f"Hash:     {self.hash}\nSalt:     {self.salt}\nPassword: {self.password}\nAttempts: {self.attempts}")
+      return str(self.name)
 
   # Cracking Init    
   def __init__ (self , hashes, dictionary = None):
@@ -35,30 +39,56 @@ class Cracking:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
   # Function to rebase a base 10 integer - take a int and a string of characters to use as the base (default base 36)
-  def rebase (number, alphabet='abcdefghijklmnopqrstuvwxyz0123456789'):
+  def rebase (self, number, alphabet="abcdefghijklmnopqrstuvwxyz0123456789"):
+    base = len(alphabet) # Set the base to the length of the alphabet
     # If the number is less than the base, return the character at the index of the number
-    if number < len(alphabet):
+    if number < base:
       return alphabet[number]
     else: # Else, calculate the new base number
       newNumber = ''
       while number > 0:
         newNumber = alphabet[number % len(alphabet)] + newNumber # Add remainder character to the front of the string (equivilent of, 1, then 10, then 100 etc, in base 10)
-        number //= len(alphabet) # Calculate quotient for the next iteration
+        number //= base # Calculate quotient for the next iteration
 
       return newNumber
 
   # Task 01 Brute Force
   def bruteForce (self):
-    # Possible characters
-    alphabet = 'abcdefghijklmnopqrstuvwxyz0123456789'
+    count = 0 # For counting the number of attempts and to convert to base 36
+    toCrack = list(self.passwords) # ∆ Works through every password in the set, can improve by only working through uncracked passwords
 
+    # Place in try block to catch keyboard interrupt
+    try:
+      # While there are still passwords to crack
+      while len(toCrack) > 0:
+        count += 1 # Increment the count
+        tryPassword = self.rebase(count) # Convert the count to password
+        tryHash = hashlib.sha512(tryPassword.encode()).hexdigest() # Hash the password
+
+        # For each uncracked password try the hash
+        for i in range(len(toCrack)-1):
+          if tryHash == toCrack[i].hash: # If the hash matches
+            toCrack[i].password = tryPassword
+            toCrack[i].cracked = True
+            toCrack[i].attempts = count
+            toCrack.pop(i)
+
+        # Print count every 100,000
+        if count % 100000 == 0:
+          print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining\r")
+
+      # Print the number of attempts on completion
+      print(f"Cracking Complete | {count} attempts")
+
+    except KeyboardInterrupt: # Catch keyboard interrupt
+      print("Cracking Canceled")
 
   # Default print function
   def __str__ (self):
     # Create an array of password objects for printing
     stringArray = []
     for password in self.passwords:
-      stringArray.append(str(password))
+      stringArray.append(str(password.info()))
     
     # Return passwords as a string
     return '\n-----\n'.join(stringArray)
@@ -74,4 +104,5 @@ if __name__ == "__main__":
 
   # Task 01
   task01 = Cracking(t1_hashes)
+  task01.bruteForce()
   print(task01)
