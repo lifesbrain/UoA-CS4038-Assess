@@ -1,4 +1,5 @@
 import hashlib
+import io
 
 # Cracking Class, Gromit
 class Cracking:
@@ -27,9 +28,10 @@ class Cracking:
       return str(self.name)
 
   # Cracking Init    
-  def __init__ (self , hashes, dictionary = None):
+  def __init__ (self , hashes, dictionaryPath = None):
     self.passwords = set() # For storing set of passwords and hashes
-    self.dictionary = dictionary # ∆ To impliment input validation
+    self.dictionaryPath = dictionaryPath # ∆ To impliment input validation
+    self.dictionary = None # Not Opened until needed
 
     # For each hash, create a password object and add it to the set
     for i in range(len(hashes)):
@@ -51,6 +53,15 @@ class Cracking:
         number //= base # Calculate quotient for the next iteration
 
       return newNumber
+    
+  # Function to return a dictionary password by file line, NEED TO WRITE A FUNCTION THAT CAN BE USED AS NEXT FUNCTION to itterate through, THEN CAN RUN WHILE NOT CRACKED AND NEXT EXISTS
+  def getDictPass (self, line):
+    if self.dictionary == None:
+      self.dictionary = open(self.dictionaryPath, 'r')
+    
+    # Return the line of the dictionary
+    return self.dictionary.readline()
+
 
   # Task 01 Brute Force
   def bruteForce (self):
@@ -83,6 +94,9 @@ class Cracking:
 
     except KeyboardInterrupt: # Catch keyboard interrupt
       print("\nCracking Canceled")
+
+  # Task 02 Dictionary Attack
+  # Need to have a general function for itterating through a passed function (brute force, dictionary etc) that will checked agains the passwords
 
   # Default print function
   def __str__ (self):
