@@ -58,14 +58,9 @@ class Cracking:
 
       return newNumber
     
-  # Function to return a dictionary password by file line, NEED TO WRITE A FUNCTION THAT CAN BE USED AS NEXT FUNCTION to itterate through, THEN CAN RUN WHILE NOT CRACKED AND NEXT EXISTS
-  def getDictPass (self, line):
-    if self.dictionary == None:
-      self.dictionary = open(self.dictionaryPath, 'r')
-    
-    # Return the line of the dictionary
-    return self.dictionary.readline()
-
+  # Function to hash a string
+  def hash (self, string):
+    return hashlib.sha512(string.encode()).hexdigest()
 
   # Task 01 Brute Force
   def bruteForce (self):
@@ -77,14 +72,14 @@ class Cracking:
       # While there are still passwords to crack
       while len(toCrack) > 0:
         tryPassword = self.rebase(count) # Convert the count to password
-        tryHash = hashlib.sha512(tryPassword.encode()).hexdigest() # Hash the password
+        tryHash = self.hash(tryPassword)
 
         # For each uncracked password try the hash
         for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
           if tryHash == toCrack[i].hash: # If the hash matches
             toCrack[i].password = tryPassword
             toCrack[i].cracked = True
-            toCrack[i].attempts = count
+            toCrack[i].attempts = count+1
             toCrack.pop(i)
 
         # Print count every 100,000
@@ -100,7 +95,51 @@ class Cracking:
       print("\nCracking Canceled")
 
   # Task 02 Dictionary Attack
-  # Need to have a general function for itterating through a passed function (brute force, dictionary etc) that will checked agains the passwords
+  def dictionaryAttack (self):
+    count = 0 # For counting the number of attempts and the line in the dictionary
+    toCrack = list(self.passwords) # ∆ Works through every password in the set, can improve by only working through uncracked passwords
+
+    # Try to open the dictionary file
+    try:
+      self.dictionary = open("./dictionaries/" + self.dictionaryPath, 'r')
+    except:
+      print(f"Dictionary file '{self.dictionaryPath}' not found")
+      return
+    
+    # Place in try block to catch keyboard interrupt
+    try:
+      # For each line in the dictionary and each uncracked password
+      for line in self.dictionary:
+        tryPassword = line.strip()
+        tryHash = self.hash(tryPassword)
+
+        # For each uncracked password try the hash
+        for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
+          if tryHash == toCrack[i].hash: # If the hash matches
+            toCrack[i].password = tryPassword
+            toCrack[i].cracked = True
+            toCrack[i].attempts = count+1
+            toCrack.pop(i)
+
+        # Print count every 100,000
+        if count % 100000 == 0:
+          print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining", end="\r")
+
+        count += 1 # Increment the count
+
+        # If all passwords have been cracked, break
+        if len(toCrack) == 0:
+          break
+
+      # Print the number of attempts on completion
+      print(f"\nCracking Complete | {count} attempts")
+
+    except KeyboardInterrupt:
+      print("\nCracking Canceled")
+
+    # Close the dictionary file
+    self.dictionary.close()
+
 
   # Default print function
   def __str__ (self):
@@ -123,8 +162,16 @@ if __name__ == "__main__":
   t3_hashes = [('63328352350c9bd9611497d97fef965bda1d94ca15cc47d5053e164f4066f546828eee451cb5edd6f2bba1ea0a82278d0aa76c7003c79082d3a31b8c9bc1f58b', 'dbc3ab99'), ('86ed9024514f1e475378f395556d4d1c2bdb681617157e1d4c7d18fb1b992d0921684263d03dc4506783649ea49bc3c9c7acf020939f1b0daf44adbea6072be6', 'fa46510a'), ('16ac21a470fb5164b69fc9e4c5482e447f04f67227102107ff778ed76577b560f62a586a159ce826780e7749eadd083876b89de3506a95f51521774fff91497e', '9e8dc114'), ('13ef55f6fdfc540bdedcfafb41d9fe5038a6c52736e5b421ea6caf47ba03025e8d4f83573147bc06f769f8aeba0abd0053ca2348ee2924ffa769e393afb7f8b5', 'c202aebb'), ('9602a9e9531bfb9e386c1565ee733a312bda7fd52b8acd0e51e2a0a13cce0f43551dfb3fe2fc5464d436491a832a23136c48f80b3ea00b7bfb29fedad86fc37a', 'd831c568'), ('799ed233b218c9073e8aa57f3dad50fbf2156b77436f9dd341615e128bb2cb31f2d4c0f7f8367d7cdeacc7f6e46bd53be9f7773204127e14020854d2a63c6c18', '86d01e25'), ('7586ee7271f8ac620af8c00b60f2f4175529ce355d8f51b270128e8ad868b78af852a50174218a03135b5fc319c20fcdc38aa96cd10c6e974f909433c3e559aa', 'a3582e40'), ('8522d4954fae2a9ad9155025ebc6f2ccd97e540942379fd8f291f1a022e5fa683acd19cb8cde9bd891763a2837a4ceffc5e89d1a99b5c45ea458a60cb7510a73', '6f966981'), ('6f5ad32136a430850add25317336847005e72a7cfe4e90ce9d86b89d87196ff6566322d11c13675906883c8072a66ebe87226e2bc834ea523adbbc88d2463ab3', '894c88a4'), ('21a60bdd58abc97b1c3084ea8c89aeaef97d682c543ff6edd540040af20b5db228fbce66fac962bdb2b2492f40dd977a944f1c25bc8243a4061dfeeb02ab721e', '4c8f1a45')]
 
   # Dictionary
+  t2_dictionary = 'PasswordDictionary.txt'
 
   # Task 01
+  print("Task 01")
   task01 = Cracking(t1_hashes)
   task01.bruteForce()
   print(task01)
+
+  # Task 02
+  print("\nTask 02")
+  task02 = Cracking(t2_hashes, t2_dictionary)
+  task02.dictionaryAttack()
+  print(task02)
