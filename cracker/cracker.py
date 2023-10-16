@@ -26,6 +26,10 @@ class Cracking:
     # Default print function
     def __str__ (self):
       return str(self.name)
+    
+    # Default hash function for set
+    def __hash__ (self):
+      return hash(self.name)
 
   # Cracking Init    
   def __init__ (self , hashes, dictionaryPath = None):
