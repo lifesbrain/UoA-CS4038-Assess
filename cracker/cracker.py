@@ -65,6 +65,10 @@ class Cracking:
   # Function to hash a string
   def hash (self, string):
     return hashlib.sha512(string.encode()).hexdigest()
+  
+  # Function to crack passwords - takes a function that provides incrementing passwords to try
+  def _crack (self, passwordStream):
+    passwordStream()
 
   # Task 01 Brute Force
   def bruteForce (self):
@@ -182,3 +186,9 @@ if __name__ == "__main__":
   task02 = Cracking(t2_hashes, t2_dictionary)
   task02.dictionaryAttack()
   print(task02)
+
+  # Task 03
+  print("\nTask 03")
+  task03 = Cracking(t3_hashes, t2_dictionary)
+  task03.dictionaryAttack()
+  print(task03)
