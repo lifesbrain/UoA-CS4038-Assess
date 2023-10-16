@@ -68,64 +68,20 @@ class Cracking:
   
   # Function to crack passwords - takes a function that provides incrementing passwords to try
   def _crack (self, passwordStream):
-    passwordStream()
-
-  # Task 01 Brute Force
-  def bruteForce (self):
-    count = 0 # For counting the number of attempts and to convert to base 36
+    count = 0 # For counting the number of attempts and the current password to try
     toCrack = [p for p in self.passwords if p.cracked == False] # Create an array of uncracked passwords
 
     # Place in try block to catch keyboard interrupt
     try:
-      # While there are still passwords to crack
-      while len(toCrack) > 0:
-        tryPassword = self.rebase(count) # Convert the count to password
-        tryHash = self.hash(tryPassword)
+      while len(toCrack) > 0: # While theres still passwords to crack
+        tryPassword = next(passwordStream, None) # Get the next password to try
+        if tryPassword == None: break # If there are no more passwords to try, break
+        if not self.salted: tryHash = self.hash(tryPassword) # If passwords are not salted, hash the tryPassword
 
         # For each uncracked password try the hash
         for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
-          if tryHash == toCrack[i].hash: # If the hash matches
-            toCrack[i].password = tryPassword
-            toCrack[i].cracked = True
-            toCrack[i].attempts = count+1
-            toCrack.pop(i)
+          if self.salted: tryHash = self.hash(tryPassword + toCrack[i].salt) # If passwords are salted, hash the tryPassword with this uncrcaked passwords salt
 
-        # Print count every 100,000
-        if count % 100000 == 0:
-          print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining", end="\r")
-
-        count += 1 # Increment the count
-
-      # Print the number of attempts on completion
-      print(f"Cracking Complete | attempts: {count : < 30}")
-
-    except KeyboardInterrupt: # Catch keyboard interrupt
-      print("\nCracking Canceled")
-
-  # Task 02 Dictionary Attack
-  def dictionaryAttack (self):
-    count = 0 # For counting the number of attempts and the line in the dictionary
-    toCrack = [p for p in self.passwords if p.cracked == False] # Create an array of uncracked passwords
-
-    # Try to open the dictionary file
-    try:
-      self.dictionary = open("./dictionaries/" + self.dictionaryPath, 'r')
-    except:
-      print(f"Dictionary file '{self.dictionaryPath}' not found")
-      return
-    
-    # Place in try block to catch keyboard interrupt
-    try:
-      # For each line in the dictionary and each uncracked password
-      for line in self.dictionary:
-        tryPassword = line.strip()
-        # If passwords are not salted, hash the tryPassword
-        if not self.salted: tryHash = self.hash(tryPassword)
-
-        # For each uncracked password try the hash
-        for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
-          # If passwords are salted, hash the tryPassword with this uncrcaked passwords salt
-          if self.salted: tryHash = self.hash(tryPassword + toCrack[i].salt)
           # If the hash matches the uncrcaked password then update the password object and remove from the toCrack array
           if tryHash == toCrack[i].hash:
             toCrack[i].password = tryPassword
@@ -133,8 +89,8 @@ class Cracking:
             toCrack[i].attempts = count+1
             toCrack.pop(i)
 
-        # Print count every 100,000
-        if count % 100000 == 0:
+        # Print count every 10,000
+        if count % 10000 == 0:
           print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining", end="\r")
 
         count += 1 # Increment the count
@@ -144,10 +100,39 @@ class Cracking:
           break
 
       # Print the number of attempts on completion
-      print(f"Cracking Complete | attempts: {count : < 30}")
+      print(f"Cracking Complete | Remaining: {len(toCrack)} | Attempts: {count : < 30}")
 
     except KeyboardInterrupt:
       print("\nCracking Canceled")
+
+  # Task 01 Brute Force
+  def bruteForce (self):
+    # Define the brute force stream function
+    def bruteForceStream ():
+      count = 0 # Int to rebase to password, could be used to start at a specific password or to continue from a previous attempt in future..
+      while True:
+        yield self.rebase(count)
+        count += 1
+    
+    # Crack the passwords
+    self._crack(bruteForceStream())
+
+  # Task 02 Dictionary Attack
+  def dictionaryAttack (self):        
+    # Try to open the dictionary file
+    try:
+      self.dictionary = open("./dictionaries/" + self.dictionaryPath, 'r')
+    except:
+      print(f"Dictionary file '{self.dictionaryPath}' not found")
+      return
+    
+    # Define the dictionary stream function to pass to the crack function
+    def dictionaryStream ():
+      for line in self.dictionary:
+        yield line.strip()
+
+    # Crack the passwords
+    self._crack(dictionaryStream())
 
     # Close the dictionary file
     self.dictionary.close()
@@ -162,10 +147,7 @@ class Cracking:
     # Return passwords as a string
     return '\n-----\n'.join(stringArray)
 
-    # Return table as a string
-    return 
-
-# task 01 test
+# Tasks Tests
 if __name__ == "__main__":
   # Hashes
   t1_hashes = ['f14aae6a0e050b74e4b7b9a5b2ef1a60ceccbbca39b132ae3e8bf88d3a946c6d8687f3266fd2b626419d8b67dcf1d8d7c0fe72d4919d9bd05efbd37070cfb41a', 'e85e639da67767984cebd6347092df661ed79e1ad21e402f8e7de01fdedb5b0f165cbb30a20948f1ba3f94fe33de5d5377e7f6c7bb47d017e6dab6a217d6cc24', '4e2589ee5a155a86ac912a5d34755f0e3a7d1f595914373da638c20fecd7256ea1647069a2bb48ac421111a875d7f4294c7236292590302497f84f19e7227d80', 'afd66cdf7114eae7bd91da3ae49b73b866299ae545a44677d72e09692cdee3b79a022d8dcec99948359e5f8b01b161cd6cfc7bd966c5becf1dff6abd21634f4b']
