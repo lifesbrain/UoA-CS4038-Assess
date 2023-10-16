@@ -100,7 +100,7 @@ class Cracking:
           break
 
       # Print the number of attempts on completion
-      print(f"Cracking Complete | Remaining: {len(toCrack)} | Attempts: {count : < 30}")
+      print(f"Cracking Complete | Remaining: {len(toCrack)} | Attempts: {count : < 30}", end="\r")
 
     except KeyboardInterrupt:
       print("\nCracking Canceled")
@@ -146,6 +146,17 @@ class Cracking:
     
     # Return passwords as a string
     return '\n-----\n'.join(stringArray)
+  
+  # Print only cracked passwords
+  def printCracked (self):
+    # Create an array of password objects for printing
+    stringArray = []
+    for password in self.passwords:
+      if password.cracked:
+        stringArray.append(str(password.password))
+    
+    # Return passwords as a string
+    return '\n'.join(stringArray)
 
 # Tasks Tests
 if __name__ == "__main__":
