@@ -93,7 +93,7 @@ class Cracking:
         count += 1 # Increment the count
 
       # Print the number of attempts on completion
-      print(f"\nCracking Complete | {count} attempts")
+      print(f"Cracking Complete | attempts: {count : < 30}")
 
     except KeyboardInterrupt: # Catch keyboard interrupt
       print("\nCracking Canceled")
@@ -115,12 +115,15 @@ class Cracking:
       # For each line in the dictionary and each uncracked password
       for line in self.dictionary:
         tryPassword = line.strip()
-        tryHash = self.hash(tryPassword)
+        # If passwords are not salted, hash the tryPassword
+        if not self.salted: tryHash = self.hash(tryPassword)
 
         # For each uncracked password try the hash
         for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
-
-          if tryHash == toCrack[i].hash: # If the hash matches
+          # If passwords are salted, hash the tryPassword with this uncrcaked passwords salt
+          if self.salted: tryHash = self.hash(tryPassword + toCrack[i].salt)
+          # If the hash matches the uncrcaked password then update the password object and remove from the toCrack array
+          if tryHash == toCrack[i].hash:
             toCrack[i].password = tryPassword
             toCrack[i].cracked = True
             toCrack[i].attempts = count+1
@@ -137,16 +140,13 @@ class Cracking:
           break
 
       # Print the number of attempts on completion
-      print(f"\nCracking Complete | {count} attempts")
+      print(f"Cracking Complete | attempts: {count : < 30}")
 
     except KeyboardInterrupt:
       print("\nCracking Canceled")
 
     # Close the dictionary file
     self.dictionary.close()
-
-  # Task 03 Salted Dictionary Attack
-
 
   # Default print function
   def __str__ (self):
