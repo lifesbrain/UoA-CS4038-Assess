@@ -36,11 +36,15 @@ class Cracking:
     self.passwords = set() # For storing set of passwords and hashes
     self.dictionaryPath = dictionaryPath # ∆ To impliment input validation
     self.dictionary = None # Not Opened until needed
+    self.salted = False # Set to true if any of the hashes are salted
 
     # For each hash, create a password object and add it to the set
     for i in range(len(hashes)):
       try:
-        self.passwords.add(self.Password(hashes[i]))
+        password = self.Password(hashes[i]) # Create a password object
+        self.passwords.add(password) # Add to the set
+        if self.salted == False and password.salt != None: # Set salted to true if its false and the password is salted
+          self.salted = True
       except:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
@@ -65,7 +69,7 @@ class Cracking:
   # Task 01 Brute Force
   def bruteForce (self):
     count = 0 # For counting the number of attempts and to convert to base 36
-    toCrack = list(self.passwords) # ∆ Works through every password in the set, can improve by only working through uncracked passwords
+    toCrack = [p for p in self.passwords if p.cracked == False] # Create an array of uncracked passwords
 
     # Place in try block to catch keyboard interrupt
     try:
@@ -97,7 +101,7 @@ class Cracking:
   # Task 02 Dictionary Attack
   def dictionaryAttack (self):
     count = 0 # For counting the number of attempts and the line in the dictionary
-    toCrack = list(self.passwords) # ∆ Works through every password in the set, can improve by only working through uncracked passwords
+    toCrack = [p for p in self.passwords if p.cracked == False] # Create an array of uncracked passwords
 
     # Try to open the dictionary file
     try:
@@ -115,6 +119,7 @@ class Cracking:
 
         # For each uncracked password try the hash
         for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
+
           if tryHash == toCrack[i].hash: # If the hash matches
             toCrack[i].password = tryPassword
             toCrack[i].cracked = True
@@ -139,6 +144,8 @@ class Cracking:
 
     # Close the dictionary file
     self.dictionary.close()
+
+  # Task 03 Salted Dictionary Attack
 
 
   # Default print function
