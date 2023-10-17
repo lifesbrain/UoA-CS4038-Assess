@@ -1,3 +1,5 @@
+# Python file for Task 1 of the assignment
+
 import sys
 import json
 from cracking import Cracking
