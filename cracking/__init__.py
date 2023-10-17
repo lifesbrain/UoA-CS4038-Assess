@@ -101,7 +101,7 @@ class Cracking:
           break
 
       # Print the number of attempts on completion
-      print(f"Cracking Complete | Remaining: {len(toCrack)} | Attempts: {count : < 30}", end="\r")
+      print(f"Cracking Complete | Remaining: {len(toCrack)} | Attempts: {count : < 30}")
 
     except KeyboardInterrupt:
       print("\nCracking Canceled")
