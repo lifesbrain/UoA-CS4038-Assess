@@ -49,6 +49,7 @@ class Cracking:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
   # Function to rebase a base 10 integer - take a int and a string of characters to use as the base (default base 36)
+  # REREFENCE: https://stackoverflow.com/questions/1181919/python-base-36-encoding (Accessed 2023-10-16)
   def rebase (self, number, alphabet="0123456789abcdefghijklmnopqrstuvwxyz"):
     base = len(alphabet) # Set the base to the length of the alphabet
     # If the number is less than the base, return the character at the index of the number
