@@ -7,9 +7,9 @@ t3_hashes = "./hashes/Task03Hashes.txt"
 
 def main(hashesPath=t3_hashes, rainbowPath=None):
   task = Cracking(hashesPath=hashesPath, rainbowTablePath=rainbowPath) # Create a new Cracking object with the hashes and table
-  if task.rainbowTable == None: task.generateRainbowTable() # Generate a rainbow table if a table path wasn't passed
+  task.generateRainbowTable() # Generate the rainbow table
   task.rainbowAttack() # Rainbow attack the hashes
-  return print(task) # Print the cracked hashes
+  #return print(task) # Print the cracked hashes
 
 if __name__ == "__main__":
     # Set input variables to defaults

@@ -1,4 +1,6 @@
 import hashlib
+import pickle
+import datetime
 import io
 
 # Cracking Class, Gromit
@@ -30,6 +32,39 @@ class Cracking:
     # Default hash function for set
     def __hash__ (self):
       return hash(self.name)
+
+  # Rainbow Table Data Structure
+  class RainbowTable:
+    def __init__(self , hashFunction = None, chainLength = 1000, chainCount = 1000, strLength = 6, alphabet = "0123456789abcdefghijklmnopqrstuvwxyz", dictionaryStream = None):
+      self.table = {} # For the rainbow table
+      self.dictionaryStream = dictionaryStream
+      self.hashFunction = hashFunction
+      self.chainLength = chainLength
+      self.chainCount = chainCount
+      self.strLength = strLength
+      self.alphabet = alphabet
+      self.seed = 0 # Seed for table generation to allow replication if neeeded
+
+      # Abort creation if no hash function provided
+      if self.hashFunction == None:
+        raise ValueError("No hash function provided")
+      
+    # Reduce function which takes a hash and rebases it to a compliant string
+    def reduce (self, hash):
+      # Rebase the base16 hash to a base10 int
+      hashInt = int(hash, 16)
+      # Rebase the base10 int to a string of base[alphabet length] and trim
+      # ∆ This could be more efficent by trimming before rebase
+      reduced = self.rebase(hashInt, self.alphabet)[:self.strLength]
+      return reduced
+    
+    # Function to generate the table, using dictionaryStream if provided then seed
+    def _generate (self):
+      pass
+
+    # 
+
+
 
   # Cracking Init    
   # Takes an array of hashes and an optional dictionary & rainbowTable file path
@@ -141,7 +176,7 @@ class Cracking:
     # Crack the passwords
     self._crack(bruteForceStream())
 
-  # Task 02 Dictionary Attack
+  # Task 02 & 03 Dictionary Attack
   def dictionaryAttack (self):        
     # Try to open the dictionary file
     try:
@@ -160,6 +195,44 @@ class Cracking:
 
     # Close the dictionary file
     self.dictionary.close()
+
+  # Task 04 Rainbow Attack
+  def rainbowAttack (self):
+    # If a rainbow path exists then restore the pickled RainbowTable object from the file
+    if self.rainbowTablePath != None: 
+      # ∆ NEED to CONSIDER IF FIEL IS LOADED AND IF OBJECT OS LOADED AND WHEN TO LOAD IT IN
+      try:
+        with open(self.rainbowTablePath, 'r') as rainbowFile:
+          self.rainbowTable = pickle.load(rainbowFile)
+      except:
+        print(f"Rainbow table file '{self.rainbowTablePath}' not found")
+        return
+      
+    # Else create a new rainbow table
+    else:
+      self.generateRainbowTable()
+      
+
+  # Generate a rainbow table
+  def generateRainbowTable (self, ):
+    self.rainbowTable = self.RainbowTable(hashFunction=self.hash)
+
+    # Create a file name for the rainbow table
+    timestring = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    fileName = f"{timestring}_cl{self.rainbowTable.chainLength}_cc{self.rainbowTable.chainCount}_sl{self.rainbowTable.strLength}_{self.rainbowTable.alphabet}.rt"
+    directory = "./rainbows/"
+    self.rainbowTablePath = directory + fileName
+
+    # Pickle the rainbow table
+    try:
+      with open(self.rainbowTablePath, 'x') as rainbowFile:
+        pickle.dump(self.rainbowTable, rainbowFile)
+        print(f"Rainbow table pickled to '{self.rainbowTablePath}'")
+    except:
+      print(f"Failed to pickle rainbow table to '{self.rainbowTablePath}'")
+      self.rainbowTablePath = None
+      return
+
 
   # Default print function
   def __str__ (self):
