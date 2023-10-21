@@ -1,7 +1,6 @@
 # Python file for Task 2 of the assignment
 
 import sys
-import json
 from cracking import Cracking
 
 t2_hashes = "./hashes/Task02Hashes.txt"
