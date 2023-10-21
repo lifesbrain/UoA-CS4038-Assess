@@ -9,7 +9,7 @@ t2_dictionary = './dictionaries/PasswordDictionary.txt'
 def main(hashesPath=t2_hashes, dictionaryPath=t2_dictionary):
   task = Cracking(hashesPath=hashesPath, dictionaryPath=dictionaryPath) # Create a new Cracking object with the hashes and dictionary
   task.dictionaryAttack() # Dictionary attack the hashes
-  return print(task.printCracked()) # Print the cracked hashes
+  return print(task) # Print the cracked hashes
 
 if __name__ == "__main__":
     # Set input variables to defaults
