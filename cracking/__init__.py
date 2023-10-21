@@ -61,7 +61,11 @@ class Cracking:
     try:
       with open(filePath, 'r') as hashFile:
         for line in hashFile:
-          hashArray.append(line.strip().split(','))
+          # If the line contains a comma, split the hash and salt into a tuple
+          if ',' in line:
+            hashArray.append(tuple(line.strip().split(',')))
+          else: # Else just add the hash
+            hashArray.append(line.strip())
     except:
       print(f"Hash file '{filePath}' not found")
 
