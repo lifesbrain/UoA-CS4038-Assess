@@ -375,7 +375,8 @@ class Cracking:
     # Create an array of password objects for printing
     stringArray = []
     for password in self.passwords:
-      stringArray.append(str(password.info()))
+      if password.cracked:
+        stringArray.append(str(password.info()))
     
     # Return passwords as a string
     return '\n-----\n'.join(stringArray)
