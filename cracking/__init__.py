@@ -1,5 +1,5 @@
 import hashlib
-import pickle
+import json
 import datetime
 import io
 
@@ -36,29 +36,42 @@ class Cracking:
   # Rainbow Table Data Structure
   class RainbowTable:
     def __init__(self, crackingSelf, chainLength = 10000, chainCount = 10000, strLength = 6, alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCD", seed = None):
-      self.dictionaryPath = crackingSelf.dictionaryPath
       self.hash = crackingSelf.hash
       self.rebase = crackingSelf.rebase
+
+      # If a table file path exists, load it
+      if crackingSelf.rainbowTablePath != None:
+        self._load(crackingSelf.rainbowTablePath)
+        return
       
-      self.table = {} # For the rainbow table
-      self.chainLength = chainLength
-      self.chainCount = chainCount
-      self.strLength = strLength
-      self.alphabet = alphabet
-      self.seed = seed
+      else: # Else generate a new table
+        self.table = {} # For the rainbow table
+        self.dictionaryPath = crackingSelf.dictionaryPath
+        self.chainLength = chainLength
+        self.chainCount = chainCount
+        self.strLength = strLength
+        self.alphabet = alphabet
+        self.seed = seed
 
-      # If a seed is provided, use it, else generate a random one
-      # Seed for table generation to allow replication and expansion if neeeded
-      if seed == None:
-        datevalue = datetime.datetime.now().timestamp()
-        self.seed = self.hash(str(datevalue))[:10]
-        print(f"Seed: {self.seed}")
+        # If a seed is provided, use it, else generate a random one
+        # Seed for table generation to allow replication and expansion if neeeded
+        if seed == None:
+          datevalue = datetime.datetime.now().timestamp()
+          self.seed = self.hash(str(datevalue))[:10]
+          print(f"Seed: {self.seed}")
 
-      # Generate the table in a try block to catch keyboard interrupt
-      try:
-        self._generate()
-      except KeyboardInterrupt:
-        print(f"\nTable generation interupted")
+        # Generate the table in a try block to catch keyboard interrupt
+        try:
+          self._generate()
+        except KeyboardInterrupt:
+          print(f"\nTable generation interupted")
+
+        # Save the table
+        self._save()
+
+    # Function for looking up a hash in the table
+    def hashLookup (self, uncracked):
+      print(f"Looking up {uncracked} in table")
 
     # Reduce function which takes a hash and rebases it to a compliant string
     def reduce (self, hash):
@@ -103,8 +116,49 @@ class Cracking:
       if dictionary != None:
         dictionary.close()
 
-    # 
+    # Save function for pickling a rainbow table
+    def _save (self):
+      # Create a file name for the rainbow table
+      timestring = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+      fileName = f"{timestring}_cl{self.chainLength}_cc{self.chainCount}_sl{self.strLength}_{self.alphabet}.rt"
+      directory = "./rainbows/"
+      rainbowTablePath = directory + fileName
 
+      # Create JSON version of self
+      rtJSON = {
+        "dictionaryPath": self.dictionaryPath,
+        "chainLength": self.chainLength,
+        "chainCount": self.chainCount,
+        "strLength": self.strLength,
+        "alphabet": self.alphabet,
+        "seed": self.seed,
+        "table": self.table
+      }
+
+      # Save the table
+      try:
+        with open(rainbowTablePath, 'x') as rainbowFile:
+          rainbowFile.write(json.dumps(rtJSON))
+          print(f"Rainbow table saved to '{rainbowTablePath}'")
+      except:
+        print(f"Failed to save rainbow table to '{rainbowTablePath}'")
+
+
+    # Load fuction for unpickling a rainbow table
+    def _load (self, rainbowTablePath):
+      try:
+        with open(rainbowTablePath, 'r') as rainbowFile:
+          rtJSON = json.load(rainbowFile)
+          self.dictionaryPath = rtJSON["dictionaryPath"]
+          self.chainLength = rtJSON["chainLength"]
+          self.chainCount = rtJSON["chainCount"]
+          self.strLength = rtJSON["strLength"]
+          self.alphabet = rtJSON["alphabet"]
+          self.seed = rtJSON["seed"]
+          self.table = rtJSON["table"]
+          print(f"Rainbow table loaded from '{rainbowTablePath}'")
+      except:
+        print(f"Rainbow table file '{rainbowTablePath}' not found")
 
 
   # Cracking Init    
@@ -130,6 +184,15 @@ class Cracking:
           self.salted = True
       except:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
+
+    # If a rainbow table path is provided, load it
+    if self.rainbowTablePath != None:
+      try:
+        with open(self.rainbowTablePath, 'r') as rainbowFile:
+          self.rainbowTable = pickle.load(rainbowFile)
+      except:
+        print(f"Rainbow table file '{self.rainbowTablePath}' not found")
+        self.rainbowTablePath = None
 
   # Function that returns an array of strings or str tuples from a file
   def _createHashFileArray (self, filePath):
@@ -238,20 +301,12 @@ class Cracking:
     self.dictionary.close()
 
   # Task 04 Rainbow Attack
-  def rainbowAttack (self):
-    # If a rainbow path exists then restore the pickled RainbowTable object from the file
-    if self.rainbowTablePath != None: 
-      # ∆ NEED to CONSIDER IF FIEL IS LOADED AND IF OBJECT OS LOADED AND WHEN TO LOAD IT IN
-      try:
-        with open(self.rainbowTablePath, 'r') as rainbowFile:
-          self.rainbowTable = pickle.load(rainbowFile)
-      except:
-        print(f"Rainbow table file '{self.rainbowTablePath}' not found")
-        return
-      
-    # Else create a new rainbow table
-    else:
-      self._generateRainbowTable()
+  def rainbowAttack (self, generate = False):
+    # Create a tabel if their isn't one or generate = True
+    if self.rainbowTable == None or generate:
+      self.rainbowTable = self.RainbowTable(self)
+
+    # Iterate through passwords as see if they're in the table
       
 
   # Generate a rainbow table
