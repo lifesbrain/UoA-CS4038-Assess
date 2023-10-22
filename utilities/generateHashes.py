@@ -10,7 +10,10 @@ def generateHashes(stringFile, hashFile):
     with open(stringFile, 'r') as strings:
       for line in strings:
         # write line to file
-        hashFile.write(hashlib.sha512(line.encode()).hexdigest() + '\n')
+        line = line.strip()
+        hash = hashlib.sha512(line.encode()).hexdigest()
+        print(f"Hashed: {line} to {hash}", end='\r')
+        hashFile.write(hash + '\n')
 
     hashFile.close()
         
