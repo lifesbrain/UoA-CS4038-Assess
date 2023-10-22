@@ -35,20 +35,31 @@ class Cracking:
 
   # Rainbow Table Data Structure
   class RainbowTable:
-    def __init__(self , hashFunction = None, chainLength = 1000, chainCount = 1000, strLength = 6, alphabet = "0123456789abcdefghijklmnopqrstuvwxyz", dictionaryStream = None):
+    def __init__(self, crackingSelf, chainLength = 10000, chainCount = 10000, strLength = 6, alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCD", seed = None):
+      self.dictionaryPath = crackingSelf.dictionaryPath
+      self.hash = crackingSelf.hash
+      self.rebase = crackingSelf.rebase
+      
       self.table = {} # For the rainbow table
-      self.dictionaryStream = dictionaryStream
-      self.hashFunction = hashFunction
       self.chainLength = chainLength
       self.chainCount = chainCount
       self.strLength = strLength
       self.alphabet = alphabet
-      self.seed = 0 # Seed for table generation to allow replication if neeeded
+      self.seed = seed
 
-      # Abort creation if no hash function provided
-      if self.hashFunction == None:
-        raise ValueError("No hash function provided")
-      
+      # If a seed is provided, use it, else generate a random one
+      # Seed for table generation to allow replication and expansion if neeeded
+      if seed == None:
+        datevalue = datetime.datetime.now().timestamp()
+        self.seed = self.hash(str(datevalue))[:10]
+        print(f"Seed: {self.seed}")
+
+      # Generate the table in a try block to catch keyboard interrupt
+      try:
+        self._generate()
+      except KeyboardInterrupt:
+        print(f"\nTable generation interupted")
+
     # Reduce function which takes a hash and rebases it to a compliant string
     def reduce (self, hash):
       # Rebase the base16 hash to a base10 int
@@ -60,7 +71,37 @@ class Cracking:
     
     # Function to generate the table, using dictionaryStream if provided then seed
     def _generate (self):
-      pass
+      # If a dictionary path is provided, use it
+      dictionary = None
+      if self.dictionaryPath != None:
+        try:
+          dictionary = open(self.dictionaryPath, 'r')
+        except:
+          print(f"Dictionary file '{self.dictionaryPath}' not found")
+
+      # For each chain
+      for c in range(1,self.chainCount+1):
+        # Use the dictionary for the start string if its open and there are strings left
+        if dictionary != None and dictionary.readable():
+          startString = dictionary.readline().strip()
+        else: # Else create the starting string from the seed and the chain number
+          startString = self.rebase(int(self.seed, 16) * c, self.alphabet)[::-1]
+          startString = startString[:self.strLength] # Trim to the string length
+
+        stringHash = self.hash(startString)
+
+        # Generate teh chain, -1 as teh first link is the stringHash
+        for i in range(self.chainLength-1):
+          stringHash = self.hash(self.reduce(stringHash))
+
+        # Add the chain to the table
+        self.table[stringHash] = startString
+
+        print(f"Chain {c:4} | Start: {startString} | End: {stringHash}" , end="\r")
+
+      # If the dictionary was used, close it
+      if dictionary != None:
+        dictionary.close()
 
     # 
 
@@ -210,12 +251,13 @@ class Cracking:
       
     # Else create a new rainbow table
     else:
-      self.generateRainbowTable()
+      self._generateRainbowTable()
       
 
   # Generate a rainbow table
-  def generateRainbowTable (self, ):
-    self.rainbowTable = self.RainbowTable(hashFunction=self.hash)
+  def _generateRainbowTable (self, ):
+    # Generate a rainbow table and pass it itself 
+    self.rainbowTable = self.RainbowTable(self)
 
     # Create a file name for the rainbow table
     timestring = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
@@ -265,20 +307,26 @@ if __name__ == "__main__":
   # Dictionary
   t2_dictionary = './dictionaries/PasswordDictionary.txt'
 
-  # Task 01
-  print("Task 01")
-  task01 = Cracking(t1_hashes)
-  task01.bruteForce()
-  print(task01)
+  # # Task 01
+  # print("Task 01")
+  # task01 = Cracking(t1_hashes)
+  # task01.bruteForce()
+  # print(task01)
 
-  # Task 02
-  print("\nTask 02")
-  task02 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
-  task02.dictionaryAttack()
-  print(task02)
+  # # Task 02
+  # print("\nTask 02")
+  # task02 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
+  # task02.dictionaryAttack()
+  # print(task02)
 
-  # Task 03
-  print("\nTask 03")
-  task03 = Cracking(t3_hashes, dictionaryPath=t2_dictionary)
-  task03.dictionaryAttack()
-  print(task03)
+  # # Task 03
+  # print("\nTask 03")
+  # task03 = Cracking(t3_hashes, dictionaryPath=t2_dictionary)
+  # task03.dictionaryAttack()
+  # print(task03)
+
+  # Task 04
+  print("\nTask 04")
+  task04 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
+  task04.rainbowAttack()
+  # print(task04)
