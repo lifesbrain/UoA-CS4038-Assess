@@ -14,6 +14,7 @@ class Cracking:
       self.password = None
       self.cracked = False
       self.attempts = 0
+      self.time = None
 
       # If the hash is a tuple, split the hash from the salt
       if isinstance(hash, tuple):
@@ -71,7 +72,33 @@ class Cracking:
 
     # Function for looking up a hash in the table
     def hashLookup (self, uncracked):
-      print(f"Looking up {uncracked} in table")
+      passHash = uncracked.hash # Set the passHash to the hash of the uncracked password
+
+      # For as many links as the chain length
+      for i in range(self.chainLength):
+        # If the has matches, regenerate the chain to find the password
+        if passHash in self.table:
+          linkString = self.table[passHash] # Set the linkString to the start of the chain
+          linkHash = self.hash(linkString) # Set the linkHash to the hash of the linkString
+
+          # Regenerate the chain
+          for j in range(i, self.chainLength):
+            # If the linkHash matches the uncracked hash, update the uncracked password object and return true
+            if linkHash == uncracked.hash:
+              uncracked.password = linkString
+              uncracked.cracked = True
+              print(f"Password found in table | StartString: {self.table[passHash]} | Password: {linkString}")
+              return True
+            
+            else: # Else move to the next link
+              linkString = self.reduce(linkHash)
+              linkHash = self.hash(linkString)
+        
+        # reduce the hash to the next link
+        passHash = self.hash(self.reduce(passHash))
+
+      # If the password is not found, return false
+      return False
 
     # Reduce function which takes a hash and rebases it to a compliant string
     def reduce (self, hash):
@@ -143,7 +170,6 @@ class Cracking:
       except:
         print(f"Failed to save rainbow table to '{rainbowTablePath}'")
 
-
     # Load fuction for unpickling a rainbow table
     def _load (self, rainbowTablePath):
       try:
@@ -185,14 +211,9 @@ class Cracking:
       except:
         print(f"Hash '{i}' incorrectly formatted:\n'{hashes[i]}'")
 
-    # If a rainbow table path is provided, load it
+    # If a rainbow table path is provided, initialise the table
     if self.rainbowTablePath != None:
-      try:
-        with open(self.rainbowTablePath, 'r') as rainbowFile:
-          self.rainbowTable = pickle.load(rainbowFile)
-      except:
-        print(f"Rainbow table file '{self.rainbowTablePath}' not found")
-        self.rainbowTablePath = None
+      self.rainbowTable = self.RainbowTable(self)
 
   # Function that returns an array of strings or str tuples from a file
   def _createHashFileArray (self, filePath):
@@ -301,34 +322,28 @@ class Cracking:
     self.dictionary.close()
 
   # Task 04 Rainbow Attack
-  def rainbowAttack (self, generate = False):
+  def rainbowAttack (self, newTable = False):
     # Create a tabel if their isn't one or generate = True
-    if self.rainbowTable == None or generate:
+    if self.rainbowTable == None or newTable:
+      self.rainbowTablePath = None
       self.rainbowTable = self.RainbowTable(self)
 
-    # Iterate through passwords as see if they're in the table
+    # Create an array of uncracked passwords
+    toCrack = [p for p in self.passwords if p.cracked == False]
+    
+    # Store the current time for calculating the time taken
+    startTime = datetime.datetime.now()
+
+    # Iterate through passwords as see if they're in the table 
+    for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
+      if self.rainbowTable.hashLookup(toCrack[i]): # If the password is found, remove from the toCrack array
+        toCrack[i].time = datetime.datetime.now() - startTime
+        toCrack.pop(i)
+
+    # Print the number of attempts on completion
+    print(f"Cracking Complete | Remaining: {len(toCrack)} | Time taken: {datetime.datetime.now() - startTime}")
+
       
-
-  # Generate a rainbow table
-  def _generateRainbowTable (self, ):
-    # Generate a rainbow table and pass it itself 
-    self.rainbowTable = self.RainbowTable(self)
-
-    # Create a file name for the rainbow table
-    timestring = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    fileName = f"{timestring}_cl{self.rainbowTable.chainLength}_cc{self.rainbowTable.chainCount}_sl{self.rainbowTable.strLength}_{self.rainbowTable.alphabet}.rt"
-    directory = "./rainbows/"
-    self.rainbowTablePath = directory + fileName
-
-    # Pickle the rainbow table
-    try:
-      with open(self.rainbowTablePath, 'x') as rainbowFile:
-        pickle.dump(self.rainbowTable, rainbowFile)
-        print(f"Rainbow table pickled to '{self.rainbowTablePath}'")
-    except:
-      print(f"Failed to pickle rainbow table to '{self.rainbowTablePath}'")
-      self.rainbowTablePath = None
-      return
 
 
   # Default print function
@@ -362,6 +377,9 @@ if __name__ == "__main__":
   # Dictionary
   t2_dictionary = './dictionaries/PasswordDictionary.txt'
 
+  # Rainbow Table
+  t4_rainbowTable = './rainbows/dictionary_cl1000_cc10000_sl6_0123456789abcdefghijklmnopqrstuvwxyz.rt'
+
   # # Task 01
   # print("Task 01")
   # task01 = Cracking(t1_hashes)
@@ -382,6 +400,7 @@ if __name__ == "__main__":
 
   # Task 04
   print("\nTask 04")
-  task04 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
+  task04 = Cracking(t2_hashes)
+  #task04 = Cracking(t2_hashes, rainbowTablePath=t4_rainbowTable)
   task04.rainbowAttack()
   # print(task04)
