@@ -3,18 +3,29 @@
 import sys
 from cracking import Cracking
 
-t3_hashes = "./hashes/Task03Hashes.txt"
+t4_hashes = "./hashes/PasswordDictionary-hashes.txt"
+t4_table = "./rainbows/alphanum_cl10000_cc10000_sl8.rt"
+t4_dictionary = "./dictionaries/PasswordDictionary.txt"
 
-def main(hashesPath=t3_hashes, rainbowPath=None):
-  task = Cracking(hashesPath=hashesPath, rainbowTablePath=rainbowPath) # Create a new Cracking object with the hashes and table
-  task.generateRainbowTable() # Generate the rainbow table
-  task.rainbowAttack() # Rainbow attack the hashes
-  #return print(task) # Print the cracked hashes
+def main(hashesPath=t4_hashes, rainbowPath=None, dictionaryPath=None, chainLength=None, chainCount=None, strLength=None, alphabet=None):
+  # If a rainbow table path exists, use it
+  if rainbowPath:
+    task = Cracking(hashesPath=hashesPath, rainbowTablePath=rainbowPath) # Create a new Cracking object with the hashes and table
+    task.rainbowAttack() # Rainbow attack the hashes
+  else: # Else, generate a new table
+    task = Cracking(hashesPath=hashesPath) # Create a new Cracking object with the hashes
+    task.rainbowAttack(newTable=True, chainLength=chainLength, chainCount=chainCount, strLength=strLength, alphabet=alphabet)
+  
+  return print(task) # Print the cracked hashes
 
 if __name__ == "__main__":
     # Set input variables to defaults
-    input_hashes = t3_hashes
+    input_hashes = t4_hashes
     input_table = None
+    chainLength = 10000
+    chainCount = 100000
+    strLength = 8
+    alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     # Try to pass in a dictionary and hash array from the terminal
     try:
@@ -29,5 +40,10 @@ if __name__ == "__main__":
        print(f"Error: {e}, using default hashes and generating a table")
     
     finally:
-      # Run main() with the dictionary and hashes
-      main(input_hashes, input_table)
+      if input_table:
+        print(f"Using hashes: {input_hashes} and table: {input_table}")
+        main(hashesPath=input_hashes, rainbowPath=input_table)
+      else: 
+        print(f"Using hashes: {input_hashes} and generating a table")
+        # Run main() with the dictionary and hashes
+        main(hashesPath=input_hashes, chainLength=chainLength, chainCount=chainCount, strLength=strLength, alphabet=alphabet)

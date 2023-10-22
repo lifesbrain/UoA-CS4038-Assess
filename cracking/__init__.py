@@ -3,8 +3,7 @@ import json
 import datetime
 import io
 
-alphabetFull = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
-alphabet10Mill = "Q]O43(B7d-#mLfr»Rq\AwoSsy?v%_ªYeC2aWP9!gZukFlKGVD*J'|&zXT1$jN@tnE;hx[6b.MpIUHc58i0"
+alphabetFull = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!?#*$@-_."
 
 # Cracking Class, Gromit
 class Cracking:
@@ -25,6 +24,10 @@ class Cracking:
       else: # Else just set the hash
         self.hash = hash
 
+      # Verify the hash is valid
+      if len(self.hash) != 128:
+        raise ValueError(f"Hash '{self.hash}' is not 128 characters long")
+
     # Return the password object as a string
     def info (self):
       return str(f"Hash:     {self.hash}\nSalt:     {self.salt}\nPassword: {self.password}\nAttempts: {self.attempts}")
@@ -39,7 +42,7 @@ class Cracking:
 
   # Rainbow Table Data Structure
   class RainbowTable:
-    def __init__(self, crackingSelf, chainLength = 1000, chainCount = 10000, strLength = 6, alphabet = alphabet10Mill, seed = None):
+    def __init__(self, crackingSelf, chainLength = 1000, chainCount = 10000, strLength = 7, alphabet = alphabetFull, seed = None):
       self.hash = crackingSelf.hash
       self.rebase = crackingSelf.rebase
 
@@ -65,12 +68,14 @@ class Cracking:
           print(f"Seed: {self.seed}")
 
         # Generate the table in a try block to catch keyboard interrupt
+        currentTime = datetime.datetime.now()
+
         try:
-          currentTime = datetime.datetime.now()
           self._generate()
-          self.time = datetime.datetime.now() - currentTime
         except KeyboardInterrupt:
           print(f"\nTable generation interupted")
+        
+        self.time = datetime.datetime.now() - currentTime
 
         # Save the table
         self._save()
@@ -193,7 +198,6 @@ class Cracking:
       except:
         print(f"Rainbow table file '{rainbowTablePath}' not found")
 
-
   # Cracking Init    
   # Takes an array of hashes and an optional dictionary & rainbowTable file path
   def __init__ (self , hashes = None, hashesPath = None, dictionaryPath = None, rainbowTablePath = None):
@@ -285,7 +289,7 @@ class Cracking:
             toCrack.pop(i)
 
         # Print count every 10,000
-        if count % 10000 == 0:
+        if count % 100 == 0:
           print(f"Attempt {count} | Trying {tryPassword} | {len(toCrack)} passwords remaining", end="\r")
 
         count += 1 # Increment the count
@@ -333,10 +337,15 @@ class Cracking:
     self.dictionary.close()
 
   # Task 04 Rainbow Attack
-  def rainbowAttack (self, newTable = False):
+  def rainbowAttack (self, newTable = False, chainLength = 1000, chainCount = 10000, strLength = 7, alphabet = alphabetFull, seed = None, rainbowTablePath = None):
     # Create a tabel if their isn't one or generate = True
     if self.rainbowTable == None or newTable:
       self.rainbowTablePath = None
+      self.rainbowTable = self.RainbowTable(self, chainLength, chainCount, strLength, alphabet, seed)
+
+    # Load a table if a path is provided
+    elif rainbowTablePath != None:
+      self.rainbowTablePath = rainbowTablePath
       self.rainbowTable = self.RainbowTable(self)
 
     # Create an array of uncracked passwords
@@ -346,13 +355,19 @@ class Cracking:
     startTime = datetime.datetime.now()
 
     # Iterate through passwords as see if they're in the table 
-    for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
-      if self.rainbowTable.hashLookup(toCrack[i]): # If the password is found, remove from the toCrack array
-        toCrack[i].time = datetime.datetime.now() - startTime
-        toCrack.pop(i)
+    try:
+      for i in range(len(toCrack)-1, -1, -1): # Run through list backwards so elemnets are not skipped when another is removed
+        if self.rainbowTable.hashLookup(toCrack[i]): # If the password is found, remove from the toCrack array
+          toCrack[i].time = datetime.datetime.now() - startTime
+          toCrack.pop(i)
 
-    # Print the number of attempts on completion
-    print(f"Cracking Complete | Remaining: {len(toCrack)} | Time taken: {datetime.datetime.now() - startTime}")
+        print(f"Hashes to lookup {i} | {len(toCrack)} passwords remaining", end="\r")
+
+      # Print the number of attempts on completion
+      print(f"Cracking Complete | Remaining: {len(toCrack)} | Time taken: {datetime.datetime.now() - startTime}")
+
+    except KeyboardInterrupt:
+      print("\nCracking Canceled")
 
       
   # Print Password Info
@@ -379,9 +394,16 @@ class Cracking:
   # Default print function that prints a summary of the cracking object
   def __str__ (self):
     # Callculate the number of cracked passwords
-    totalCracked = len([p for p in self.passwords if p.cracked == True])
-    quickest = min([p.time for p in self.passwords if p.cracked == True])
-    slowest = max([p.time for p in self.passwords if p.cracked == True])
+    totalCracked = 0
+    quickest = None
+    slowest = None
+    for p in self.passwords:
+      if p.cracked:
+        totalCracked += 1
+        if quickest == None or p.time < quickest:
+          quickest = p.time
+        if slowest == None or p.time > slowest:
+          slowest = p.time
 
     # Return the summary as a string
     return str(f"Total Passwords: {len(self.passwords)}\nCracked: {totalCracked}\nQuickest: {quickest}\nSlowest: {slowest}")
@@ -400,29 +422,29 @@ if __name__ == "__main__":
   t2_dictionary = './dictionaries/PasswordDictionary.txt'
 
   # Rainbow Table
-  t4_rainbowTable = './rainbows/dictionary_cl1000_cc10000_sl6_0123456789abcdefghijklmnopqrstuvwxyz.rt'
+  t4_rainbowTable = './rainbows/alphanum_cl10000_cc10000_sl8.rt'
 
   # Task 01
-  print("Task 01")
-  task01 = Cracking(t1_hashes)
-  task01.bruteForce()
-  print(task01)
+  # print("Task 01")
+  # task01 = Cracking(t1_hashes)
+  # task01.bruteForce()
+  # print(task01)
 
-  # Task 02
-  print("\nTask 02")
-  task02 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
-  task02.dictionaryAttack()
-  print(task02)
+  # # Task 02
+  # print("\nTask 02")
+  # task02 = Cracking(t2_hashes, dictionaryPath=t2_dictionary)
+  # task02.dictionaryAttack()
+  # print(task02)
 
-  # Task 03
-  print("\nTask 03")
-  task03 = Cracking(t3_hashes, dictionaryPath=t2_dictionary)
-  task03.dictionaryAttack()
-  print(task03)
+  # # Task 03
+  # print("\nTask 03")
+  # task03 = Cracking(t3_hashes, dictionaryPath=t2_dictionary)
+  # task03.dictionaryAttack()
+  # print(task03)
 
   # Task 04
   print("\nTask 04")
   #task04 = Cracking(t2_hashes)
-  task04 = Cracking(million_hashes, rainbowTablePath=t4_rainbowTable)
-  task04.rainbowAttack()
+  task04 = Cracking(hashesPath=million_hashes, dictionaryPath=t2_dictionary)
+  task04.rainbowAttack(newTable=True, chainLength=10000, chainCount=500000, strLength=8, alphabet=alphabetFull)
   print(task04)
