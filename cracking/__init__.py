@@ -3,6 +3,9 @@ import json
 import datetime
 import io
 
+alphabetFull = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+alphabet10Mill = "Q]O43(B7d-#mLfr»Rq\AwoSsy?v%_ªYeC2aWP9!gZukFlKGVD*J'|&zXT1$jN@tnE;hx[6b.MpIUHc58i0"
+
 # Cracking Class, Gromit
 class Cracking:
   # Password Data Structure for storing hashes and passwords
@@ -36,7 +39,7 @@ class Cracking:
 
   # Rainbow Table Data Structure
   class RainbowTable:
-    def __init__(self, crackingSelf, chainLength = 10000, chainCount = 10000, strLength = 6, alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCD", seed = None):
+    def __init__(self, crackingSelf, chainLength = 10000, chainCount = 10000, strLength = 6, alphabet = alphabet10Mill, seed = None):
       self.hash = crackingSelf.hash
       self.rebase = crackingSelf.rebase
 
