@@ -132,9 +132,14 @@ class Cracking:
 
       # For each chain
       for c in range(1,self.chainCount+1):
+        startString = None # For storing the start string of the chain
         # Use the dictionary for the start string if its open and there are strings left
         if dictionary != None and dictionary.readable():
           startString = dictionary.readline().strip()
+          # close dictionary if we've reached the end
+          if startString == '':
+            dictionary.close()
+            dictionary = None
         else: # Else create the starting string from the seed and the chain number
           startString = self.rebase(int(self.seed, 16) * c, self.alphabet)[::-1]
           startString = startString[:self.strLength] # Trim to the string length
