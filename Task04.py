@@ -16,7 +16,9 @@ def main(hashesPath=t4_hashes, rainbowPath=None, dictionaryPath=None, chainLengt
     task = Cracking(hashesPath=hashesPath) # Create a new Cracking object with the hashes
     task.rainbowAttack(newTable=True, chainLength=chainLength, chainCount=chainCount, strLength=strLength, alphabet=alphabet)
   
-  return print(task) # Print the cracked hashes
+  task.saveResults() # Save the results to a file
+  print(task)
+  return print(task.printInfo()) # Print the cracked hashes
 
 if __name__ == "__main__":
     # Set input variables to defaults

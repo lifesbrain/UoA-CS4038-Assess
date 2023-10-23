@@ -97,7 +97,8 @@ class Cracking:
             if linkHash == uncracked.hash:
               uncracked.password = linkString
               uncracked.cracked = True
-              print(f"Password found in table | StartString: {self.table[passHash]} | Password: {linkString}")
+              uncracked.attempts = i+1
+              print(f"Password found in table | password: {self.table[passHash]} | Password: {linkString}")
               return True
             
             else: # Else move to the next link

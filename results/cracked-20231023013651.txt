@@ -1,0 +1,4851 @@
+Method: Dictionary Attack
+Hashes: ./hashes/10-million-password-list-top-100000-hashes.txt
+Dictionary: ./dictionaries/PasswordDictionary.txt
+Total Passwords: 100000
+Cracked: 969
+Quickest: 0:00:00.007708
+Slowest: 0:03:43.891132
+Hash:     9cf45b79901a54ea34dd2c7eade1a0be2199ed3af375ec8867c02fccf1940d240c5bb6e8d66fd2e0a671313920bc05e7ed20d9d71da8402473dccf63cd550691
+Salt:     None
+Password: qwerqwer
+Attempts: 2993
+-----
+Hash:     2ea71ddb5ce3eee651975347632d866067da6f4cf8cc0e050c588a844bd674da7d391b59b93032dd4768a87b34b0dca6684ad35b517f88e013c8bbad5c0f33f6
+Salt:     None
+Password: aa12345
+Attempts: 769
+-----
+Hash:     9ec62c20118ff506dac139ec30a521d12b9883e55da92b7d9adeefe09ed4e0bd152e2a099339871424263784f8103391f83b781c432f45eccb03e18e28060d2f
+Salt:     None
+Password: user1
+Attempts: 3531
+-----
+Hash:     1107d5b84020e3e2cc7d2755a9a2660a990ace89bfefd29647e63b26f46a9877d4ca9165b7a4fd0d6053974b9450d1fc0c0e8c21898dd36d75a886dfa16c0937
+Salt:     None
+Password: guest1
+Attempts: 1722
+-----
+Hash:     50f6a82e4de7114b2bb43194735f331d57d79353b28a3c1e4bfb8178494a8a4acc8d6206f9136a40860dc200ad334e516d1e9af2b42f0fa316d18676c82fab19
+Salt:     None
+Password: Qq123456
+Attempts: 6014
+-----
+Hash:     c4fe33bada9d6f5f5b04c0ef9b7e784fbb95cf5dea7718ab9eb964330ba0de85bac0076326f178a004b969490a50e11c04e9cbce327974e64a60d7eaae7902ba
+Salt:     None
+Password: abcde123
+Attempts: 900
+-----
+Hash:     23bbbcf1e9b105faa3ca67a3d7bf8052bc0322b51ca17c36ee61d6de693410ac66d4b4281d6f7cc2a0c9184e8eb12d0dd1e1908e2618c5d0498db4555416eb56
+Salt:     None
+Password: 321321321
+Attempts: 161
+-----
+Hash:     ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413
+Salt:     None
+Password: 123456
+Attempts: 70
+-----
+Hash:     357de74d8f0ea83cc4197cb4ff68fa9bb9fe3123d460ba55f951f270cdec195968d0f3fa25bacecb348682f4dc29160448edda42e89172ceb20ed6b7ca88d408
+Salt:     None
+Password: qwe123qwe
+Attempts: 2876
+-----
+Hash:     0cc9d1ea89d4b916db12c6148fc99573f300c85c98c78baa8ea62a0aef6ed68a5f2a575cee79014a15340b7d9341f6b7bfe06864ed5382a8b589dd4d401cf870
+Salt:     None
+Password: 1qaz2wsx
+Attempts: 646
+-----
+Hash:     07c5f4d31ee46d0ef6a1028637cccb73000dadc9d6012213eafc872c9204cceb66644e716ddd298a2aa99e5e7676903ec0fa78ae63ae72940a70c7b8ebde8990
+Salt:     None
+Password: Matrix
+Attempts: 5298
+-----
+Hash:     b0412597dcea813655574dc54a5b74967cf85317f0332a2591be7953a016f8de56200eb37d5ba593b1e4aa27cea5ca27100f94dccd5b04bae5cadd4454dba67d
+Salt:     None
+Password: 111111
+Attempts: 62
+-----
+Hash:     5ac2ac5ba94dbce933c6719ca250bf1752d938f43367af6618ab9e9e30b57df701dcda95287c5af56d8374abf292813efa07e1f287b9e4877ff17969b6735fe1
+Salt:     None
+Password: p@ssw0rd
+Attempts: 2300
+-----
+Hash:     000d6e2b66aa1561bd3801e4ff88e6371798ca6fb9b49d01b86a06507a99ee7bf2d7801120cddd0b73b562ab357d43628165c6188959ac9bb759985762249846
+Salt:     None
+Password: q1w2
+Attempts: 2684
+-----
+Hash:     6e784ee231562819f1c01968c08db395a17470b44594314804b2358ef448f783a1aba2a4be16529be1e80ba6f310f6881738c1cc6c7790e6652dd9cd94d25a56
+Salt:     None
+Password: 1234512345
+Attempts: 177
+-----
+Hash:     dc7da2f725bd3b10b5533331b1e3a8b050828fd04e12ace9b48874aa33f562056fce7ec0aac90ac90b9f7ed3a2ef3962516f61ea2abd1ec881d3b4cea507ecfd
+Salt:     None
+Password: Aa12345
+Attempts: 4006
+-----
+Hash:     1df3a1a0428038c601c816ca37844504473655f4ebfc6a9b46b8e32b0a58518e55c98439ee52986f345a90174ff701d76a20f30c781e7723498ec2febaf7abf9
+Salt:     None
+Password: 77777
+Attempts: 54
+-----
+Hash:     9cb10b979234fd8298e68bc82ec88bb794aeb864ad6f7fd4bf4cc9c06edbd5c58f43a04134e99ca71daa9ddbc539a4b2794bed5dc96cdd8697265fe75173c6f8
+Salt:     None
+Password: 3333333
+Attempts: 114
+-----
+Hash:     f0f14f8057cfd32bef94bf31258924aebe596f9873a74cf73f0cb4fcc1a44ffaced6d3cff16813d184fa34d69ae2086777a31a2464345033004885e1e69f021b
+Salt:     None
+Password: abcd123
+Attempts: 881
+-----
+Hash:     1c9b355827924493e5164abb154f05a626043caf9b084e5c5c009dce52f0b76d6c3b044317e6d08948ff2e6b6ef82c95d4269db62dbb511cc0dc491d19dabb4e
+Salt:     None
+Password: tooth
+Attempts: 3510
+-----
+Hash:     052b2c0454fe2e867dd6dbd95175b586e875ffb799f0cbf4b6049c5fd8ee895ecb9412e83a2d44666a806b1baa5cc78adbee7cf5dfc4f0480dfc8644368c50fa
+Salt:     None
+Password: qwe456
+Attempts: 2905
+-----
+Hash:     66d2f46e0fea25156cd890d359fe6a3bf57f5a327b8319c1997e2278991cd9257372984c31777a5a515446922663d93a6cc21c24fb8bc990b5ced3bf0716d014
+Salt:     None
+Password: King
+Attempts: 5252
+-----
+Hash:     c6cd2ffd640f167489df6d6fa5262e7f8e592f703cc558a4927829f81e4867b9c984380caa03415317f13a722b8816ee30e84f345d10ede0fc0f3636f95bcf7e
+Salt:     None
+Password: Asdfghj1
+Attempts: 4546
+-----
+Hash:     7e174d670368c9fb2de183997d12bdd5a13c36e71797d6dd1cb186d18b6bc616bf9f5ea94223431ed3d92c02f9973674d268a5884eb8c067196b403936bd4ca2
+Salt:     None
+Password: Felix
+Attempts: 4825
+-----
+Hash:     836bc6397d06de5f635683cff01822564683b57c5298c38bd389628685d9ce9d74cba952fc80ac305a6dd1d122bb041dfa93377880d478f27b99da3fafc05bf6
+Salt:     None
+Password: adminpass
+Attempts: 1100
+-----
+Hash:     a9ee3dbe3022871d716958ca1f2205f6f2277ac58f9930abc3e6799d82f7b309b3df7954ef26758d1c71e54e9ec1ac294f276432f3407bfdc9b5420780670d3b
+Salt:     None
+Password: qwaszx
+Attempts: 2835
+-----
+Hash:     5b9b78e2ce87d9652cbbe30c039b8ac753e3db4221fdb5730fb19c5ab099ef9bedcc911be4098c09242c4a4986245e87d6ba85bf2320c39bbddcf20fedb69339
+Salt:     None
+Password: passkey
+Attempts: 2484
+-----
+Hash:     eb7dd78ad7dbf844477081bedfe1045de1c50692b13e12954cf53b8b9320b091697752c6ce7cd2663b93515f0d123a872acfa3f8d1ef5d1b7e1ffa28b1da48fc
+Salt:     None
+Password: 333333333
+Attempts: 162
+-----
+Hash:     b51a16fdd89dd89ce8d5f0d12146994263177641584258871a0381ae14ba7a1c22a7502b627815aa1ef3fa700c8ff05a378c590c26eff1d4fe4223ea86c80c6e
+Salt:     None
+Password: aa123456
+Attempts: 771
+-----
+Hash:     f94de2fb54b5d2842e2933b4b9b2f21808be40cc0831ab65f186e6759dd4a2b993f73ab7fd010e059497f014443d42c70f18fe6f1c5f19a7a6b63d84740aad82
+Salt:     None
+Password: keyboard
+Attempts: 2013
+-----
+Hash:     c58131f71bbea22a3c5bc6061f8051f86d5b0929e8b28164c9ee677151ce426fc27b7dfe76c034834b14f4e58a529a533d4b24f628e755e6884887ece0e72e1d
+Salt:     None
+Password: Qwe1234567
+Attempts: 6108
+-----
+Hash:     7a53d1e9137c27612412e9a041d72aab5844550628ba5a3d424507ae96af817fb5a13478edb9644de6e2740f70728d41b14a9c833f3438fe68fabf236aa98a47
+Salt:     None
+Password: qazwsxedc1
+Attempts: 2765
+-----
+Hash:     2a64d6563d9729493f91bf5b143365c0a7bec4025e1fb0ae67e307a0c3bed1c28cfb259fc6be768ab0a962b1e2c9527c5f21a1090a9b9b2d956487eb97ad4209
+Salt:     None
+Password: password3
+Attempts: 2616
+-----
+Hash:     34e1fd6820ce1e79fbbdaae3fc708b634ab1d9765c215b7cd88d4c0c750e87b8c1d478b6112d95ae7bd165f9f73d165263ef7fcee357b48c6bc1f6b591f94ab8
+Salt:     None
+Password: michael
+Attempts: 2068
+-----
+Hash:     889c55911084da2c4177bd991d67328757ec50f48e34166a227c208a5434094b216bbfc27a753408823b84254b2bf3f07a05b805018f371c056c96cdc8654297
+Salt:     None
+Password: qwe1234
+Attempts: 2867
+-----
+Hash:     1547168e254a6e4998cd0be65046b3d652276349054f2a1bdd618a189a3658b76ee0f2d301e41c49a4b042511d9b89cff187834a80784acb001629fa505ce78e
+Salt:     None
+Password: Alaska
+Attempts: 4359
+-----
+Hash:     0dd3e512642c97ca3f747f9a76e374fbda73f9292823c0313be9d78add7cdd8f72235af0c553dd26797e78e1854edee0ae002f8aba074b066dfce1af114e32f8
+Salt:     None
+Password: qwerty
+Attempts: 3044
+-----
+Hash:     d2e67ffcbf4851b93a92521501f93dcbefb15926dc2217e60bf20b1a37605706460292783e50ceac6cde52a32e8f3c8b8a745f7fb2041ea1837f6695edd8f975
+Salt:     None
+Password: 88888888
+Attempts: 150
+-----
+Hash:     a28c5c5854bff60a3acfe0c957936f1ca8a11652cb9e7fab9634a6a6251ac316e9285c45a5ea2fb8c14200deb874a26caec7fd699013f14da9d071e4105f0f72
+Salt:     None
+Password: qwerasdf
+Attempts: 2990
+-----
+Hash:     d68e7bc1c722bca2b82c3e525dfbd35465f05cae712308d450a647595fe99778f256001d4751e265dd1a1a4db3e9fbacac1897e7834cffe87c3e1461c6824e94
+Salt:     None
+Password: password0
+Attempts: 2564
+-----
+Hash:     ab1837ba87d1e1da5e58c42981e23c3b8dd19c0ce9a7dac8151710bc6f20a0f6467318d99e0f206a4fd2579be5893555b1d2ef13e656ee3c69affcaa4349b133
+Salt:     None
+Password: Access
+Attempts: 4145
+-----
+Hash:     8785a3fef34404a30a6e15d74947e523ff177648e4734217e9fbce3c6474ad6df168cb25ac0efbe619dbf4ae1f62a3cb0eaa510be8294123fdcb7e203cd87ef8
+Salt:     None
+Password: beach
+Attempts: 1414
+-----
+Hash:     e6a26498e23d9074e0bee8a5351074d51fa0374ab5b0de59911f4e797c62e2f3d6466b35c494c4fa3df747e0bacfcd66254b87378c51bba8b6db92db573cbb21
+Salt:     None
+Password: 7895123
+Attempts: 120
+-----
+Hash:     b2c8f138b8ca7a84b16b3d81ffd3b91774975dad6931b20108706e570e641bef088737494a71cc9c29035e57a7c812afd1400f043eb4a69fe73ba88d28e95da4
+Salt:     None
+Password: 100100
+Attempts: 57
+-----
+Hash:     732efa35a2dbef3b0b8af63b6edb17aa93795b94005df494ffc9289ca59977c8e7119d9834b790ddf4f67e6265e1f2e9c78db74bf11c903ca7db77e69d790212
+Salt:     None
+Password: 676767
+Attempts: 97
+-----
+Hash:     2cc11e629bb901382b997e93a08ecaeb326133dea92c795edcfab38f789429194974d66866dad0454ea89b5a5ed1fad0cf3bc9c518452c3576ac9956138b3e27
+Salt:     None
+Password: pauline
+Attempts: 2648
+-----
+Hash:     672e51c469a9ce1e72dbe29124667aaf9627c600e0a315c3b722f7081487a220e8dd1e1ee6841caa793aa9fababedce62c46aa9060f8bf0a8ec75274981dbdfd
+Salt:     None
+Password: qqwwee
+Attempts: 2782
+-----
+Hash:     f272bde3a05d1e2beacff0852af0935518c8e5977ac79413fa89d169c461f6b5d60eeefd6b128470c36c14e4f5a1cf192d01f93caa01dcb55ce6fedf8008173c
+Salt:     None
+Password: password11
+Attempts: 2582
+-----
+Hash:     b28a7b021b48f7b389ab3418c986d08857824ae45e9298cb65b12770a41e28515678d3e3f990d06a6b937e0089be7fe180f18002e9e8e14aed974d10d89d4cea
+Salt:     None
+Password: 777777
+Attempts: 99
+-----
+Hash:     c3966079f4ee242c64c86dff2d8c6dc8acfaa71c106f36989f264fb9c8617393df8145c0e6058ecaf281875265ac8904f615453fbb20053c3766319126bc0f06
+Salt:     None
+Password: sage
+Attempts: 3219
+-----
+Hash:     a194442ccdb82209d38a297c32ebc1ffc24a09e9e229c07a4072280cbee4858e615c1ce85e96f6e19c129395ee04d64a486aa810e1679a48c186c8848342a852
+Salt:     None
+Password: Fred
+Attempts: 4869
+-----
+Hash:     187e9d076732736e61f8383feb4ea6f1d4014e4ada71c254f6c099964305b6108f354dbe019243c45d94ba92624d2fdfaf4214299303135dee953a3545d2b433
+Salt:     None
+Password: easy
+Attempts: 1565
+-----
+Hash:     f21322e4532d83fe5880309234cc53ce6fe7a3f1bd40591ca32207ed4c261118e534dcbe641dc9c99c5428cbf46d90189f2db40f019f65aa7dd33702d492037d
+Salt:     None
+Password: asdfg12
+Attempts: 1254
+-----
+Hash:     997ff1822d89447084c918425f63668ad10cab96adf5f2a9e978a64ecdc4265c4acd8323c859a3127a2843ea3ed832657a2f0739a8f10dc31f5446a8c62fc676
+Salt:     None
+Password: x1x2x3
+Attempts: 3632
+-----
+Hash:     804f50ddbaab7f28c933a95c162d019acbf96afde56dba10e4c7dfcfe453dec4bacf5e78b1ddbdc1695a793bcb5d7d409425db4cc3370e71c4965e4ef992e8c4
+Salt:     None
+Password: Password123
+Attempts: 5822
+-----
+Hash:     a1f74468ac08eab4e3543ace6bbf8dc6c57574e7c7e73cc458bb604ac3a9fd73cf7d0222a9ffd14aa0ed3c973b716e207f353ac4f2d74bc57e22b26ce68ee9d9
+Salt:     None
+Password: qwert1234
+Attempts: 3002
+-----
+Hash:     efc463c92bf5f5bc7f9276dd2faab5729a15f166e5670737c7ec263c6414beb4b273173896229b92cbc3afd1d98fbea1811b99642c849e03fe58426678f02b09
+Salt:     None
+Password: 123456@
+Attempts: 518
+-----
+Hash:     9df34a8356917fd87c9d814bc8af521c4ad94c52d2da6561e8706b9a80548adedd5e92e35f49cebd0569908cb90a6b22ec4e6f86349b512659f0987abe224fec
+Salt:     None
+Password: zebra
+Attempts: 3665
+-----
+Hash:     11a25e88658143a853d280bf77f81ff391347aaba2db54a3aab0149b265276de419880762a473fc496388bcf70566d7cfd0346c34add40652f8f7b669caf9ec0
+Salt:     None
+Password: matrix
+Attempts: 2061
+-----
+Hash:     2a1dd9e7a861c3ffb42fa7a3bc3e7a042146101a8688dfe3cbc61eada1f8474bed214271f22a50dc724267c25b170dc31ee18549f312d9bb8a32e7e5cab12458
+Salt:     None
+Password: aragorn
+Attempts: 1139
+-----
+Hash:     3efab0d8705cd8cc52224002bcd2a680301f48556a0f2f792a234d60094b7e4fca001def90aa849c982d294458e04e2ff4d99a1d84778f4752d73288819f1cd3
+Salt:     None
+Password: welcome4
+Attempts: 3572
+-----
+Hash:     e5328c947e9fade72664882ae0d791ec3690deef77f864ba6a86e7189f06ab660d4c8eeebbc6eeb0a423d4c3381439f9ba0644cb4a81804963eabf6b1018fe91
+Salt:     None
+Password: christ
+Attempts: 1453
+-----
+Hash:     3fe4467372db130534c0707afc61b3c37095d3152b812db489d2c3479a09f58c268333fa4cb88bd975dd5e7889a2a47b20bd5bbf9772febc1362809901004c5d
+Salt:     None
+Password: ward
+Attempts: 3557
+-----
+Hash:     654a1115ac8f5aa9ffda6da95b9c6e117df6424de22950091df27c28b4ce54e7966e1c47620020d97ad6e64b5d4784b606717ec1d445efae91bc2dcecccf2d81
+Salt:     None
+Password: Aa123123
+Attempts: 4003
+-----
+Hash:     3d6afd6361ad3fbc98e8b1454548d6ed2af6011d40fdf58ddc503fcfc3caf79d5f47906912a723edc0923022ff1e3b96f911d25f9e11eadf996bbd2e57fb9749
+Salt:     None
+Password: a12345
+Attempts: 707
+-----
+Hash:     282c7fd25657e562594be09921d27238115de7fbf124a91c417f797bb200576033bf7e4d6e7d9096ccdb46cc4b4397d114a0df374f1f8cdf51fb995f5e5be1d9
+Salt:     None
+Password: finance
+Attempts: 1592
+-----
+Hash:     8cf11a0a3fe74b7301c1c3eab9c87840165e7b5267fafcfb25e6e7f5e5b2731c682c6035786b197695c5dcd77531154195b6571a5a313c8e9ea03d0ac065be16
+Salt:     None
+Password: Flowers
+Attempts: 4832
+-----
+Hash:     92a881051a0d26ba0fe4a65cb1039c10e18718c68591efb6afbf883b672a328bc8ba8c13fdaa90eedc018c280782cbbd2a842acbd9a5f3b8965012a1ba489234
+Salt:     None
+Password: manager1
+Attempts: 2052
+-----
+Hash:     82deecd5f8de0412c4a15d4f2226fbc8919522ba4b08cffff5e8ff695e4f869e367fbc7852825668c1cdd744e696f376bef522fa351772632b4049adb0653f61
+Salt:     None
+Password: microsoft
+Attempts: 2073
+-----
+Hash:     e0469addd8d57a3623494096dabc19bebca1a038c9da696940b3f853d106a6ecfa5bd60ce8e72884efa3bd92b930da178fd616f40facad654212d7c2f8817dd4
+Salt:     None
+Password: passw0rd
+Attempts: 2488
+-----
+Hash:     a55c50823193a2abf78cf79ff1090cf3ea88cc402ee5857fbd7423289e170e977ae7033ed123d7fedec49985b84368f6990bdc960a1f10e6d0214c9d26ceac26
+Salt:     None
+Password: passer
+Attempts: 2483
+-----
+Hash:     7de872ed1c41ce3901bb7f12f20b0c0106331fe5b5ecc5fbbcf3ce6c79df4da595ebb7e221ab8b7fc5d918583eac6890ade1c26436335d3835828011204b7679
+Salt:     None
+Password: Infinity
+Attempts: 5223
+-----
+Hash:     2e8508168dbd6be7e7d749c1a9a561d7a8c19c7ee5a60b380969024ff17f5e531e5d7bb01e95daf41f378d769447be18d37b364bdee1bc3914c3ba66f1851d32
+Salt:     None
+Password: qaz123
+Attempts: 2740
+-----
+Hash:     8abb6822a6b45eaf6107b49ed78d143efd9b09b46b44edca29e09cc517ce55298386137ace3f371c59c19634e49dcaedcbddd961b2fbb9eb7e6351ab38900eae
+Salt:     None
+Password: 123456789a
+Attempts: 525
+-----
+Hash:     1b86355f13a7f0b90c8b6053c0254399994dfbb3843e08d603e292ca13b8f672ed5e58791c10f3e36daec9699cc2fbdc88b4fe116efa7fce016938b787043818
+Salt:     None
+Password: aaaa
+Attempts: 784
+-----
+Hash:     e1f22cea2a1c41f047b36b505a6aede84a848209c69505ac17ffdaebd7ba63c98e69f68f755134d7b94d47d0c86c1aea72f39fa4e89457cf8b25f19cd1b2dd33
+Salt:     None
+Password: peek
+Attempts: 2651
+-----
+Hash:     b0e0ec7fa0a89577c9341c16cff870789221b310a02cc465f464789407f83f377a87a97d635cac2666147a8fb5fd27d56dea3d4ceba1fc7d02f422dda6794e3c
+Salt:     None
+Password: guest
+Attempts: 1721
+-----
+Hash:     017f8f2d70c2521cf8384cf0530f71f02cd91c3ac863ac4f33018ce7caf3456deca6f77c8e4ca7105eb4d4761ac81d41bced4ffb180fd0ba0b46b5d866510fc4
+Salt:     None
+Password: asdf123456
+Attempts: 1231
+-----
+Hash:     401b09eab3c013d4ca54922bb802bec8fd5318192b0a75f201d8b3727429080fb337591abd3e44453b954555b7a0812e1081c39b740293f765eae731f5a65ed1
+Salt:     None
+Password: asdf
+Attempts: 1219
+-----
+Hash:     c4a12f24ceabef771459150b0a953e81e3776a41800798e27808b87c95dd3b0c30280761390833bda9ec11ab48aa733ab253da2f57914744aada6681c9fbda63
+Salt:     None
+Password: fuck
+Attempts: 1634
+-----
+Hash:     6b5e10e374ea93bd1fd4ced096ea0cf4baf3fb18f163830124490ba69669ba818eb31c234e8c3eb9c8d9a6c74386d451df9c8f3eb84b9046d68a59467f457624
+Salt:     None
+Password: zaq123
+Attempts: 3655
+-----
+Hash:     359075b4bd66ffb751f7b5c3a8d8e9615418ce79f173bb49227615385635c57c9491024f1caf5c21022ecf0d97738448bfbf1de11f0711a4e23cfb661dfff44f
+Salt:     None
+Password: power123
+Attempts: 2663
+-----
+Hash:     353ba90f8c0b3e0f355a3d6c960b7caed5f2c1412992277c0669a04a62e7dfd35fba9f4631a7dc6d00fb44d93d305cc0b749c7501d9ce86f26148d05101b8324
+Salt:     None
+Password: master
+Attempts: 2056
+-----
+Hash:     5a738c9b375511f3219c3b866b10a3aa787dd69d259d756926b5fe6d6ced540cb6671db78b429b14542f89616367c3a4b553c28249ddbf7a5a283dd8db4399aa
+Salt:     None
+Password: intel
+Attempts: 1989
+-----
+Hash:     b1c4de60f9fb101cb4414478bad6a4a35fe494be89d089c4723707d0cbfb0a4d3894f4f61cbc5747276fb68404df837167d4c7dc56dd5b51d302c0df3fb36a04
+Salt:     None
+Password: 5555555
+Attempts: 116
+-----
+Hash:     0d9b041fddb0dcb8b6d45d0e54e62bd959655eabf4a7237f1ae9f24db98c9642564ff078bbfc71e445c51245ca948b01e5ca225e8d445fea613e5679d3042363
+Salt:     None
+Password: taylor
+Attempts: 3450
+-----
+Hash:     57f5b0aeed0184395e0079bdc78246bddb5c7b69f7e6b725f7486377207ea388474a0468ed5486f781d082503ca04f0b8416f730046725a91d3adcc07e5ce401
+Salt:     None
+Password: 123123aa
+Attempts: 502
+-----
+Hash:     3627909a29c31381a071ec27f7c9ca97726182aed29a7ddd2e54353322cfb30abb9e3a6df2ac2c20fe23436311d678564d0c8d305930575f60e2d3d048184d79
+Salt:     None
+Password: 12345
+Attempts: 42
+-----
+Hash:     584e58f62d7a61635e14923da9a0d7fbe9486b0a9e9fd1396cf9638501b9f06effd8ba855c4be138daaaeaf2b013a2e478576d68b87692c967d31150c53406bd
+Salt:     None
+Password: qazwsx12
+Attempts: 2756
+-----
+Hash:     b722a7802ef1092e30100f1bb0ce22e963ff23c14b3b1c46916823362cde557cfb5d577093e2b32db04dd8f1b9a2ed1f2e24e12447d5e171856d05ff6b075132
+Salt:     None
+Password: wsx123
+Attempts: 3627
+-----
+Hash:     b66dd5a7a689f88e302ab2ae4a9567f9c7572c18e520b3bf712bb2630b3931a503d647baedf48df470006312d07984216578b60526e5ee6137ef1fd215190a0c
+Salt:     None
+Password: pass1234
+Attempts: 2471
+-----
+Hash:     3efa918bf37bda9f981bcba4e63d4f753e43d888fcfec750ee219423ba110fd002c4575ea0e8de965c3306b2c6a2b76d26e15c5d11867414fadbbeee5ba75fe2
+Salt:     None
+Password: qweewq
+Attempts: 2934
+-----
+Hash:     c3cf319d0710ad532e447795f41eb1b3f23f6fb54ff2de7bb00c20a223ea733ba4e2a3ec9dc719ff4fdbc131917ac1d36e2634cfbed0af79939b9a36e0893d2b
+Salt:     None
+Password: qwe123asd
+Attempts: 2875
+-----
+Hash:     be81daeed053ccbab386c914b91b5a9e5b52bbec9551bedb37e9eed98132948d2bf48f7b69be8505b1466ac68fe60be1361ef1b078e69c6f4cc21306386bdb7a
+Salt:     None
+Password: martin
+Attempts: 2055
+-----
+Hash:     e553465e3d1ad816a8a8c33176a2ff00fb58f6f55502c89e7593242accc1b0d3c2a2b5fc300a085b5051ecbdd2195b05a53a198ec98d9f75d323cc3c563592f9
+Salt:     None
+Password: q1w2e3r4
+Attempts: 2689
+-----
+Hash:     3c828a3142622646b22258d3532452b9c0a6c7fdab6529d0e779db5c951e1a7c29da7072f0570b67d9b968a6fad5f8d7e741754f50d5926614104bc95252aac1
+Salt:     None
+Password: panther
+Attempts: 2447
+-----
+Hash:     e60ffd656dd3316c7393313b3ed345fa8b9d3e4ac7ece49321530e539340852ad60b607a0cb946b3e075a6af05345f63a9a433448202020548023a3549760f4f
+Salt:     None
+Password: digital
+Attempts: 1549
+-----
+Hash:     edcde7f2b79d9297d2a13d74c614b884d6d1916cdb13e11665cd484510a502a726d6d2752888c00973fb46f8a378f0754edf905b18573002dfbbe050fa96d46b
+Salt:     None
+Password: mobile
+Attempts: 2085
+-----
+Hash:     d2077af5e820d66c6cf518f3f15a352e3d6a2f9dab1f6cf6c7f6eb4a2514e48d6077666998671f8634743eaa4405683f033380edb098a03273109c923d99408c
+Salt:     None
+Password: openit
+Attempts: 2219
+-----
+Hash:     ef460e752178cb4db5b2caec975120f1bb99a31cb51c2c12c47c8c8529e18abc37efc0132ff63388baedab91051aa3f93363bd0752e292da054001e0cae3d0bb
+Salt:     None
+Password: direct
+Attempts: 1550
+-----
+Hash:     564b4a2dad36f02240706e7dd6e28bed8518f84c6368a24af3b3f379953534a8ec1834d08df4cd58c9db42da047c5fe5a0b2ea0f982e56493c3e1584f78f516e
+Salt:     None
+Password: 7894561230
+Attempts: 193
+-----
+Hash:     8d9ba15292ec06f92c9c9a4373bd1d701819b519803fac89d3bbd3229694187b228b3efc42818f64890cbb184d7bb698c4035fb6ada3badad1f0973d64b97c72
+Salt:     None
+Password: qwerty321
+Attempts: 3089
+-----
+Hash:     3b1709b9314f957ba95734d83b84ce7495bec86804cb81d8f6e5ce478314ef33aa8649790ae8d9624be76e6ae9a1e93e3919cc0ffc2fba5a5035c5dec491a1a0
+Salt:     None
+Password: eight8
+Attempts: 1567
+-----
+Hash:     7249334c32fc05f3c7565f315c09f5cb40ba40fccad8a39a7b0e488e34b3db0526e6367615d22378c9e630939dff5037c61cb7cd4ffadb858d44e4ef56e02986
+Salt:     None
+Password: Test1
+Attempts: 6723
+-----
+Hash:     1e4320aabfe638c40a865925ef877a2969bb71a2569bb2dfee75bddb91ee53638b27d6e3519443a6d3697c1f47d6800b67ea625554b2038d70e4bc67f580c63e
+Salt:     None
+Password: Pass1234
+Attempts: 5708
+-----
+Hash:     37631d7014e70096633d31262f932194a4ce07b559f69ab9a4922c5ae609cf26b5c2714b8581e36c4aca1e5ed5f9b08235417be057f0bb3ad1003d594ab2f7fa
+Salt:     None
+Password: Nick
+Attempts: 5373
+-----
+Hash:     5eb284c846119577cd327fcb6cf91cacf41e2e2c1b6e9bce4c7742535754185b86de35463d607be7cf8b03e52b3ec56d88022c83faa76ebc12c577f8ed896117
+Salt:     None
+Password: boomer
+Attempts: 1426
+-----
+Hash:     176d457373e2a83ffd05dc909ea6a3fe30e4ef9448d60a11f17c9b91fc8291a431e992c7aba22ccff2a18369b8006e3bdbed449b185ae4278c31867eb46c4160
+Salt:     None
+Password: Guest1
+Attempts: 4959
+-----
+Hash:     90b5b0d3107bd639cd9e167b28e4d5fc3683e8731adcdcefe1b2c019b6e7fd8c289f67a030183cb6c1bdbefa42b64daac6b4ccb8c13871a6343d135cfad9d96f
+Salt:     None
+Password: 66668888
+Attempts: 144
+-----
+Hash:     64bce24da993ef1e950206eab42ea65a2196cc2b4d5544af20c8f896e6101e76e129679ac768d3817782fb6a49039f628864998e4390fa76a2dcd9a56e74347a
+Salt:     None
+Password: qwerty123456789
+Attempts: 3065
+-----
+Hash:     b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86
+Salt:     None
+Password: password
+Attempts: 2523
+-----
+Hash:     eab47cf3b4ead31d2d6946cc4f7e535210b9c3e45bc7a204c34f4f342eefb27d788a6b70a9c00634a7a5e4b4cad26bad37a190904de2d2d9e75ae5b2b45a7670
+Salt:     None
+Password: qwerty2000
+Attempts: 3070
+-----
+Hash:     b6a12704efb8111a1911380d180ad9e32f03ea2fa7d2e1f93ad9bd195092f523d2019ca4c75de231ccecd4e31adea46da5353a576ff36968de1379f40777ddcf
+Salt:     None
+Password: 110187
+Attempts: 60
+-----
+Hash:     a0e461b7cdea17896f27cb48166e5623ef1b75e4b096847c93d371d567b96a055089520c77f7ea62a92e8e16fb3a288d85bd7eec7275e1d147a485b8eed5a85a
+Salt:     None
+Password: hydrogen
+Attempts: 1979
+-----
+Hash:     5000fb2d75f11f7ec703317b47d51e82fcc12de79bbcd65a3f80b67c8c3207b4794270feadaadf46daba571257f608616e4f1de52babc7276b3ecc6d8c519d90
+Salt:     None
+Password: abc123abc
+Attempts: 849
+-----
+Hash:     ad836a069d893274e8aacb470856c64bdf4adfc882dba7c8e0d5dcfe6e983afeedd8003c52ae42f225670cf4d144ce71cdcd0b437500750234eef5392416013d
+Salt:     None
+Password: qazwsxedcrfv
+Attempts: 2766
+-----
+Hash:     b9237ed063811259f47c8e328c1b014ec877535d1dc6216a61dd82116c787012d0fe6ccb78df338ca387c713dcc721ea9bbaf499da3bff1686fa2c8df80e3db0
+Salt:     None
+Password: boris1
+Attempts: 1428
+-----
+Hash:     ee42ff1b20dade8ed6cdfbf0a4bb311090d1ee5e4da04cdf02e7efcf620d1ee06ec65898d2eaef72e13e22ccb6b6680302f9ff81ff396df78ad7169aa18df552
+Salt:     None
+Password: qwert1
+Attempts: 2999
+-----
+Hash:     57cef81db2a8cabac33c66996eae02854809f819d4af32c9e79770396b365ed26979facb875d9780e22b35561779793bf0ec8809bbdedf0b2ddaa85c36e52119
+Salt:     None
+Password: 123456q
+Attempts: 538
+-----
+Hash:     d8927459fa95de31e976c0a628cf3cfba1d760f29eaacb13324a506bc52cef5863f70eb0fb04906d0c57460dcc05b0a19edc520c61a9f06433ec15615cca428b
+Salt:     None
+Password: 444444
+Attempts: 91
+-----
+Hash:     91ea41b0f1b19f2746ae96f88a71ef2b786d8c3d5408b9434836fb62c94c9789fdd208f94727f82efa4271b3787195aed310d27b7f2a32f273bc3a6950df575d
+Salt:     None
+Password: qwertyu
+Attempts: 3104
+-----
+Hash:     aaf6a7d781d14ad069bf26988cbda52043197c14f3a9762778a7ba9d31bebce0bfbb27368e39c18471dc611731877cd4796b80c660ff9be2d0d63eaa649c4c1d
+Salt:     None
+Password: Passwort
+Attempts: 5869
+-----
+Hash:     42d14cde011e74b4f844867d4e36ec93dd50af7b21f7ac32c574e0b36efb2eb3aa93bf07e4dde40ac091f1900108764e16d84e4cd0db330785bdfa9611b1c70a
+Salt:     None
+Password: king1234
+Attempts: 2016
+-----
+Hash:     24f91e4a8f066b023557a1c34ff00fe34b0a3f995f5225f14d902c4d13390883e293cc78a90433091950aaf7f2bd6e8c39c3719053aeda8a4f2be5edf0749c8c
+Salt:     None
+Password: qwe123456
+Attempts: 2870
+-----
+Hash:     9d1000bb38747463aefdd44f86b0246fa319aef95b26b0c16e603f7b85cfa7c8ef94f73430577b9679069d36f1ce6d391b3bc9aa7cfe0937dfabdbefbe7fe13f
+Salt:     None
+Password: sony1
+Attempts: 3361
+-----
+Hash:     8eb4afb49d03d89288ccf6c19ac4d7d60c40fa3e0ce0104d2da612465e9fab6b00ef5a61b0ba2e663002cf9acdf65f2ce6a8610abaf44d63a9c3cbc13a1542c1
+Salt:     None
+Password: Guinness
+Attempts: 4960
+-----
+Hash:     ccf2166eaab1c3134edd941ee23266e32cc8b68d16cd44458a8403f833bfbd35a3f71091d46942bfb8a8ab082c01b63b536bacc52fa4077062ced7dd54db120f
+Salt:     None
+Password: qaqaqa
+Attempts: 2730
+-----
+Hash:     ce07c67adec09fdad3ce35eea24f9b6f39307f97afe62ada83ab08cf96984daef93ea41584b9bcd97088b4c52097d9326bfde2e2cfbd1c474bd79a242b0c9c31
+Salt:     None
+Password: Freedom
+Attempts: 4870
+-----
+Hash:     8b3ec31f18ecbd708250148799f324c631e0c07f5af4e63fa3980588f27c78d048a2b0c812ffdd779d2b4596451dcdccb3d4cecdfee4a06e244404e3f7fe569b
+Salt:     None
+Password: p455w0rd
+Attempts: 2408
+-----
+Hash:     a917d01789b58dfd3a702c715496269886f5d363d7445f42ee7b963e9de2a1da7dfbf0b88248ca648e69927353c0a76aaccd1d9b2ef1e32a7fe18ca3710f8929
+Salt:     None
+Password: david
+Attempts: 1530
+-----
+Hash:     079a9748807cb59f23556da6e85e67f2171f6d6a2e0c32960cfda614c0e38e5da8ff3d202775a48e2cce97ede6dc53464475769f71a3a45c4b3b7d702122f97c
+Salt:     None
+Password: gfhjkm1234
+Attempts: 1677
+-----
+Hash:     7d6f2cf39188e5a302788a7d9be164449af58b6b05162fd9f8813c5c33e2ddd5a36a999cdf28465da370662b9ee8bcddef815e04de7a157c5c0985db2fdf9b3e
+Salt:     None
+Password: 99999999
+Attempts: 151
+-----
+Hash:     64b1db4953d1665094f3910ac43220ade2b0f769cf5523e9404eb1ebaa6a0da42d11a7262de04c4ffda46f18a856d12a0874689ba76fc7632357c41a8dd94620
+Salt:     None
+Password: danger
+Attempts: 1499
+-----
+Hash:     c7772230713a957e406020125c62152ed8180029168f516c6005cfbbfde96dd3c77672d3f274a643e270b7a45809bb0fe743ecc2b52a73cc02108bc60b46bdd6
+Salt:     None
+Password: koolaid
+Attempts: 2017
+-----
+Hash:     0064a203ac45cc2d245f7c9bb0766042b6b1df01b91deae3c9636efaf657fbce62f8ae4291fbae79a7a2ed52d4e9f56550e54aeb9fb6a39631745d6b732f813e
+Salt:     None
+Password: 753159
+Attempts: 98
+-----
+Hash:     bf98889d70675da7dc753cdf8ac78c49cdcced21919dce21b83dc8c81607e4eaf719aa5f9bc09bbe316d8e98f663c607cfc6eb4337eaa41601cd9bc303c5f583
+Salt:     None
+Password: passwd
+Attempts: 2522
+-----
+Hash:     f757ee75fffcd3c7798664f39d54c5e1383464c90e718a730fe365453040f874683fdcffb54156686964c00e3e9306ded449648d4f4dadf8872fbdccdb15248b
+Salt:     None
+Password: 1234qwerasdf
+Attempts: 554
+-----
+Hash:     068fbaa409114c5eb33a5d36ca4023324065776889c6c0223188d45c10705073c49113c72c600ece952feee20b2c7ef451900c5df21a5c82685804eaedaff7d5
+Salt:     None
+Password: rocky123
+Attempts: 3213
+-----
+Hash:     65c9956e54e10ef9a27ae47195ad47a77970cff9cfd1caaba76b9daf0a0c8a0548509ca7eb0f722e4273d3a730adb5e0a981a0e2002bd7161182d66f3b164e36
+Salt:     None
+Password: 123456qwerty
+Attempts: 540
+-----
+Hash:     e7bfdaa8854c6f7b96c639b474978f69559a779e534e71d6946a7c5042fefd1ec7ba221bfb6e43d3e09613611f95ee758f613c0b13ab1d74938c1bc7ea025e98
+Salt:     None
+Password: wizard
+Attempts: 3617
+-----
+Hash:     3827ce40191fde336b60b5d5e938d22ebb457e282dfdb0caddcb330e8a76a26e3c757899a5b5f949c4917a85dda0d714d880f9999600454882d17a71a35a7ebd
+Salt:     None
+Password: network
+Attempts: 2100
+-----
+Hash:     4e3a58f0257214ca002e92a4c9f87ab7d68b9b76ba496233bd1e95f1bcb5462ae9c50b815f06c7e654e595e9b1888e0933327ffa0bfe27965ab5a889f5ea011b
+Salt:     None
+Password: Aragorn
+Attempts: 4376
+-----
+Hash:     7dd29a9c9643fd524e1b4360964b89ce59914e68d1fd1ab04dd61fbaaabc58e579dcffb5b7454ab01e586c8ae98e538b5d6e0ff3ae7dd442de7333486dc9df1a
+Salt:     None
+Password: newpassword
+Attempts: 2103
+-----
+Hash:     6a7719a7c16de70c76ea00af3bccb0e244dac7aeaaa42e38ff6872ba125bc6d6e4f5717f09da9264ef17557ad35f8383cd54414c2d6136268c46b8f542ba8c8c
+Salt:     None
+Password: phoenix1
+Attempts: 2654
+-----
+Hash:     d20199b1762763a4a64646b24a6228a9923c0ef0d40f8dcba0f26e53261e18d67bc739be63a29770b7de4869077400795b4ea310887f7d57bedd4253fa7864a9
+Salt:     None
+Password: Taylor
+Attempts: 6687
+-----
+Hash:     daff031b77230a90e3b636417546239382d6927193780730a8a410d9b2cc3f96ba392bf87332b6b8ef32febb756968c4dcb719874fd38d94a02c230bee49e15d
+Salt:     None
+Password: America1
+Attempts: 4364
+-----
+Hash:     9b07611b6e7cf85bb0c12f2b0d18d77cc242dcaeeca2e3e5a9fedb5a9bbf187d2c3555bc2a2a440f6adeeb40852ed5b59cee0a7777c97edfd5566975a1db3411
+Salt:     None
+Password: Qw123456
+Attempts: 6032
+-----
+Hash:     9b71d224bd62f3785d96d46ad3ea3d73319bfbc2890caadae2dff72519673ca72323c3d99ba5c11d7c7acc6e14b8c5da0c4663475c2e5c3adef46f73bcdec043
+Salt:     None
+Password: hello
+Attempts: 1733
+-----
+Hash:     e07462ae1a9fdd9e8191d6e9900526c048a68608f54cf4b14e07c743bc39496d2aac0d55aacf10843266c4debf63ea5e5613dd446b296e15dc2008c033220a1a
+Salt:     None
+Password: america1
+Attempts: 1127
+-----
+Hash:     fb86376cb7bfd6553d365f1e9da9886c18d2b3adc19016202d0e32457e145d2b43cefeb08b3a871bc336048e1d62db32d88f3ad21d7231dc48922836bdb41855
+Salt:     None
+Password: a1b2c3d4e5
+Attempts: 728
+-----
+Hash:     34c91b1685517e5b9325f67eca65659f854c6391f18c874057851412e7ca8cdb4c034bab4f402aaf1e7d17a8d4706225480585767166cabd703a580700f696fb
+Salt:     None
+Password: passwrd
+Attempts: 2645
+-----
+Hash:     9bf0ec5950285ac82cce6ebca7691c96520645e169a5aaef2bd5ede9036d99624076293916270b97b39ad98a7d13ffcdf4158ba38535c8a02045663b9682731e
+Salt:     None
+Password: 1q2w3e4r5t6y
+Attempts: 629
+-----
+Hash:     d658b336773d4c1e42dea5de35aac125621ee8c5691c11b42ea32aad8cd6256beceabf1d067947090497979ef2b4d1ab968be9167aab14b6441ac835c537c0e2
+Salt:     None
+Password: install
+Attempts: 1988
+-----
+Hash:     b14361404c078ffd549c03db443c3fede2f3e534d73f78f77301ed97d4a436a9fd9db05ee8b325c0ad36438b43fec8510c204fc1c1edb21d0941c00e9e2c1ce2
+Salt:     None
+Password: user
+Attempts: 3530
+-----
+Hash:     4939d01598c0206c4fe0bf785aedf93caac81e74dc0e72be0451336e2384a4997893432f856cf12076ad704daa20f4678b1c4fc5560290c63399c47076d47d47
+Salt:     None
+Password: fuckyou
+Attempts: 1636
+-----
+Hash:     8d92cd360ec9cbda00dbec6e0de42a9a2a11aef9975e495700088c1126721f9d8f06c27e5ee6f5874a548b9230c971820f0dd492e3bfe6362916f2093848ff11
+Salt:     None
+Password: william
+Attempts: 3575
+-----
+Hash:     01318ebf7cbeb211a19b88b0513e7bdafd385219ce9603b5790806f2178cd8a9e4b7ad99a6a7702f293257c6fc1ad1b7f50c87010848e022b7a978efdf89192c
+Salt:     None
+Password: abcd123456
+Attempts: 889
+-----
+Hash:     d7b6f2364a0789f6fdae0fc3c42aa9e61a92d3920f20a7c985881484651589c02adfc7e4a43e1fe97f433854646fa263fdcfa49059af1af8caa399c4627620a4
+Salt:     None
+Password: baseball1
+Attempts: 1412
+-----
+Hash:     922d076069b1df893fc010b7a6d2aa55c7c4c5d194f163394a4c864de5754131c17bfa94ac1667f56b5181cc7eca5dc3a09444caee6eecf16114926bb29f7e79
+Salt:     None
+Password: computer
+Attempts: 1471
+-----
+Hash:     4799688e97f2be0068275a958dd5ba6d036ffaf979e3eef766d126c8720bd759a0b3d395dbeff868a1ce3b5595b1f2bb2558d0f1dd426a4c731c9e21352b7db8
+Salt:     None
+Password: Domino
+Attempts: 4788
+-----
+Hash:     9fd16f859bd6fb96662f03df03281916e426cf66bc590dc559b87a384b22785daafaa940f084efd7d413b5f69f85bf85683607bd68439bc319fbfde43379a9c3
+Salt:     None
+Password: jazz
+Attempts: 1999
+-----
+Hash:     22b7c9561a08814835be580138f3174b5cd1aefca23b0b79fee4423503ee0f3161d2b8d38f4194801c6348476b75fa94b4fb96f2e3e00ac4935fec9807ded8e1
+Salt:     None
+Password: garfield1
+Attempts: 1652
+-----
+Hash:     4f42378d53b50a1c73d9a57f1550540ea0c3c0d5ceaf671394f2d200d4f95eafdcd6ff816c08e4c4364dc3ccc8bcf5a29cb003f05ff3089df5c852dc30d8fd8c
+Salt:     None
+Password: Qwerty123
+Attempts: 6295
+-----
+Hash:     446ab62be229f7118c3e0c3b1dc0423ed536734371171d59a6d3aee5f9f371b4603f2158d623b0dc7ae5c430b4607d4ea333c802a833c54b885f0fd3b1d54ee4
+Salt:     None
+Password: telaviv
+Attempts: 3454
+-----
+Hash:     95fe28ded3691d9e7b174f14e4a998dab8c22b04550626498a81e04ed3779817b8e8856c8748f658b6248d54aaf2334b945f22a8fa040814211595f2524671eb
+Salt:     None
+Password: 112299
+Attempts: 65
+-----
+Hash:     9eb5b954573e97cea7689c65f8fd1d8c12c51bd280aa9f7b3eb9cfbb3c78035c0f5aebc28388b00fdf701f0e366760eef6dd35da474e84559ca2a7f6a2ad2126
+Salt:     None
+Password: 123654
+Attempts: 71
+-----
+Hash:     a235e50ae46cf4ea18fd46eeb9325103c3a06758498eaffe2f5ec34d6c1a4c4a3e469cba712d9b172eae6df8a719e64a26e5d2f309e90cf12b05fb4f427554ed
+Salt:     None
+Password: glacier
+Attempts: 1715
+-----
+Hash:     d6f644b19812e97b5d871658d6d3400ecd4787faeb9b8990c1e7608288664be77257104a58d033bcf1a0e0945ff06468ebe53e2dff36e248424c7273117dac09
+Salt:     None
+Password: aaa
+Attempts: 777
+-----
+Hash:     f82b1e94d385625ff9f9cd7b50c76503b028bb14f82661b52fc8fd6aeece0402a14cc1c7fba0d5a395b863fe66e4dec2dc70bbb8bc3eb2340e322ee86107bf2e
+Salt:     None
+Password: garena
+Attempts: 1642
+-----
+Hash:     549ce8323114e9a87bf4654c4362f1a802514e3e83147d1d8db6f57cde98a9ddd528f1713945aa28558142327f14c5d7bce0cffa698e66928cda9f1334a6ef37
+Salt:     None
+Password: 12qwaszx
+Attempts: 592
+-----
+Hash:     005e408f4905098f877eab7cf97ce9f0bc706994aa759eb4aa4653cf443e45fb9a0fa831986fabc0e6afce2c243f9605acc6fd3fd4e4a8fe0d16734301f1937f
+Salt:     None
+Password: 87654321
+Attempts: 149
+-----
+Hash:     cbe7153946654981c260d0b790055ed7e6c7e9a4a3c00c53da9034ba33f2abda8514d50cfd61565c602f1fbbd17118a4adfeb64cc55c07ba8307faa4317f8992
+Salt:     None
+Password: qaz12345
+Attempts: 2743
+-----
+Hash:     99adc231b045331e514a516b4b7680f588e3823213abe901738bc3ad67b2f6fcb3c64efb93d18002588d3ccc1a49efbae1ce20cb43df36b38651f11fa75678e8
+Salt:     None
+Password: root
+Attempts: 3215
+-----
+Hash:     b61265c6a561e90476ef78be3d2cea768306afa55a2e510c591008f8dc3e6f8a9520687e5fd3805e2da67cf5c58aa1603f960e027b0d5307fd7f98b673dd172f
+Salt:     None
+Password: 9999
+Attempts: 37
+-----
+Hash:     fe1c94d7b0ac51013b944b84cd1fd40111421684f857ebf2eaaf494014007e3068ea25ed03c4c8155b33c1271742db38dcf3059096ad2b859b44ed2b9ae5d10f
+Salt:     None
+Password: p4ssw0rd
+Attempts: 2410
+-----
+Hash:     daef4953b9783365cad6615223720506cc46c5167cd16ab500fa597aa08ff964eb24fb19687f34d7665f778fcb6c5358fc0a5b81e1662cf90f73a2671c53f991
+Salt:     None
+Password: test123
+Attempts: 3487
+-----
+Hash:     9124cfd9aec21894deb74048a45028625fdfb79716107990eed398481df95e749716353fa14bf9653f5a8aa809826ec8916172a85010452f8ac7aa44492b6b87
+Salt:     None
+Password: asdf12
+Attempts: 1225
+-----
+Hash:     6f01a907513e6652020598d38516b788063624b31e9f3afe9c7c0ef4ea5ab4fd4843dd3579292de5aef626d588e678c045cb3ab4d1e49b89237380140907576c
+Salt:     None
+Password: local
+Attempts: 2025
+-----
+Hash:     15b2efa88112c2d9a68fac576c14ee0ccdaa00c938eebcd5282cac517f5644854e503249c4060b55945c75dd3dc56b1d82c55fd4f76600345c8a7bf825e61a5b
+Salt:     None
+Password: 2wsx1qaz
+Attempts: 667
+-----
+Hash:     85fda953524fdcc295abd6e65b07677bf4d784dd25a643d3aaf96343048654ea67900f01fe9f476d94756fa48de43eb6a260a6a8c0b2c083fb3cb7f37a38ec33
+Salt:     None
+Password: zaq1xsw2cde3
+Attempts: 3661
+-----
+Hash:     708f919fc89c9b7c2d3aa95823266a0021b3f6cec1ee4e875b4f9a13ce75acb1af5eda1d0d566bfc7959dfa690472b0e92798135162439b61b8cf63d3f29e705
+Salt:     None
+Password: qwert123
+Attempts: 3001
+-----
+Hash:     4915bb3c851495295c172768ff344f56598ce48dea284acdd7714a1c709126d7a01e5493e7c7dbd61793796ecd3fa61bc613dc4b2de87ebba3ce5c9591c770a5
+Salt:     None
+Password: a1b2c3d4
+Attempts: 727
+-----
+Hash:     4833f71f4a2e648d29c53c16d9aa7c560f7155ad1fbb1abef7e59ac34922a542c5f12e1e1a70d01c6cf93a245292d5138089a0feebd28426f5eb8ce3e421ee40
+Salt:     None
+Password: kermit
+Attempts: 2012
+-----
+Hash:     70ad3699c2e8226c85cc87dfca543e12df9b0bf83eb3121233703108c731e68031f48cd1fc9d96af3dbc4bd26bdd6a55f4549d36df2a8ee1b283e31b8d20f2f3
+Salt:     None
+Password: quest
+Attempts: 2786
+-----
+Hash:     e8729dd04fdbcaa1612220e039965123e8babde1d79e84aee84cbd02074b4cd12ee13eb2675857868fa69509bf818b1820f4f17b2bcec0ad93df90b157eeaeb5
+Salt:     None
+Password: a1s2d3f4g5
+Attempts: 731
+-----
+Hash:     751f37552555f31a863b0307299ee50e5d5a1bdd22f26b651d04c4351623ffead4efd2fe4cd22677cadc588edd21a6f0dd45e4f3f69400c5c4149ee3874ad99c
+Salt:     None
+Password: Maggie
+Attempts: 5284
+-----
+Hash:     6bc74676849f5a6eb19f7ac09ffef7e78fd75f92646b5edf4600baf7a6ea0ed91ff044cd6ba2805287bd5278bcd857aa1d6631b06862a60eaeea7a5d4bf1c59a
+Salt:     None
+Password: 1111111111
+Attempts: 174
+-----
+Hash:     1d23d06a977150bbdb3103f77579bcf64e639beb99d15617435a0be291b17f86fae24a1fa7b063b2ad235235712bfbc3c449491b9744499f7b47ea4c0851f09b
+Salt:     None
+Password: qq123456
+Attempts: 2777
+-----
+Hash:     082f30e40b2b35c37ce0071950cd845e00c3c1bbc8d2051170e67cdc42288281cb08f0ee346f2c6ff8d7eeb0b825381f5878ab1608799c4d65eef25c273c593a
+Salt:     None
+Password: network1
+Attempts: 2101
+-----
+Hash:     cf85d0aa155e829fb5e6c6a6149011f6f31044d4db877edcec9a798d2e46350083372dd08f35ee16a6af9067095ff60e4b48a01f0136b468e1ce02c17bb47ddf
+Salt:     None
+Password: aa1234
+Attempts: 767
+-----
+Hash:     6a761223ff9d566b5a334fa16d5576bd788c5286b70ded518b4a3bb66d7e0db50e7b17e75fdd1694b71a46d60285eb2beab27b27d3cbc4f2ce65d9a838fb3810
+Salt:     None
+Password: 2222222222
+Attempts: 184
+-----
+Hash:     81d28f05c166619daf48cf8fdf5d372805660791faffd7d98b3a8ce9820fb134ca99fcfd3a5d84481fb336567628741803890f53d777cdb15cba34fc57b9f730
+Salt:     None
+Password: Asdf1
+Attempts: 4461
+-----
+Hash:     237d666c78f6f25e6ef61c097db6dceeca335e6feb965282bbca1b9b7e009328999a8dcbae1fdd513b48ce5531ce79fa6168361030d24db32728e8ebd04e77a8
+Salt:     None
+Password: online1
+Attempts: 2201
+-----
+Hash:     495de00fcb22e9b508aa937bb7d248501fe480d2bf1f191905ab8c8752ec515f84aed4a1254b6651a5f5db22aa6b796d252aa6eaa96794b305c9163b97fb4ce2
+Salt:     None
+Password: apple123
+Attempts: 1134
+-----
+Hash:     36379d8584770820d95741c8efe571cc0ab37e2021c505fd8f384724d0676020ebc6d4f318e2533acf708fab8ede09c950a8daef54299ab9ea5ba1e1fd4b73bf
+Salt:     None
+Password: super
+Attempts: 3367
+-----
+Hash:     62de3f8497665bb8b0df7a013e4c172b308e908e9565f852227d7d759c966b38120b1e53bd0ccfbb691ec9004f6e98bc0ca830a88d302a216cd23e509b42715a
+Salt:     None
+Password: server1
+Attempts: 3293
+-----
+Hash:     884c2786c32c8033168f43927d7a410dfa20e0df96c403c7b7faf766a4915ad95af1c71e70d01f8cb48a8822a2b95c8816abc8e547257f8bc40e2ff36a452a27
+Salt:     None
+Password: 9999999
+Attempts: 122
+-----
+Hash:     f82c0df42fd0164d2d650f79bc9207ae8fe6fa2bc47bd98baca2c3dc59f0154ae73536a070b335386d63f39f0dad6c393abfbdc519c8aa4172354a0aec63e46c
+Salt:     None
+Password: System
+Attempts: 6680
+-----
+Hash:     89ce0c071cfcc7b25e04a2caa87e401e338ff403b26bad1c86cf2d1d7c55cc66b6d10a8d2e60f8faefa767310a87796ab5923f23fa0282ae07bcceb8ea9cf774
+Salt:     None
+Password: ford
+Attempts: 1597
+-----
+Hash:     b32604fccdc84bd9d23835aaee728dfd6e8aca0829d5f8569e7f36f55f32e677cc9d7192f33f911bf7f1cdee1a0f512a6428887cfe776441e7b8cc648d335e6b
+Salt:     None
+Password: a123456a
+Attempts: 725
+-----
+Hash:     1a47e74e0e6ad208c19efb42c0fefded43f07b037a3c552ad04ae8b167417e5612556641c0df4da77643e027b030e6ebcb9264dda9e8db3522952bec751d3b92
+Salt:     None
+Password: princess
+Attempts: 2665
+-----
+Hash:     d8d790303386542565412979f4ac5874db76f1bbf7fa2877e4eeceb52c7cdbbfe59422a4c4e0e58dcdd198951cb655d1a3e564c46013475ff9d085f6d834e4c7
+Salt:     None
+Password: Qwerty
+Attempts: 6281
+-----
+Hash:     3f786717c2065a3bf5389204551461e21edefd1ef4f79b9a75ff441ec9ba7267b69fbe84c2dd75f1b47d157508296e0288d2b19e70ec629b53249032e4993bb8
+Salt:     None
+Password: Rainbow
+Attempts: 6439
+-----
+Hash:     eb1daf7e5094caa59d0a69f2f1ead3bd978eb6f4f4a585256e31f9c480d0cdc41432f47c35545905b6187518d2ba18fd3e673f127bff82d1aee53818d3cda9c9
+Salt:     None
+Password: Angel
+Attempts: 4367
+-----
+Hash:     bed4efa1d4fdbd954bd3705d6a2a78270ec9a52ecfbfb010c61862af5c76af1761ffeb1aef6aca1bf5d02b3781aa854fabd2b69c790de74e17ecfec3cb6ac4bf
+Salt:     None
+Password: password123
+Attempts: 2585
+-----
+Hash:     1ae7d38c35cf3201eba5d56d87554ab88bfc8cbf126858de412b78ce4b28c3b7d44bdc5f4cf71cc3ccd56abbbaad40dee748be8979de970eb29d84304a2221c2
+Salt:     None
+Password: Computer
+Attempts: 4708
+-----
+Hash:     00777db16c637dcd91bcab41644ab105730d3fd5daef015f99423371366925969b38f9257db798d018dccce555b41564ac99cc567807d632f8d3c34c0f687fbb
+Salt:     None
+Password: qwert12
+Attempts: 3000
+-----
+Hash:     9458de947221cbf466db178721cc89be6c89880cce5dff0107066d6479ae280374e26d2d0a79df6b0c324c42e2cdd6a60ffc68857aefff6721c3c9da9dd83972
+Salt:     None
+Password: passe
+Attempts: 2481
+-----
+Hash:     ee5c512bf8654a16bd84b52dab492c20452b0d4e72a08e67a036bb5a10591c3a7b781b617562338b54d851834cdc44d86542fb52796389b8aa22cfbfade7d494
+Salt:     None
+Password: 1233211
+Attempts: 108
+-----
+Hash:     7b312c41eeccddb041451a37f83991b6411933d4a27ee6f4a1bebcad99ce5399c9d17ef3aef2f26c23f5aceb33c20c96ededa699b8afd2c93b5df3cb127c885b
+Salt:     None
+Password: 6666666
+Attempts: 117
+-----
+Hash:     316dbea47ff3557ed1a1aa669862221a7e3a9bad9392a75828607e41212c76365cc4ca2310f70fd6285da02e9328f337894df989a5b8bb043a884d4ca4848440
+Salt:     None
+Password: Kathy
+Attempts: 5247
+-----
+Hash:     c0a36a6823d912f43129733d2054dd9df5559d92a33bbbb45d3b43585c0ab356b8aa926f8b860911e133831ff8857db09934becb6989f0da876e01eda56d7c81
+Salt:     None
+Password: 666666666
+Attempts: 165
+-----
+Hash:     da07c08a2c2ef3710e688bff476a8a09d52d6d34b6ee3c41a4b1f58f2949792ef20079565ca0d78e2758b33b50a13c9829c08bdf670dc802e627f289364d203a
+Salt:     None
+Password: Welcome1
+Attempts: 6803
+-----
+Hash:     752ddba36a028eede4461698bae6b000fa436de229d36f01319466fa6581519e895e09ec78cceff37c005cc03b713e33cb7b1557d38f0bb3e3afebfc3cf57419
+Salt:     None
+Password: 19731973
+Attempts: 136
+-----
+Hash:     92a891f888e79d1c2e8b82663c0f37cc6d61466c508ec62b8132588afe354712b20bb75429aa20aa3ab7cfcc58836c734306b43efd368080a2250831bf7f363f
+Salt:     None
+Password: password2
+Attempts: 2600
+-----
+Hash:     6522da2f3fe4f163d52acef62440c086be5ec1203c2ce90a5427546a1cafe6440618fd3af2c8a3362ab7bc7544600ca77bed41f95d8038a8a7cc458177691474
+Salt:     None
+Password: oracle
+Attempts: 2221
+-----
+Hash:     a118060ba3c0671b36005f785c818fd68e3478a91497019daa8cfa52dffe496445dbdbb4f0db6389056f4d26da4eb6bec5a3e3797de83649afb8f4eec5ace6dd
+Salt:     None
+Password: 55555555
+Attempts: 142
+-----
+Hash:     36dea0c5549a3435658ce94a4756dbf9300ab8cda5a1f8b77687c72fbca43b5db8ff4855db8085f87a37765dd26fd20de60a6dc7a178218e36d528069d5eac98
+Salt:     None
+Password: asdfgh12
+Attempts: 1283
+-----
+Hash:     5e82bf4bec053267652186196c2536348dfaa2f65e05b6d8fcc8688f3ba050513a101de0003bcc97aac8ee2056dd6f823f0f3e1c00592a6d43287e3bf9950010
+Salt:     None
+Password: 2wsx
+Attempts: 664
+-----
+Hash:     98923710a30301e03d25bc9ea565d4cfb738b7390dc91871cdd368bd58b959e57dac211730538be0433f85a1a3011bbab9a91b1232022694b7f66ac49109f4a1
+Salt:     None
+Password: sex
+Attempts: 3347
+-----
+Hash:     b719607226d34094f53b043491697d98875096ff36bab4aab89da12850ac56195b183a0170976efbe29a6a4ddcc1f114b8f00154933ba6f766d82e5a63624eb4
+Salt:     None
+Password: service
+Attempts: 3340
+-----
+Hash:     f18471e6b41dd4b5321bdb5a267a2b4c49a57d22c96256060e61e87c87d214568ba902e97bfe37a0559bb67106d063b5c8151c011637b135ece675358aaa4d0c
+Salt:     None
+Password: albert
+Attempts: 1124
+-----
+Hash:     81599ec77ac571e7dfc863414be4870fdaaacc34ac970ec7d5a91c160adca3b49960d98e31e317f58fffd231fba2965ca8090e8cdab10000f6e3e8ce0bef02ba
+Salt:     None
+Password: shadow
+Attempts: 3350
+-----
+Hash:     66bf539725798ccd8b1b6454ddefc0163a96200e54af0d5bcc6c7e4288d227749bfcc0ae433d2301a2aed1e9df2e6feac8fbf691d6473e27ac3200b0a2eac930
+Salt:     None
+Password: drpepper
+Attempts: 1553
+-----
+Hash:     5532120408754d5be111ccfbdc06311aec0b990b74e62ace884cfae42fabc1df559ad13679aa2e5af1e0d2a830bb77ebf684539d40c327ec511fc6a69f0de170
+Salt:     None
+Password: 1029384756
+Attempts: 173
+-----
+Hash:     f672631fc2836a1bd6a398494db17cd809681d8c56c03482d32bbf008c2bf770dde839be7471ebb093ec4bccb3cbae4c6ea8ab8a8953f9625c8aa0508f27f4bb
+Salt:     None
+Password: Montana
+Attempts: 5326
+-----
+Hash:     f368a29b71bd201a7ef78b5df88b1361fbe83f959756d33793837a5d7b2eaf660f2f6c7e2fbace01965683c4cfafded3ff28aab34e329aa79bc81e7703f68b86
+Salt:     None
+Password: aaaaa
+Attempts: 786
+-----
+Hash:     c6d9daa507dda048f3ec1062e33f0505ea19d1843471aa0030ad2a49dc4fd955c146fbc63d633074fbb0f941d8eabecee1c62ecb122080e03c859d71a98a6a56
+Salt:     None
+Password: zxcvbnm1
+Attempts: 3698
+-----
+Hash:     d0621e5dcfe029f627344ac9a39bf3290ab6c443d34287d1e1ffd78057ce905f3e53b0a1b5096c4c3679b530c9822ad3ac72bf8c7cafb3c2e87956d23e7a7e73
+Salt:     None
+Password: enter
+Attempts: 1574
+-----
+Hash:     0ea184e9ddb3ef356188e2680b868c61154502d6f1b8139a476972aec169406e9c9d52565df9977e5954b0469aa592674435fafbfedc5a25af1fea00f7fb4f76
+Salt:     None
+Password: maomao
+Attempts: 2054
+-----
+Hash:     35fddd95911c6e8ced55b83b4dddcb9a06a2af8471d412ad7427878369d3d18bb7ac00ec561a41d819596540d2edf600df56376c906f49ff5c93d04c0c42546d
+Salt:     None
+Password: password!
+Attempts: 2524
+-----
+Hash:     0259c5808b091872781395a44365f4394d555a0b65807a3c928623a232010b9082349e3ec3c666d773ed1d28dce7aee5ab9321cfef96ad2f4386c7f6fc4a5ee1
+Salt:     None
+Password: festival
+Attempts: 1590
+-----
+Hash:     511149afa5f8e00452ce18721dde6ffe0725d7b4c1ed73e083b15058c96ba38f771a1323bfa0b92fe9d6ef2c6aded1951079d86cf4fcc9d167e37566576ab04e
+Salt:     None
+Password: deneme
+Attempts: 1542
+-----
+Hash:     bb88cd88e2ac2a2ef18127c77bd75662dc527758096e7c76c53e74b2be325fce3684e722980a2eda9722c7f1194b38876b4e144969c4d55e4dadf709174e2142
+Salt:     None
+Password: Shadow
+Attempts: 6587
+-----
+Hash:     7ce0a597ef314d845527d5fe2910c8ca13ee7891117afc446683ffcee87b46fbe8c0dfe162cb09b76b05a8fdd1e91be852133421edba2fe0405530dbfebc1eec
+Salt:     None
+Password: Tiger
+Attempts: 6742
+-----
+Hash:     d2f58d056856a850e2914f3e2b2a87777cc29b063ef065ba50d24a646458c9a6d627d63744d39ea640fc5f364687bcb3029326c9efb42277d33f90c477507d05
+Salt:     None
+Password: aspen
+Attempts: 1393
+-----
+Hash:     3f462bdfa4ef03329b86779baf5d7601c3899dcb47d25249ea07c852373353ffe7d450226975eccfe566887863b0422971f51203492bca4cc12f32a08217555c
+Salt:     None
+Password: boss
+Attempts: 1429
+-----
+Hash:     cf7a4a223c276be3c60ce48185fdd7af2c1714fa5df35b179bda731c2eb70c7e664d84ca3c62de788ecf0504f05f5676486bdb38141c664d1b7532d9b70990c3
+Salt:     None
+Password: 44444
+Attempts: 48
+-----
+Hash:     9cab2845fe3910ac0c260627a0d8d22c7e46fc8c2f5ec31e5b6501753f41ec9660070545f841dd10eea70d6792d8667c3764782ff91c8e428b4c90a047deb7c6
+Salt:     None
+Password: asdf123
+Attempts: 1226
+-----
+Hash:     fda4f8928bec69579f846147e2a405943ebb629507a90815a41c2bb8c0e1686246ac816aa7029e1ea5372c4c88e7214734e9a48d2501ca339b7d573c83bf283a
+Salt:     None
+Password: zxc123
+Attempts: 3680
+-----
+Hash:     b5f154bb64b5a405e355945bb6ea0505da0e971565aa4b12206f44c4b988c6767a9db04d928d530383b850d2afa481a95bebe7935fe23bdbc63115d62e25dcc8
+Salt:     None
+Password: a123
+Attempts: 702
+-----
+Hash:     4120117b3190ba5e24044732b0b09aa9ed50eb1567705abcbfa78431a4e0a96b1152ed7f4925966b1c82325e186a8100e692e6d2fcb6702572765820d25c7e9e
+Salt:     None
+Password: testing123
+Attempts: 3502
+-----
+Hash:     e169706de4742c9389dc1a756031b3beb55b71513318824fb674c275533506a9594d063da89105a484298a3291c43792b8919d96e42e9bf6eb9bb6b19d2ad4d3
+Salt:     None
+Password: 123qweqwe
+Attempts: 586
+-----
+Hash:     b1179d0a9469ff227df18b9438835c14d298821cf8e085ee72691f960aea95667b64703223fb147308cbe0c8843fc7da5baf4a0f9a289ce9078f46146c73d915
+Salt:     None
+Password: barracuda
+Attempts: 1411
+-----
+Hash:     cb355c94df8de8bb14fc104856fb704710157899a3642059ad7bee23c274de5542b960edb32f9a0f26936cfaed693330eb09d8c49bc034b46443626b5f4b3f7f
+Salt:     None
+Password: zaq1xsw2
+Attempts: 3660
+-----
+Hash:     606a02c631437c5269c7d37f5f298ee60c46b9e532a851e34afaf9160a73db766e12ffa650d598020c2be48c423f339739267ff7ef54dd27cf8d7e2c83632e7d
+Salt:     None
+Password: 12369874
+Attempts: 131
+-----
+Hash:     91f325261bca90f05e2175299e9fee045003017047114b3662b79201d05342edc72d4f5ba805ac9961f2f43c66234b5070e9d4c67dd324198afb00eee4c916ea
+Salt:     None
+Password: tiger
+Attempts: 3505
+-----
+Hash:     b557d38a43ab42aae6f1586cef060afe382cab4db47305d36e3576372269fcece714952d70c6d9ed0a97cb65e648b4a39200c818d48343bf13f37f1e8d04d22a
+Salt:     None
+Password: 123890
+Attempts: 73
+-----
+Hash:     da649b8b154408a49ff1f3cec7c18f8bc6c5f9a91b8bf9db69230f49f89afe4a7ab588069b1bf6d0b42029c4d5d8068bb9e6e2f36632a84aa86d409bf79cdb04
+Salt:     None
+Password: Trustno1
+Attempts: 6752
+-----
+Hash:     4635d697eb36874d335a79538948c6eb057f291d3ab736b5554a15916445a2023451b767943e78de1dea3ea17244f28416ed185bb1b261d62d7cbc0ce96740f6
+Salt:     None
+Password: 888888888
+Attempts: 169
+-----
+Hash:     8d1482c5cff34bcbe612290a8e0fde04f3f51a6f9720076649e253d6bd75e4696d170eb73f2694a9a7fbf34becbd02f00587db44c998f0a1f2f3883997cfd255
+Salt:     None
+Password: qweasdzxc123
+Attempts: 2932
+-----
+Hash:     5d5e3556b020d364f88a3a8190a6f392989c00fd8482e6d12468549633acd23b149c3a19d225c312d2fcbaad7d0bd7725404152e6af6424159e30c7f073a985d
+Salt:     None
+Password: 123654789
+Attempts: 156
+-----
+Hash:     6213e43060dfa46cac0deddef52ae0bc7b52ecdb462a9c89cf6407baedd8d13cd5fd967f18dca258a01107da47401604ee3e7ced103ad2cbc8a9ab11859bc6ca
+Salt:     None
+Password: Kermit
+Attempts: 5249
+-----
+Hash:     0973f8914463aff0c947d8ee08c105b18d60f3165a1c79a31737dc605c67f61a90359d98c65471b3c462ff5ba50ddfdf83327c0b626818d37d99ae39dd39b7ac
+Salt:     None
+Password: as123
+Attempts: 1146
+-----
+Hash:     0832c9d168ead317eb81c32bda1969fe7749185ad0079657e1852f795fd9d9cfc287bd5f217520eccb29ea068256e0ee4d534754f4f41a6cb6f5d33c7a16da74
+Salt:     None
+Password: Enterprise
+Attempts: 4812
+-----
+Hash:     27a7e950096f8944110dbd99a141aaa29430051622abe0316aa1827af84a68b10e5e87b6e6781f8605ac354ff67c022672877c6d46eca40ba820a44fd24d5694
+Salt:     None
+Password: 1111111
+Attempts: 106
+-----
+Hash:     641be9435e821997345d798b70b7838b8251cf756a71c4fab4b22deb832b52ef4f46493c105bd09659a994ae7e6cc988b4beab4e37815fd0a825e7f2ce0f18d7
+Salt:     None
+Password: asdf1
+Attempts: 1224
+-----
+Hash:     12dd27533b72c2497011f3a2beeea1c090c3af2d61751208a6288fcffce64ea419bbb992634b3c0c4d9cdc6847558efaec391d3f4c50597f47d7bc18b3f785f3
+Salt:     None
+Password: welcome3
+Attempts: 3571
+-----
+Hash:     6f811a6385016d462666a6f5ab138650678a0697f91760d27ab04e96961eb8b470188962e80b1aa9e910cbe921084c211c2b1baa5b8be9cf7652648889101895
+Salt:     None
+Password: 1020304050
+Attempts: 172
+-----
+Hash:     21812924d2ec202b8fddc2c37cdd1057ad972f4e91b5ddc008b716c10a2f40a5cb1d14770eaf69b4b6d4c055d0cdc59ae81b2d52740c6d5a905e2600df79f99a
+Salt:     None
+Password: Asdfghjkl
+Attempts: 4599
+-----
+Hash:     3f2d7cf4663d75f330cdec8acad42f69b8f1d2cbe7f11210770f80b1fee1c0b2db5a1418cf12f30bd28a087d30788cc61dd36cb1bea14dd3487a623025afbe61
+Salt:     None
+Password: Security
+Attempts: 6474
+-----
+Hash:     43192475f95e3820fe441daaff7c84d9b73ca3a5afc7309ae03f783151b6b0976e4d68cd990f97ad0d65ca640d35a407199d6d7510f1dff5477b8cfce1531475
+Salt:     None
+Password: Admin1
+Attempts: 4261
+-----
+Hash:     ecae99df5f669ec764ad8b2db1a431ba53669e47991becd8b121593110a3f8511d17840e0915978401963df3aa0e53edb160975c641e6f1a493acc3eddf98719
+Salt:     None
+Password: password00
+Attempts: 2565
+-----
+Hash:     04efc806a008e1c9bff3eb7c8023a084f889066dfa5706cfd395fdfbce40d55f7076eb611f990844e45e5885f8dfbdc4aee545c229adcc82934da830b9ad0461
+Salt:     None
+Password: 1234554321
+Attempts: 178
+-----
+Hash:     e023d5f21f6692d39938992399067bf65baa58d7f1287325c2daeae1f38a862e694e3fe4752ac3a2184117e605b888bd0852aa83623996e340949501edddee95
+Salt:     None
+Password: Jeremiah
+Attempts: 5237
+-----
+Hash:     16e249e81e35cbb0fa9cdf00d2ef736577918527beb0f754abde8e28c727c258435ec5911d573c142503cd9c51eb15c1ccdeedca0d4f7b4eb160161c46e196ce
+Salt:     None
+Password: jupiter1
+Attempts: 2006
+-----
+Hash:     36e66f9a4483ea1fdadf2301c22ce34c639cd3e6d8a7df0a7d3df359b221773db02d15d990f0c6af33237e69a15799116731eff046a5f7d8dd2730ea01c27785
+Salt:     None
+Password: john123
+Attempts: 2002
+-----
+Hash:     b080ff94931b1aa6a42aeb304be9de8cf75214253ba650951d7ea788129d98721ef4399b653ad0cf35ea37f27a4473a42b18c7399b470dccef78dd650b247d53
+Salt:     None
+Password: pluto1
+Attempts: 2659
+-----
+Hash:     9234453d164e244b6af97e020dcebcab9fbf7741f3859267394b4ae4a6c972775839baed523ddea1f19b14c1e518915fb67cd06fa1c27a869eaec08f5f7e4a13
+Salt:     None
+Password: 12369
+Attempts: 43
+-----
+Hash:     354c14e78854a9d2ceccfcaf8327ff9a6606a18ede5d6c8c80f613542dc3c29018e246700469d3aba071034f33ef69b8731859d3b0f0cdfa727214ef0b0a8fa8
+Salt:     None
+Password: asdfg12345
+Attempts: 1257
+-----
+Hash:     7ecf5639b92b865c7efdd775bd9ddd229519c5ca0ed85c6ff1c5ca5bee2f8515ca3a369e3478c8354adeddaaa0df079b2d9af123aa02d2717aaeeddb280a859a
+Salt:     None
+Password: 4488
+Attempts: 27
+-----
+Hash:     b8b38c2afed24a22914b935091ca24f71f6c19689c506410e7da198d7e8ae1891ccb6e057d709c31a813fa545db6fcd0f89de591d3242fcd27acfca16e1e24e1
+Salt:     None
+Password: jacob
+Attempts: 1997
+-----
+Hash:     372b1d6b6bdb82ec99ad2e7f4a1a730a3f608792325849da3d5a0d41b9a24691d028ca1432a64487d45f3fb5ebcfbc5ec70d7c8d9c774c3d8b1fc1914555ab48
+Salt:     None
+Password: format
+Attempts: 1598
+-----
+Hash:     4cad462e0cac7b35b6762e14efbeb38c3712d0c7210aeb69eb618ed1dddf89f952b617d64fd1f7fa6bccf9cf169fc05cd1bcc652349f26deaeb58cfe8ced7958
+Salt:     None
+Password: school
+Attempts: 3231
+-----
+Hash:     05815e12e515f36d09149ee9eaba48b5a9a413e1f9134d0386d72b977d08bd0d2cdf798df327404f801ab54a33d68058a260c0d899c4f320c337c4f6663be3db
+Salt:     None
+Password: 111111111
+Attempts: 152
+-----
+Hash:     f2f1da4b0517e9b968280767ccb22d686135d4b2b1b7d3c858006a70e1a7f6e0a1084fc1a23f3d57977520853ce513a37c1180b0f54e521c3c584864a4043925
+Salt:     None
+Password: A123456
+Attempts: 3946
+-----
+Hash:     718954745624b996a5ab67cc80a93282d8ebec0da6f27db323f89731f86cf29de2208593ef5c72aaa4e071399f30b3c33e71ca82c8b462bb22d567dd9bf32e75
+Salt:     None
+Password: 1a2s3d4f
+Attempts: 599
+-----
+Hash:     43caea47ce5b99515e6109bf09a8e9f4fe88fe36399a658a54c2fad928afefdc94daf2011d29003c15c206a0f75c493c54e9fba10c5ec3e9f71275ba24506c6a
+Salt:     None
+Password: brutus
+Attempts: 1431
+-----
+Hash:     4a8f67db0aa63e23d6c9f98c667fd906e63b5cee878a92b5a0f81c7458939b0ba06836101e29463f4f2456cf030c84667641f94d5792759054720acd7500b09a
+Salt:     None
+Password: 1qazxsw
+Attempts: 652
+-----
+Hash:     4461a6865d191b75bfce45caa8b9f936517310f04ddebfba2669d7526cff73a4df682d002cf10f52c51e70d904084caa68e81f6a13be67902dd2d5bb778b943d
+Salt:     None
+Password: 1212121212
+Attempts: 176
+-----
+Hash:     318f3f005a97a26456bb9b77024eabbeba2ad71ca423636a16fd3430bc9e9f4b347d9b9856ebc238262b0bd688b1d6333653e0d6faf77abbc3622c523326c5c7
+Salt:     None
+Password: abc321
+Attempts: 854
+-----
+Hash:     3caf84e8248c5d086862d40bb2c37fe3578930cc763f036ca0fd1a84f61cec2651ae431ea8495f8984224b3dc62e463ec00a4fc259de49e47d60bcaa34652133
+Salt:     None
+Password: pa55word
+Attempts: 2444
+-----
+Hash:     ccafb6eeb4b6918d4d55405b1bbcff006bf01923b89fe22dc63adf38ccdc9e7ca2d69b2b1720d4596a8fd36e8c11273879675192bde1b8e745f561392d1fc112
+Salt:     None
+Password: Pass
+Attempts: 5685
+-----
+Hash:     63382bd8848a40faac368127473f4f1dc0910e151b7f426a0263043179df8333515b635d6abdb55a76bac03675b992cc50a3303fede0a1083f0efa6b04bc32bb
+Salt:     None
+Password: 212121
+Attempts: 80
+-----
+Hash:     6491cacf01b2e1c6d08a5609d2f570ea57d71ae7f06e0391276d70d935d29aa51888d566751aa36dc5e12e18da693ece36427c167e2a7a67e48aca8928ba3979
+Salt:     None
+Password: a1234
+Attempts: 705
+-----
+Hash:     78c1f5b3782d54fc108a484334b5fa0935ead2e116fa8837817ae459cbee450bf0f7e3fd50c2920a876ac738598aa38781b7b7d36a4b5948341d18151c263885
+Salt:     None
+Password: winter
+Attempts: 3616
+-----
+Hash:     8f0c661526fec2a6c3216ff3c870cf1909e97e7f59e5c150591130e9b19f61c5958a9daa48c00e45201e16008e9fea40c88d3fa63614833cdb2ca1edde57ba85
+Salt:     None
+Password: 111qqq
+Attempts: 475
+-----
+Hash:     95a89ab21a2811e8ceb1d75eeea4d329b9a9d3b908b4014104025e50c981003f3969035a1eea8242617eb55e716c8b2c11b4c406683a0ea06b571cf6ee539418
+Salt:     None
+Password: alfa
+Attempts: 1125
+-----
+Hash:     6ce682cac7189cd107b25c0413928c066d774290fd312ce2b09719eae42a8858f96e516e3b6e2c26f1891fc9eafb8f2da6bd030260461e3323931cd254e8fd88
+Salt:     None
+Password: restore
+Attempts: 3212
+-----
+Hash:     e23022ac3bc108ad0d3d40a5dbbb0ffb17d2e6ad1cfbb6149078aaee2eba89d52a88ac99948294423f3b3ed1f549cfb8a1d3c9fb68c72bb37ccf1bd64d019ea2
+Salt:     None
+Password: video
+Attempts: 3541
+-----
+Hash:     9fcffe1acb716f176ca73cbb1cfea77b1b9c8d904171efa19b2471e293149194010fd3ca56a3b9374d19fbd441854dd92d06563b4d7a14a8a566fb76e359847f
+Salt:     None
+Password: config
+Attempts: 1474
+-----
+Hash:     489aa324e6d132b7feb845c02fc539d40cd10cc922bcffaa1385acc4d5e223f66394bdd1cfe9948a50ac90687a3d755098b81c8b61750ca52acdb23fd7319c1c
+Salt:     None
+Password: telecom1
+Attempts: 3455
+-----
+Hash:     eaa93ef7cd3caa35cd0ad5fc8d7fce9d3fbfc687f27b83ad9f261a26fc4fdef1495d9dccf024e4273a2a1b55505e04da2efc52bbb6736fd9766eedc4b6e2f143
+Salt:     None
+Password: goodluck
+Attempts: 1719
+-----
+Hash:     22362124f5c8324fe96128e953575e33f3ae8b95085ddfff598b5398cf1757f428375e97238b073e55acf12bc0d285669ef18f0316e14f0584bb34746666e276
+Salt:     None
+Password: qwertyuiop1
+Attempts: 3174
+-----
+Hash:     b8474ff280f9a804057ce0b5055919345244f0abe0184a583d903fec09786913011ede0bd7b753b1866b1dc85bbfccf6844f49721f5dec27e506e5c5d2ffc216
+Salt:     None
+Password: 44444444
+Attempts: 140
+-----
+Hash:     d0b820f7cfebe35874c00a36da10d7489d7ec542d9471877731e6b26d963af3e61b8cdbafa3f27b442da7aa7149205c3f5aa89b67f2c0093cdad6129d90f3c51
+Salt:     None
+Password: Panther
+Attempts: 5684
+-----
+Hash:     b16ed7d24b3ecbd4164dcdad374e08c0ab7518aa07f9d3683f34c2b3c67a15830268cb4a56c1ff6f54c8e54a795f5b87c08668b51f82d0093f7baee7d2981181
+Salt:     None
+Password: test1
+Attempts: 3486
+-----
+Hash:     0d61f6825bd23386b79c5fadd3636dc67201565ea48478c01c4779a81851de38ab7863ec6dd0f2391a01613910f8a851ef11cfa23295778558a78632a78050c1
+Salt:     None
+Password: 1234qw
+Attempts: 552
+-----
+Hash:     224618140bfc859ec0a8ee7218cfc717fea3935121b04d0ee7c5e4fe6b385790af1f168a51d5e034d07177a8e844abdad3facfb7d7b62f0b99ff022a88a6ea1b
+Salt:     None
+Password: china
+Attempts: 1451
+-----
+Hash:     a5a7b3fdbc0a23a5c15f1314b3f5b7dacd91ac51ac972ff29368540423783d535866a7b8331d8c0a0f419e770eb2890da228f271d2cd3476357e230273ee2322
+Salt:     None
+Password: Chloe
+Attempts: 4689
+-----
+Hash:     c46fcaa9f8455729684ec8643cb5df766636f7c9837eb2a39e88069e69a621b6ba7095088e92bf55c63e74f6daa9ff14f754a172b1d78fb1604d3624f545debd
+Salt:     None
+Password: qwe789
+Attempts: 2912
+-----
+Hash:     2a58ad94cf5bb0c3a9469767af0d96cd14e0e64896b007ae9f1f38cafe3a910978aefc907e0c7fbe5a06741bc1bf74528ee11eaa228acd792a823c7507ad02e5
+Salt:     None
+Password: admins
+Attempts: 1116
+-----
+Hash:     11b87a205616bdf1ed57e8c4b55e40bae3201c8864fa38074f93cb3415f727cb685d9391ab293969cbafaab52bdc6965d249c94fbf509bf04f529502a910c18d
+Salt:     None
+Password: quake
+Attempts: 2785
+-----
+Hash:     d9f9f52ffd46699bc056a089a513b0460195c4c0f6315439f252eb17339be2ac54fc5ee55e21da230666e6f59c42aec33057a5d3ac6dab1a9cc9401f2e21367f
+Salt:     None
+Password: duffy
+Attempts: 1564
+-----
+Hash:     5c05d25b14799ac1cfbc8a5f45109855e9fd5dd50ff910144f480371978413cb9da91446e524be1aab3a7bcdcc5a76552945596f7a065fdfb9be4610a062a9e0
+Salt:     None
+Password: Aa123456
+Attempts: 4008
+-----
+Hash:     ff84abb1970b527abf2e96539a5944c844ef5c42df3c6479cda7d64543cdf3e1326878f388587c3aa8913b6aed65f408fa177236357607c22df75d1e1ef38d22
+Salt:     None
+Password: pass1
+Attempts: 2467
+-----
+Hash:     0d055a9f02d11235871db33bfbe4f3125e439c575f8b789231bf5962ad3b618b899cb717face7d400249f7212de7619a3f1fa0abe0e671202e2aa8e1da950bc3
+Salt:     None
+Password: 12345aa
+Attempts: 542
+-----
+Hash:     e6035225259c2a4b7a8d1ab1fb5317ffac1471632d5fbe5752f4fcd1178ea2ac5640e85ac55c58627dd968b3d9b92a4fcbd33263c2cbf6d6f2a5fcc410e3dd2c
+Salt:     None
+Password: domino
+Attempts: 1551
+-----
+Hash:     57acf66b146e4f606413e8707ffae882a5ea0228de3455c8efffd439f6ef1a2a04eec109d2879bf64c1d7e05cdd808a14db5c5b0f6a4ccf758d0c998058b53cd
+Salt:     None
+Password: 2000
+Attempts: 3
+-----
+Hash:     5577615397954243c39c09a406af0117e5a9875eedc538b45c352103abf52f7db6410b444e68a2d1bad66e56921d639e8258d3f749fa371cbad2a4486622003a
+Salt:     None
+Password: letmein1
+Attempts: 2021
+-----
+Hash:     9df278638225d6251714c6830338049966e799efd64917b57930d4e78413da2d0e47a7d25e804b637e5508d4e21294fc9f6dab6a18aed54ff06ff9b8c215a7c3
+Salt:     None
+Password: aaa111
+Attempts: 779
+-----
+Hash:     dfbd86405317a881e52051a9ecdeecb10fd968ed30869ffddbbd1916bb62b9af552246e34a4f4d22a88acf5badfb694525a111e66d3ab9506ff4a963796d097b
+Salt:     None
+Password: asdfgh123
+Attempts: 1284
+-----
+Hash:     e70bdf701bd91b2357ec83bd6fb74d602f2883beb6934de21c9bffa0fc0717a9ee6ef9327387ac2b3735a3be9796754a03941059405955999e2302b0ae7efeb6
+Salt:     None
+Password: Michael
+Attempts: 5305
+-----
+Hash:     3042506b59d1afc2587e446d85218e82e22b6270c57b5d9c3de9f973cb79427d2453c1e1dbb681a4305c26806f93203c3d04310ed93fc8da0c4ab91bc388ebc3
+Salt:     None
+Password: pete
+Attempts: 2653
+-----
+Hash:     42223753e6b21d37e76aca32dab67ee29eb0acaeecfe8ac23135c6ea3eda0c4f3fa84c15ef24b4b7cec2e26de38eead0062e123b79832fdb5919174b44e0899d
+Salt:     None
+Password: 123qwerty
+Attempts: 590
+-----
+Hash:     043e34a704b33e08d927e54bd45800259e2280970f0dfd01bc72b15e0935445c25bb878989a43812ce27a31e42a03f8d1585e685d03dcc636a658e2b352f847e
+Salt:     None
+Password: qwertyui
+Attempts: 3128
+-----
+Hash:     f74f2603939a53656948480ce71f1ce466685b6654fd22c61c1f2ce4e2c96d1cd02d162b560c4beaf1ae45f3471dc5cbc1ce040701c0b5c38457988aa00fe97f
+Salt:     None
+Password: aaaaaaaa
+Attempts: 790
+-----
+Hash:     cbb789f16b83d8a318083b7c5b7471ea6e5e8532ee0052f2b71424f8c610fdecd1852d56a7bb5b3d2c7db680a332ad67f23eb44789f0ca78d312b8e2c2b1a215
+Salt:     None
+Password: super123
+Attempts: 3368
+-----
+Hash:     2f116a908cf26341547be5d4eec5d9e325fa75f1b6bfd6ba1618d9283b9aeb60cfb00a6a8508e0bcff4e673a52abf31cad6d7b26ba3994c087a0566ead3b2330
+Salt:     None
+Password: 3333
+Attempts: 24
+-----
+Hash:     4e3a7a693977623aaef23a2dc3ceed0f28ef7a143230f71b06b5a4e49de734d34f2c61f74b837bebef4bd21c35061357aab503d26aaef503bc9045af6d64431a
+Salt:     None
+Password: 1122334455
+Attempts: 175
+-----
+Hash:     51b302aa1574153effa8c305c2deb4a645b1186f066d23235b32cb8f3c5c687f53dc7c439cfb75a0a7c606f87d3c30e3fe47d9602b7c1e137b9c4c008ed4fcb0
+Salt:     None
+Password: computer1
+Attempts: 1472
+-----
+Hash:     a68ced3219215087d5289c5574b94da5e966df8f5b610b267f3841e91d2e946f7478460bebe9d5f1a2a9fba344e384fa339e106616ca9599296c367053880d55
+Salt:     None
+Password: enterprise
+Attempts: 1575
+-----
+Hash:     7fcf4ba391c48784edde599889d6e3f1e47a27db36ecc050cc92f259bfac38afad2c68a1ae804d77075e8fb722503f3eca2b2c1006ee6f6c7b7628cb45fffd1d
+Salt:     None
+Password: admin123
+Attempts: 1041
+-----
+Hash:     46a8179e3c1747eaf5bde1d1000ead996452bd8766f57561344c77e3be2fae5a58121d0690d46a0e202ecd371fe9397177418ab9d505e3c7d545a78deb13357b
+Salt:     None
+Password: sanane
+Attempts: 3227
+-----
+Hash:     a84977b28cd7a12b34216277e8137326ab641154bd605518cea4502b37f47c44dcdb19b711be73d036471aef8f69d19341c07adf60dbed7a3f60b887362990ee
+Salt:     None
+Password: 1998
+Attempts: 2
+-----
+Hash:     4ce9bcfe0c5447e88567897055b58a1b9a62a3cb868a5560c63971ea44d20ee39b3f00a24d7e3ad52de5abb9bd07f1ffab2ceb4569a85c122624837fa4cefa99
+Salt:     None
+Password: pepsi123
+Attempts: 2652
+-----
+Hash:     5a46ff4ed1ad5ed8ad2acdbf8f6dab532351f3dd999708e3f179aed0ede4849d07727f85afb64ddb8a71edc6dc633e4556d2e75330e8a8227bfb6a267c7e4d96
+Salt:     None
+Password: zxcv
+Attempts: 3692
+-----
+Hash:     d8022f2060ad6efd297ab73dcc5355c9b214054b0d1776a136a669d26a7d3b14f73aa0d0ebff19ee333368f0164b6419a96da49e3e481753e7e96b716bdccb6f
+Salt:     None
+Password: abcd
+Attempts: 865
+-----
+Hash:     7b438ec778e077ce3017dd45dde2dca8dd94436c7c4e5faac83c7c33f9d856066f502fad0fc569cf3812dc97a25a3bbd4b3bf59fdaaacb5f6727d33b74d3ff94
+Salt:     None
+Password: anon
+Attempts: 1131
+-----
+Hash:     872f87e9091bf02de5a73c9ecab3a741d7975052fef6303248ad30a074d7ef087b6bcb1406ea171a97fafb289f6a15e8202bd2a7c49b340504b9e7f31729fb73
+Salt:     None
+Password: 123456aa
+Attempts: 534
+-----
+Hash:     51db373be1428cd7b4c40a9a858524dc8033db01fbe1cbfcf1b967b63a5f3a2cf0d50a376239b8b55c3ed1ebc45aabdf06915a184886a27732351f09bd1ccf9e
+Salt:     None
+Password: Christian
+Attempts: 4691
+-----
+Hash:     3f068dda8136a42f4c05801ea490c6eb8d53e3a2faceff16f42d677c0ee1285f85d886bf5cb7e32b865f96b38d4254b08f79bc79b3db8225f61fa04979c0288a
+Salt:     None
+Password: Welcome
+Attempts: 6797
+-----
+Hash:     b8bb407042f0407901560fe8afbb86b5bf4ef4eca38ac87a7137b9cd212906f7d2dd63df81975f00484849c6da3f6af5489d447222a4def22cc8485c78cb051a
+Salt:     None
+Password: zxc1234
+Attempts: 3683
+-----
+Hash:     5517b8e3860bc6dfe184a9965bb8fbcff605150d3ebf2d384b1207339cfce0ca43079452563e29420c37842d0dea0f2af617fe158661bddec9554d3d8e7abb41
+Salt:     None
+Password: Jordan23
+Attempts: 5241
+-----
+Hash:     f48ae7e04b034b99e264aea103a43b84bfbba0a78cf9be805bc13416542a02f11182481fdaae563791ffff98e453a82661b18d9c42eaa173716e506d9df22b4a
+Salt:     None
+Password: wordpass
+Attempts: 3623
+-----
+Hash:     e1f3f00636603abe0aab2f561dd867e002b86d4db7d794343cc26320513fd26bc54c4c226a7e27a472bbc9aedab071683827f2c1438c28204287b1a754a7a3a1
+Salt:     None
+Password: 15975346
+Attempts: 133
+-----
+Hash:     31849665d351e2978625cc60ba626489835063dce8590d82e064ccd3e10b9f94ef273e738d98a7a07ff9ff777de9029e291916a2472772d65460832644f54d1a
+Salt:     None
+Password: ab12345
+Attempts: 796
+-----
+Hash:     56f4b936a0273e1b23d1bc3302a55b245c45a50e1a622cd84f9a5c203aa792efd4ded574a86fb9dd775e4a21c076b2eab4630210138112e5b14e0f4303ac2270
+Salt:     None
+Password: Joanne
+Attempts: 5238
+-----
+Hash:     d063026500742bd248119a948c40f4d2e6f1869c95b327ba00ecd333fc564f56b30abc9fa601f8fc25eb4e40909ac575715a0188ae22f968937170acd5e4908e
+Salt:     None
+Password: Sergey
+Attempts: 6476
+-----
+Hash:     18183fb3f3b5c847bc2692b812d3c4890818bafb0c12e0792d89801bdfd31cb9225e165a6faebfd5c44a95d64c8c054613c59e528540d14ae2af0142c22ea7bc
+Salt:     None
+Password: abc123456789
+Attempts: 847
+-----
+Hash:     7f856029c0a006af896a52d86071d47f6b0c60933554fd16c4a837d8216f6a1875b69b1c2972f15d59bf517c390f13547da02868d29e0f913c76de86bb9f2a7d
+Salt:     None
+Password: 2009
+Attempts: 10
+-----
+Hash:     2fbc66c4dc65497d0215c68eaa88ef90fc19a5562fc7dedd2e177390939a5dbd8604fb377459fb0edb15d85eb3ecc0c01ede4bda708305cf6895428526bc54f1
+Salt:     None
+Password: power
+Attempts: 2661
+-----
+Hash:     e1314938682b9864a59140b5a6993db31bb95a07e0c27703df48d352fc5ec197cfa9506e5be58ed241623b63f540c79486bb8b305e013a73a4fcb546d1a49be0
+Salt:     None
+Password: r4e3w2q1
+Attempts: 3200
+-----
+Hash:     4d6698c1e6b230c5ff80935bc26b722e743487b05b0da398d4716ad43e725c17e8b02ccabc2c593b5dd9547191386ae5add75a8873b3162d9544b7eba873a170
+Salt:     None
+Password: 666666
+Attempts: 96
+-----
+Hash:     f67ae9c4896d0c8a6214b821425103f7818a0010c2ee35572213315dfb1f347dd89903899820a6b01c948114ee07fa71571939ae9c644634a32127045693fb6e
+Salt:     None
+Password: romania
+Attempts: 3214
+-----
+Hash:     e43788f5cdaa2acfdbdec0a0d79df3c1fb074906ba83c17519ee570e3e5fad643e573cabbed2ae50614604d4ea63b600109c6365cc8007298da65c6ca73644b0
+Salt:     None
+Password: Qweasd123
+Attempts: 6162
+-----
+Hash:     552673455f0e554cc30a8191f4db4fc44c28a6d83a964dcccbeea722166ccdb9df4ac0c360d852943f61afd5d2caa317407966493a49de3ad12e7d0927795b6f
+Salt:     None
+Password: Princess
+Attempts: 5902
+-----
+Hash:     fbe3d0c76a01499b44902c726b7618aca7d7a082b0895f5c32dc60699032c79e56ccb771437c40be54ed22ca742b765e8e75beafe0bfc2a517851c410dc6ad48
+Salt:     None
+Password: 123456a
+Attempts: 532
+-----
+Hash:     19b702b6f1b135ca009ce1df13d84738b74cb7445af63dd36f2fdefe77df83fcdecf307db536093528242c3ce52a9350455acb1e8ad906fccd40fd095abab4f1
+Salt:     None
+Password: frank
+Attempts: 1631
+-----
+Hash:     81fbf929a6196fae3564d34457b0f2f74345786f9fc3a762039f57e8d47f5f8a612e61a96f33ee165414de36e7ab0d2615667a7636ae5d598b5afb25ce87c0b4
+Salt:     None
+Password: asd123
+Attempts: 1185
+-----
+Hash:     6921ba1a776e84a1cb85f051694f6333cf8e6b37994d0170f01020c2b45c3a5afc13e01df8f1cbc8bb4df6b64adbc079712f01f22c91a48ed66ad623a1ab38da
+Salt:     None
+Password: ellis
+Attempts: 1571
+-----
+Hash:     df6b9fb15cfdbb7527be5a8a6e39f39e572c8ddb943fbc79a943438e9d3d85ebfc2ccf9e0eccd9346026c0b6876e0e01556fe56f135582c05fbdbb505d46755a
+Salt:     None
+Password: azerty
+Attempts: 1402
+-----
+Hash:     3a1a552f3ad49b6faae93a23ac6c201270a54bfb07909dbc80a7903d59b446d19f9b27fb32ae290522b0dc6f783ab812295780a448664d87fafecdcf3f3639a4
+Salt:     None
+Password: 2013
+Attempts: 14
+-----
+Hash:     5f5c8cbae2b9561015db0696e389697b64fb880d1b5a895709acdfecb43c081bd0432eb9a973a6d3b44428cb78ab12e41b189df9fdef48eec0cb70433622217f
+Salt:     None
+Password: ferrari
+Attempts: 1589
+-----
+Hash:     be25c4df6d39ff6598699fb8f0a21537311be54384ba4942f3c799da58d2f8d49f80cb5f8f765fe9d816571e27543d41893024beb68aaa338ceef699dbbf9f58
+Salt:     None
+Password: Private
+Attempts: 5903
+-----
+Hash:     126a8d3c19b8ac09bbcc0a94395ca098d052265e98fc2b08c5f3924f218adf51b05603d8c991c41bd8d6642f56ea5ce9a5cd09627e6bd9129e899f5da42a7e1a
+Salt:     None
+Password: winner
+Attempts: 3608
+-----
+Hash:     70e9b857aca8d91bc6407f76262723939ea25cdaf74644820afffd28cfdba12d84121fd225a1c7bdac0c7d9116e04a08bde682716e43d24ac31436b8eb8f575a
+Salt:     None
+Password: user123
+Attempts: 3533
+-----
+Hash:     3f6d490169ee7c5d787b42ea4bd919769a4307dde700f9f72ba2be3ab7890cb2548cc038d6a85422d98252cb9d1d22a51975eef360c5ac197aa0e1621cc9b5f5
+Salt:     None
+Password: as12345
+Attempts: 1148
+-----
+Hash:     68d93fc5d13a2c64d5e072cb8aa68e00afac06149c1d6b674474c2c7d31077bd35a42f856462512d96c5ac51ae8f85434b6f911cbbc61c7a66c0f3d10e4b533e
+Salt:     None
+Password: hibernia
+Attempts: 1975
+-----
+Hash:     2d41a1c6a72bc8fd84535bc913d7b7a5b9227e07ea3ae04c23ece1a8af584ea1e06ab33183fcc9e905de24e22a322a6faa2174084e1c22c248a49345be8f997b
+Salt:     None
+Password: 1234ab
+Attempts: 546
+-----
+Hash:     9fbc985c6ed1181abbdceac999dcf86f3321b4ab6ccb3c5eb3de0d769d2263bd298dd0cfb15c73a74b802b1796b2a6450a9c23d438940f4a84e7b1abb88c0951
+Salt:     None
+Password: Service
+Attempts: 6577
+-----
+Hash:     7df18b45d1d19b6194aef483b0c6d376f9a3cc925f2a919aac149e32d11a1665233ee835942fe9a01b3b012f82d9760d4be148e35ea109085a3fe49a86e153a2
+Salt:     None
+Password: asdf1234
+Attempts: 1228
+-----
+Hash:     85d7741af27f18cbefc7fdc96d4465f63d4e8da2126a196f87c4f7e1f65298855a0e4a4a8986936eae95e2b899e837c48ae39d8048f907ebd0095c87c49fb0af
+Salt:     None
+Password: client
+Attempts: 1456
+-----
+Hash:     a42a8c1b6a80546f6694effa53e4fafb7405af59f4b79ccfa1acb98357b2c6117012baef3d2ce069c20b50f16e32d5c35bb43fefa57b0e3cab0f048698db730c
+Salt:     None
+Password: 159951
+Attempts: 79
+-----
+Hash:     e13efc991a9bf44bbb4da87cdbb725240184585ccaf270523170e008cf2a3b85f45f86c3da647f69780fb9e971caf5437b3d06d418355a68c9760c70a31d05c7
+Salt:     None
+Password: 1234567
+Attempts: 109
+-----
+Hash:     cd17d963a84d81c5b31a71314b1800d1921c9fdbc518490d95109f574428f633e80d10a3bac8b3166a334f6516061034cc2b6b30ba6f02d3ef897b34979e03b6
+Salt:     None
+Password: 147258
+Attempts: 76
+-----
+Hash:     fa7f15b45765907125ac650ee2e43fbe91c71b3522b18c57bd744b6745b707ba83b9b507dfa22c4ddfab637bc75a720a9e162f331cbf293882904fd64d45adf2
+Salt:     None
+Password: Qazwsx1
+Attempts: 5992
+-----
+Hash:     11bfebc7731ca3753fb7a8ee33c50d29bd61e784f4e1dd3ec2b758d3bc6cf1b1b46837bdeb52a11b58b2c2b2f017a84fe74dd5625ba89d12d9b0ecee5eda9353
+Salt:     None
+Password: qwertyuio
+Attempts: 3150
+-----
+Hash:     b76ebedc838d1f33d607c917c6405b175284cf03bdabb99a88a5791b31f5871e990ddfef351ce68a2a1b795b6031e321233fe8685eafbe5532753170b75ee713
+Salt:     None
+Password: qwertyu1
+Attempts: 3105
+-----
+Hash:     d1ff70451d1f0b94f551461c5ca239e498f571add4542c381e3eef84eac24aea6d12f8333ef4a05847e205ef4bb094921314364e7648176f567863d982042a85
+Salt:     None
+Password: aaaaaaa
+Attempts: 789
+-----
+Hash:     92e2832c79df4c5501d9cb27edd4b35992eb0e7d6c892362b28e7c006d900159abd89b2996f013f51e8dcd11ffe1c1796f07b9152612e4024f8a2743dde2e18d
+Salt:     None
+Password: 1q2w3e4r5t
+Attempts: 625
+-----
+Hash:     bca15018529fd2e0f169effbc41789e9c245f451d7ac606983c75b20b9d5e075932ed228b62a8067e84dbe7b5dce6804f16886e265d42bc2b847f44c64c5a5e7
+Salt:     None
+Password: pass2000
+Attempts: 2476
+-----
+Hash:     4e83fa81ba02535ddc5d7e2f9b6ee1055df21f306aeead80942e013a85a72f0cb203bc3a2cb39477689656566d1b6c419ad03e0df6ae7950c5964c00c1e539a3
+Salt:     None
+Password: a123456789
+Attempts: 722
+-----
+Hash:     7a9b2a35095dcdfedfdf0ef810310b409e38c92c20cbd51088ea5e4bc4873bdacfeb29f14b7f2ed033d87fad00036da83d5c597a7e7429bc70cec378db4de6a6
+Salt:     None
+Password: aaaaaa
+Attempts: 787
+-----
+Hash:     9d9f1d99d6a2e8488d0c330269f0a15d1f56bd4b309c840ff678fc6a32f15e2cf6efaf76e4d5471e7af9f88a12014a7ae6f91fa2e08fc622493920a555290c93
+Salt:     None
+Password: private
+Attempts: 2666
+-----
+Hash:     617a0793462360bde008d17b9adaa2ba7f839d495a3a1b6f85c54d9f03ce1964185f7d92e5565150b81370586ded60c03c3a02038adf3442ac7748c0e965ff30
+Salt:     None
+Password: Power
+Attempts: 5898
+-----
+Hash:     3bc2059dc0c893324326a57762f07575f8ebf20224292596cb952bad3b31cb1058dd41f5dd0904467ce8ef58177554e2d55fc657c7a4ce2730f4d0a116aadd09
+Salt:     None
+Password: Changeme
+Attempts: 4683
+-----
+Hash:     03fc33e5ab85d91dbd2fff8e844bb05d8b153cd5ddc2ae25cbf97ab26fac02664fd624b8ea59dabc0d0f0177da0b3a63244754983c7a9dd8264ee5057f689fd4
+Salt:     None
+Password: William
+Attempts: 6812
+-----
+Hash:     ab6a4b60a4618419595c6d9b5cad8de7be93c8eb6d304f564ca2badfd2df6e1f62d2dbedab7bbf62e4b11c00d3ba5d8d45594fc6c9fd6ebb90ea5ee43ef165c7
+Salt:     None
+Password: 147258369
+Attempts: 157
+-----
+Hash:     8a2dff09aa08eb9b0bed60a96d97d1a8499db0e6ccab3886b6f170af6814e3ec0f76ffcfcb3b2a311c4a206421204b173e9a933c5c59ebc64bdfe067e58fb03a
+Salt:     None
+Password: online12
+Attempts: 2205
+-----
+Hash:     936b49f641410483ac946a9f62e6881318b2102e114719e4b629e90c57024d83900685223848871d7b37c9a3a80b2a7c7dd4de3730ec2d4919e8430275ae19c3
+Salt:     None
+Password: Blue
+Attempts: 4660
+-----
+Hash:     49b5633b32e925bd192f3045d3e0ba0a5f7e385fb3fdb5536614233bded05ebe0539ece662b62cfebf77ec3629e842161f4143c6a7d71e3a5760e2b99bc02269
+Salt:     None
+Password: qwe321
+Attempts: 2901
+-----
+Hash:     73941847d9611927275d93139981ee78316de50bc51bf398f8ccdd778c7723f370cb252c5293c085ec3c6a3d185246837ed71d651a679cb680793581ad77ac24
+Salt:     None
+Password: qwer
+Attempts: 2940
+-----
+Hash:     b34c2bbf09123436512c0c76cac919b05e11f3ef62d23d4bd1b4e14bebf88123ece9081cdcb7a595e49fe99da4c1535953b9764d51c1cf9482793b9b36972cb0
+Salt:     None
+Password: master123
+Attempts: 2059
+-----
+Hash:     da2ca4a2b6616e28479a372752377f23a2361e1df855d881ac987341f837e3f260f6d5d68e40f0b1fb62d98e3309a3593b12314d6e7b91179642426709c5d6f5
+Salt:     None
+Password: 1q2w3e
+Attempts: 612
+-----
+Hash:     47d80e3d06534ada8054f085b1e04d1eb9e0ecab0c1ca75bdcc701a37170b7fd38d6583eb89eadc380445da3ccbed0ee488b86a69d5db61caf967e0b4b6d7427
+Salt:     None
+Password: abc1234
+Attempts: 839
+-----
+Hash:     ee544df7ea3737b68a2d50d62efb43381dbb4871a9955cee787352f4f073cc1287fad699069f14f4c7060e9735457742068a48df26680f5e8194ee57502c8dea
+Salt:     None
+Password: Winter
+Attempts: 6853
+-----
+Hash:     26e4f0aec6ab6290f1538840149e1ceed84ec59793a290ea05b999ec736cf94828e0c7b15f2c1a3888548a64bc7eaecf5edc574a5a5d130f80fe77c74ccf3aad
+Salt:     None
+Password: 102030
+Attempts: 58
+-----
+Hash:     901feccd42a3aa6757dabce0134048cf5ffb65325a35fa5ec8a8de206fa8194f3f1d7c75edd81ade11b569001900eb8f7d0ec640c71520b75277703515f2b933
+Salt:     None
+Password: 123456789aa
+Attempts: 527
+-----
+Hash:     93262eb44d649a02a83b78889fd813ce819759daabcee2ac433f1ea7feef44f521ac0eba5b5359d47c7a7146afbe064b55134a63ac713c0fcc4c48e11eed7109
+Salt:     None
+Password: Andrew
+Attempts: 4366
+-----
+Hash:     1f8aea8ae38482ad7651aa77125ca730582837fa7927b4f65712503a8fe013daa96ad4bde2e280528b0448bfae9003fd06197d5d3527d2163e92abdf826ad905
+Salt:     None
+Password: abcd12345
+Attempts: 888
+-----
+Hash:     263fec58861449aacc1c328a4aff64aff4c62df4a2d50b3f207fa89b6e242c9aa778e7a8baeffef85b6ca6d2e7dc16ff0a760d59c13c238f6bcdc32f8ce9cc62
+Salt:     None
+Password: 123123
+Attempts: 67
+-----
+Hash:     9ad0d01d1766bb60025ba3403e851d1493a1ce2f14bdcf14d198f4a49e083f4547a6e5f9908444aad02d8d2383fbc74af021c7ee797ea13254c6603de76291b8
+Salt:     None
+Password: superman
+Attempts: 3369
+-----
+Hash:     3e2f332dbf3e5c6cdd70352982dd77b575e43b524ccc1a75ef54af7513ca2040a6f7d0ea7166ad475c8491b29533341161e3f0fa3873f0267e56a042aa1240e1
+Salt:     None
+Password: pass12345
+Attempts: 2472
+-----
+Hash:     d944a91d44ee73058ca4aa22f4531c8901ff2a40d55401565a0268dcdc9990f5fc40f27f324ab2b251ad329c8c9e01f468ec99a3ce007b1ed92e449f07c675ee
+Salt:     None
+Password: Start123
+Attempts: 6603
+-----
+Hash:     ddf2570448d5fca658548390fd4d3987b55055d8d8e1c83efaf5c787a6c67ed5034b2328ea5fe90c25b61e1dd02add76db93c41ce14639f6386354a4c84b0f70
+Salt:     None
+Password: macintosh
+Attempts: 2044
+-----
+Hash:     10259bfe1a41058e4671d05a3b962b774c4b16946b4040bc055059d1859d5f15ec4d7f01ca3f7561632d00add6122d337022a151174e5b9cebf430254b8e9fa7
+Salt:     None
+Password: good
+Attempts: 1718
+-----
+Hash:     4e9394b4d2876b8741b10a2fb46589b60f1a1c121e9bc4c280fae85af75b75ae8609d49f0e4215f3b682306dc7f262b171ffc181f886f764d638210d6ff7ba28
+Salt:     None
+Password: senha
+Attempts: 3238
+-----
+Hash:     bd4b39b37c13a3eca646d9bac11e7d3a3d167e0e3b8f7a88a467ab55032ea52bbe626844bfbb2e9cecb9e00483dd6d9216042ef19e620f121fe6d6fc6e17889f
+Salt:     None
+Password: qwerty123
+Attempts: 3058
+-----
+Hash:     a5d69dffbc219d0c0dd0be4a05505b219b973a04b4f2cd1979a5c9fd65bc03622e4417ec767ffe269e5e53f769ffc6e16bf05796fddf2771e4dc6d1cb2ac3fcf
+Salt:     None
+Password: Password01
+Attempts: 5804
+-----
+Hash:     72aafc86edd0b97a6bd6e28f72c7a0c5c822933d369940d016ef034aa755dbba0edb0a40b7bdb69ccbe83f971017c480301cd037288c2a7351bea43e5692d2a3
+Salt:     None
+Password: zxcvbnm
+Attempts: 3697
+-----
+Hash:     cec417a4146fc7cd72043fc2feda869182350fd9fd9c9225bd8abbe199ff363302ce0bc85636a594f59bc218e57bc3f817cd5830716531e809ccd9b2961cdfed
+Salt:     None
+Password: boris
+Attempts: 1427
+-----
+Hash:     19c94c5569906d8b6315146801e5bfde9b511422031415dd4c686acd469c7af31405e1b564b06223221b3a829bdb587297cbf83501795ac368738fc00c9a762c
+Salt:     None
+Password: 321321
+Attempts: 86
+-----
+Hash:     9d4dd9b592fcb19f748fe2ddc324136cb97dbed67fb3519af0924d35509607833531d7f77d9097f68eb58cd3e2c3026314e1c7bf712d1c59fc4ab81b92bed5fb
+Salt:     None
+Password: flvbybcnhfnjh
+Attempts: 1596
+-----
+Hash:     50ed72ce700bf6ff169ebce8acb9accd6408d54e99e260036bbd078b82e04f709a428ddf3b6ab3601444f4ae5aab4330c392f23a1c688be60caf0e673ef43199
+Salt:     None
+Password: Jackson
+Attempts: 5233
+-----
+Hash:     394ec188f58367d2b25af31a11a61435b2544c197b0baeb43cfbcb0d7b0116cd8d412e618272ca23561f787960844f86b8f775803405fd2abc358861c074c595
+Salt:     None
+Password: internet
+Attempts: 1990
+-----
+Hash:     dc8d82ebb571b8c154693c92c62f922f1bcb7bf208044291db5b293ccd7d7854a39316c26992d9fe5e23a22b94aead5eb5a772dda408f7222633b565b2384a84
+Salt:     None
+Password: qwer12
+Attempts: 2946
+-----
+Hash:     a92c562419d135639f13731388e8760ca01d8955ff651413f0c2a2a1857e989afe13eb1ee660dae7303d44e40a28aa41d59d0b40fb87f4a74a18069b0cce67ac
+Salt:     None
+Password: 321123
+Attempts: 85
+-----
+Hash:     1527c33fa881766167b1f8ac6761c943f6a4c304647eef51a63d59350d1a3778f4c16ce8a90922f6105805e0049ca22b634051f74ccaa72957fdbcb70874ba65
+Salt:     None
+Password: 111000
+Attempts: 61
+-----
+Hash:     d9b29316ef72452c4c10141383082c6296de17e3115f57f71f6b56433762e41127063ff0abf80ac317a82608cd874f296ac69a34c242786c6bea910a3c82b113
+Salt:     None
+Password: fr33d0m
+Attempts: 1630
+-----
+Hash:     e6a866daadb723bd5379bb0322ae3c5168ac7e7fc5fe41e2715c680291b9696b53ddb642262aab58a282a85d6e72cf638333be48679a8e66a0b56593d5953620
+Salt:     None
+Password: pa55w0rd
+Attempts: 2439
+-----
+Hash:     d4d0cebc02c4555a2c46a573f01bf565b640e3258595060960ae34158edf2606e3101b7cb170238cd40fbaee9a96d10ae1cc2f5453f3c5f0107b991f0e2c8d62
+Salt:     None
+Password: sniper12
+Attempts: 3359
+-----
+Hash:     bf400c2a1cbc2c5536aec42018864edb5738ed69bf5488a017a1aead21f888ae05a13c2f30de004a4a6fa4eedeb8c8d62f79712a4f8489e7eca408e57b36c250
+Salt:     None
+Password: 12341234
+Attempts: 128
+-----
+Hash:     1d2268c81173799932fff80d3e0b6280f420a076619a9c06b4571596ba14698a9fc9e0e701764100f05a3ffba00e4c1dfb39f29d13e0e783ddb9f32f71098e04
+Salt:     None
+Password: pacific
+Attempts: 2445
+-----
+Hash:     c001925fc772b2a1c2a6e6fcfcdb7b25beb5bea4447ce7705f0f523af5c09f41e4b27b602aa9c1efe85b693fb573bec3b180c042e92ba9315ceff8e9605f7daa
+Salt:     None
+Password: happy
+Attempts: 1731
+-----
+Hash:     e79f863cd7016954e57fd78693d23a0542b5b8951951513e99ca96812b0d4e2ef79cd78d80acb9d28fb5443bacdb31269b2f1a4987d676ec6d0e20ea033a6b6e
+Salt:     None
+Password: Qazwsx123
+Attempts: 5994
+-----
+Hash:     a73ae84199edd6790cfc5497e7d8fe7b600c71542c6b9fc77e3f43834564905dea73a533858cd0ddad1702074f32f0d9a44545c28ac17b4138204a746df393e1
+Salt:     None
+Password: 33333
+Attempts: 47
+-----
+Hash:     eaa625a6169e426343b3702924c7939ea508b17b9188e271d2d1cc2b54fc01109f50e14a9425088fb7a294bf54c9e33317e60fdc9cb583b99dec124ba60a1ab5
+Salt:     None
+Password: 112233
+Attempts: 64
+-----
+Hash:     37eeaab35694c370627464426956120b0eb8e6b8028ab8bb2779bedcc989cd1dd8f4b1d3f9167e50006a2473739977cc703867201f0f4f5bfb3e284a4f89b0af
+Salt:     None
+Password: acer
+Attempts: 911
+-----
+Hash:     ce1a4e3c4e997efe5944594cfad6738e9f48a4d8fe40d1918bb50df547492fadbe3039fdb1b5a1e6b0abf93fe03563e750949423c39270d4be30c100824de483
+Salt:     None
+Password: puppet
+Attempts: 2669
+-----
+Hash:     88b81d326d6e2246cd7a8f2115a3f86da764570ebd5307c583ef1b4b8c5f7925202824315cbfc9a859b3d4b0dd512a24ddb3ab9f0d897c1ad4b960aca17a4e40
+Salt:     None
+Password: 654654
+Attempts: 95
+-----
+Hash:     a38db1acae90b2f7b58fa438fc027372acda829db34f46688bcc6cdd7546bf7bacc606b1d0f57da99b2f36ed695d5595576e1a54a90b8c33e2840c02c85fc58a
+Salt:     None
+Password: support
+Attempts: 3375
+-----
+Hash:     1b4209b7672066cf7b4a1af030b854329eabb4a57afe3596c9964b0a771a6446261283907d3da6030c000b31112c1d3c950c9f663810117951432e923fc86256
+Salt:     None
+Password: mazdarx7
+Attempts: 2064
+-----
+Hash:     076fc695655573443dbe043d4d3a6c9ed4ac120a975aeca22e6df15a0695764f0ee3608d5cc6ff7c7b2db66563ddd1f2a5020e710e6751edb6afce1f2732e49d
+Salt:     None
+Password: behappy
+Attempts: 1416
+-----
+Hash:     2e541d1501405ded4a6fe163fb55cbd079e37443a2fed30cf079b5a23ea6249050c6ed0a28a00ed24065591c880f4bf2a4b55f93170570363478214710f67010
+Salt:     None
+Password: 123456qq
+Attempts: 539
+-----
+Hash:     003229fafe06b27dd108abf29a16e41973bc1efd43c804ab9dff037bab67dc7a52808ab51b2d59372aa070d7e0110ff166f4f7d3d70c3c57355cca38b9cc2c6e
+Salt:     None
+Password: system1
+Attempts: 3444
+-----
+Hash:     779ab006a5d7909239d7dd8528c2005ebef078e88edd0fe34abbc437fb5c18e8478e1ef1daa595a3a3fb2f8966761662309600383e61f6423c9621bbfe1342c0
+Salt:     None
+Password: windows2
+Attempts: 3591
+-----
+Hash:     51ab4973653704b016fca83be30863531373b265b5dfd9446f644f89fd517f7d1417bdbe97fce4e5603ed90c06a4dc6f9b3a6d3f01ec8ac481118ae1b85155d2
+Salt:     None
+Password: curtis
+Attempts: 1496
+-----
+Hash:     ee4111d209c64b4e0103f986be32f526299fd507d41a154c9274094d105dbdbdab62cd926c96843cb4dbca6cb5bef5a25b215b51b918946d2db7ebe56634ad47
+Salt:     None
+Password: passw
+Attempts: 2486
+-----
+Hash:     c39396f36d38331a740d87805a56cc8e37386366804b01ea1d1760b6d640093520f1f8a1a8da1dfd720eee0d5d833114212f1f0cd54e57f09d1745d678d51f1a
+Salt:     None
+Password: 1230123
+Attempts: 107
+-----
+Hash:     23fbab0e75721957a60b1ee4ef1c6558de2e2baa8d9c0c57f91099eed34b4d3ca43242e98ace474f5e37ed04c3cdce8201513643cc7d6c7aab35f9f2a2db6ee2
+Salt:     None
+Password: 1qaz
+Attempts: 634
+-----
+Hash:     39c6f5329e959b2af0deb0f8dacbcdf5418204f46baed50388f62b047c9223c66ff470031ecd653a49f6eff6fa876811e46f0c269390a8bf61f4f983729e1083
+Salt:     None
+Password: password5
+Attempts: 2620
+-----
+Hash:     b857e382c02b4ea80ba749192fc1b92b509d9b77c2c66a5912c883286f28534995f91bd427e78acbe7a378d6442ef58fa786538e96ea08e60e12921faf09a49d
+Salt:     None
+Password: qazwsx1
+Attempts: 2755
+-----
+Hash:     f6235735d47e6ccc82cc743bb0f4578e2f21572003d61e62c719fd9345101031e6aeed4b2ba8b059916b3764dac90fbdb6a0a88fe5fa7d7f483013a63cc089e0
+Salt:     None
+Password: sysadmin
+Attempts: 3442
+-----
+Hash:     919d5469c0a0b74bb8321b07f22bdce722f6355b769ad65d92c32d8b37e0a069a572c728f8a2fb8951e7d3f84a83fd4713bcf4d646200128db448e7a259a7fc7
+Salt:     None
+Password: 2006
+Attempts: 7
+-----
+Hash:     f02c1e9d44c998202ba309107295e57fe899940625f1f31590daaf4360ee93f0207beebdd5a17f86c3812419a4bbdb21b5c16b177c4614c191ec81ed99c2fa12
+Salt:     None
+Password: qazedc
+Attempts: 2749
+-----
+Hash:     028ae2836bb5df425ae9c6b3bc7d943bf9b0821c4d93b098a6573400ad5742fccb301e9ad944b487efb51d0a0d689c713913840d5b37f14f0f534f042d81c5da
+Salt:     None
+Password: Babylon5
+Attempts: 4645
+-----
+Hash:     c824feab835d82155c58d309594283703916ce3d57e14d219d160253c8e0bf2c55ef41e528119077053a67ac7b44dc61781d8d4b1ea447d472c964e49739ca21
+Salt:     None
+Password: A12345
+Attempts: 3944
+-----
+Hash:     55a5560f37d53fca2dd4de1032bdc3e1b4a2727c5caf70d80ad7cb30f715afafe415b3ebda3c70da8286734e54a9ea8f02e64fa11a72321e3670b35addbf3cfa
+Salt:     None
+Password: qwe123
+Attempts: 2860
+-----
+Hash:     136ae1d69002e0f290ffeee9a226387eab9b4b70730c111a15bb36ae44f12490fed836eb475175728955d7f0abc6667d8c97354ab32cbc293c14efe695a29e3f
+Salt:     None
+Password: Buttons
+Attempts: 4670
+-----
+Hash:     718faa396cd7d7b7505a6a7eeb3c3ce94a8616fac3aa99af67ecddc83d2235a05d1cfafac724e550a31eb8c1eace367428ea832564daa0536dd161012557abfc
+Salt:     None
+Password: Mike
+Attempts: 5314
+-----
+Hash:     158bfa94f1b924236df46b130e86974deb6645cb381ed0e89e703f741c46ef15fef35ad6e14ef265f8b5b1276c8be5bf24f7a34ec4a6f57f492fb7ff21be9876
+Salt:     None
+Password: Michelle
+Attempts: 5306
+-----
+Hash:     907e5c137d86f716e7afb9286b6dafff01f40b9a7fffc45ee27ff2d8ada828025c97f696f64cfc989583336cd25052056812f969249b5c91d2d3413fdbf44faf
+Salt:     None
+Password: hehe
+Attempts: 1732
+-----
+Hash:     470fa569918801d055af10d9d1fad5a87f2391f543cd3444afc32da2aff22e87e788807b2226388e1f35da7df8f4aca19b3ab496832f6d647db68a75d8de3a9d
+Salt:     None
+Password: 111986
+Attempts: 63
+-----
+Hash:     baf722e8dfd5c3961f6d5c912794ddba9157cbeab5e7746553f8af40d2fa0f2d42c86d546f27e5666fe5bf52794089c93bc706ebd01cdc0157220d80b66cd29d
+Salt:     None
+Password: chloe
+Attempts: 1452
+-----
+Hash:     932778fa1dd9a15dac1f6d7690b29b70e9c205a8d2b4a437f007bf6df4fe3c5200520078f95184bd37ce6ed67f362a42b4263ed4c8ba6d777b0166f9af879897
+Salt:     None
+Password: access
+Attempts: 908
+-----
+Hash:     63f4a18646d339c78d20f32980d46bf3208aacb0a93ed65f30ebc438b96a82d04ee3161de90556aca222e507d386147bea7c142125c24f4d1d61fdff7620078f
+Salt:     None
+Password: qq123456789
+Attempts: 2778
+-----
+Hash:     00700c3b8376d84ed77788dab143843383901f3c840f9591cb7ee66e9910ade9455b1457a80e1fccbfb44c085afc2ae8a51d8323914cda5b451bae1f3964e6f9
+Salt:     None
+Password: qwedsa
+Attempts: 2933
+-----
+Hash:     3dae98c3358552328a52eacbbcf05f22bf25abf52e75f1ea965e23584a818ab4dc0d50bbf611b78a51ac349a0614a677724997138140bf0df62521c4dd584b64
+Salt:     None
+Password: rest
+Attempts: 3211
+-----
+Hash:     a37c95f48a99babd342612ca5d8dfd80c187c3589ad24b06f146828e56d62fe8d74fb4b0ac2fa3c5a41504f51cca48a4d00d53ab6be7f58d4a9a372cbb08569f
+Salt:     None
+Password: master1
+Attempts: 2058
+-----
+Hash:     328e60bf3a3dead976143dc8f4ef73ac582f7e0e4102fbb6496ab28b69d670aa0def6733502f65aa4e34f413d64e7db81fd59c713f4ba1a1bb337e6108ba3564
+Salt:     None
+Password: support1
+Attempts: 3409
+-----
+Hash:     25270db9bbc8aa1a31d76f60dae59ae358dddeabb054e49c726a4c735e6e07eea3052d40af90fe28f875255b33e3e0d98be6890c0b758ebdda57511e276ea757
+Salt:     None
+Password: abc12
+Attempts: 821
+-----
+Hash:     4a109665f14d7f0d7ece6d2c16999451e9961f086788dda2ab3735078cdf6c02b0d6fa9addec2487709d179bb6e32b1ddb090f216b2831c738521fd7bf2894e1
+Salt:     None
+Password: q1234
+Attempts: 2683
+-----
+Hash:     50186e30786c8974531c42ba131c331d6b0e7c4d7cede0550edf71536338d5ee56242b4717aba226f124b82e8b2abfc948063108a5a77f8f56b13d2a499ec168
+Salt:     None
+Password: explode
+Attempts: 1581
+-----
+Hash:     8cbaa9f2ae551a997bf69412a3f9a4b269e09aecba1d65375650f1c6b13feda09e54bf3fdc8357c15ed4e5a2f9b23359d966f557151d184fb3a147c844f76a6d
+Salt:     None
+Password: 99999
+Attempts: 56
+-----
+Hash:     6f97df07fa0ed58302a184d0fe41c43615ba4138c3cd28cb98ee50f41c44af2d9fc7af07abe6b1fecb91e9025f490aa6eac331a27977d8f92b56067b18e8671c
+Salt:     None
+Password: 369852
+Attempts: 88
+-----
+Hash:     728db48989c9878bdb727058ae0d0968c5902f488dd9e3d4a4aa3f90410da5566fd0ca5f59c6a58154cce2e5c8e7a2586a79d88397d12c46b830ee50890971eb
+Salt:     None
+Password: welcome
+Attempts: 3560
+-----
+Hash:     6e99f65920d0b34e678a1ffba8aa834568a1ef9efb4d94ad0fb34b42ff2c49c39c228bf5fa619a647831bc0745c49d9ff2171a1513b8591b37fa83b6fc9e2827
+Salt:     None
+Password: andrew
+Attempts: 1129
+-----
+Hash:     2c3c3400c71811c413cf9fd763a41ff9bc8ae75d09e7f48155f809260268435c5af586e97092335f0e1c0a600610d1b0d7efc957a7d2dfaae21ffb3c5f33d39c
+Salt:     None
+Password: Zxcv1234
+Attempts: 6932
+-----
+Hash:     f3d061f5b8c5b2d8ed774b1d5b16427f876e9febeff52018b22d07da25d0ce2d3fa33acb659c7afabf9c6279f662cec6f7f4c9eb60e866c9d0c43d0598347036
+Salt:     None
+Password: 555555555
+Attempts: 164
+-----
+Hash:     6221b4eb769a9871935f76406648a9829b1bfc8d84f48651509999f3936bb6d6a6ef8e92ce36241e3435f3fa584e4164e734d9d4c30616b9517cb05484809c00
+Salt:     None
+Password: 9999999999
+Attempts: 196
+-----
+Hash:     777c534fd04b2cc000819eaf0a63bfa135a62b42777ea4650c2743ca297b3ac6d33c001c664485c7cb3cd3a08475cd80c434be670c01f16d61218f7f9fe0bde5
+Salt:     None
+Password: temp
+Attempts: 3456
+-----
+Hash:     c68c360485d37bea094b5dd9fde7ed3a585721f18324feca615ae7b1f88a0428b87f772334a6af2463e07dd139fb1c0dd8b71b30946539195dfffba86e30ce94
+Salt:     None
+Password: asdfg123
+Attempts: 1255
+-----
+Hash:     860ab4521e5f311d9e23e9605f71813044e2bb41c8bf2b4c23e1512e10484ed500d055ba91ffd8353eabf043f0263226a5f1ed7b0e2c11ccacce0d1b759ea1d9
+Salt:     None
+Password: Wizard
+Attempts: 6854
+-----
+Hash:     81ac1cd4f941722ef91670194d4123cdb6482a32ce87f18f0dc2d0fb9257a6c35009f6886c2b54e8eb3bbd1c70698c295cf78c18e8af5100d24aae04f142e66f
+Salt:     None
+Password: trick1
+Attempts: 3513
+-----
+Hash:     14041bd165ce507350daabc3f07bb51de30d99ba19107c65eb20394317273e20bd7f3d1d54e2e895aab6820ab925677334268f34824800cfac9c1b25747684e5
+Salt:     None
+Password: bonnie
+Attempts: 1425
+-----
+Hash:     7aedc92d88f00a6422920eb64657aa64b93a22399066ff1e9b3e1e349b3133b6d4d595bb647e2043a32d14d0d8fea72761b3b11ed253d3199a8326dec67996a7
+Salt:     None
+Password: 1596321
+Attempts: 112
+-----
+Hash:     229a346fff00500e0af87c5397c96ab5d1fc639d501c0bf7f6bf2f54c4023a48092123d4aa20c652f1753c3371b204faff4f079fe31c76ef4004a32d9a415998
+Salt:     None
+Password: molina
+Attempts: 2088
+-----
+Hash:     c4f2607d4c78a8d41231743055923b9aed43c093d59b01435cca7070ebc8672188a8b32d83af34fd1e9c46366a9b77fc1b3339bedac2a5d8635ba6f0d427f04c
+Salt:     None
+Password: 741852963
+Attempts: 166
+-----
+Hash:     925f43c3cfb956bbe3c6aa8023ba7ad5cfa21d104186fffc69e768e55940d9653b1cd36fba614fba2e1844f4436da20f83750c6ec1db356da154691bdd71a9b1
+Salt:     None
+Password: abcd1234
+Attempts: 883
+-----
+Hash:     6d201beeefb589b08ef0672dac82353d0cbd9ad99e1642c83a1601f3d647bcca003257b5e8f31bdc1d73fbec84fb085c79d6e2677b7ff927e823a54e789140d9
+Salt:     None
+Password: test2
+Attempts: 3491
+-----
+Hash:     dac3b0583ff38a2518e848f264face52e9e0be6dc9418ff4766a8c4f925b7dda1661bfef5ceffc949f8a0d320427364c2cb85eb496b93e36630a628f19c06c09
+Salt:     None
+Password: resipsa
+Attempts: 3210
+-----
+Hash:     e54ee7e285fbb0275279143abc4c554e5314e7b417ecac83a5984a964facbaad68866a2841c3e83ddf125a2985566261c4014f9f960ec60253aebcda9513a9b4
+Salt:     None
+Password: asd
+Attempts: 1171
+-----
+Hash:     c3e47544d233ab0c129605b325a5edfd8ad0a2b58e2ea910ffef872876139407c578d06ff4b9400332d0c438f5dcba9ff5ecbca372167322c73da291c1cef670
+Salt:     None
+Password: 4444
+Attempts: 26
+-----
+Hash:     4b8847d9276cb14163d621ef48789320993b059ad9111ce663180ce5b33454a7957e0fd91568698ae4c6b8a9d2a0e6da2c6551a83ea646ac56e36e93c874d0e0
+Salt:     None
+Password: 147852369
+Attempts: 158
+-----
+Hash:     60cd11cbb9f95a8f6b550f213b185d4d39e2c2468f111fc2850d3113298f2789372989504bd4fe768571534eb1d61946d08c9f57eb5d459797dc44639cd76ee1
+Salt:     None
+Password: abc12345
+Attempts: 842
+-----
+Hash:     f0298cb9bf25397daa30abb63f58a4808aac39670030e127a6ec44d11ad0f967055bf583c92233ee070e19c984a5229c3b00528ab3e3b08952e3bbb58ffe11cb
+Salt:     None
+Password: Christ
+Attempts: 4690
+-----
+Hash:     cecd4373fea4433c296c4dfb06b036dc1faacd3496c25453fe5aa67cdeb8ccff895ed494603f619a8fe9f51710873be36738de6c3e8f6214af87392a7d425c3f
+Salt:     None
+Password: Pacific
+Attempts: 5682
+-----
+Hash:     0ad64c08fd21275f28706eb845bbe5953c6a5f0e641230f7880a517a0bcfdb15ab54edbef8f624263b08cb778d04389e8a682c0416c67e1c4e8b3d4fc4120675
+Salt:     None
+Password: Secret
+Attempts: 6471
+-----
+Hash:     d1f46e1f78fee48e80428856c6ed893c9f008e0a303c2ddd153e7c35c1acf9ad6ca8fdd998c45ba9ad73b46daba016564ccd4a05081486b478be4d353e2c1875
+Salt:     None
+Password: 125521
+Attempts: 75
+-----
+Hash:     219cf16810fb80aedc4580e3568507d7a9ecc3a6a491715ec6f1d2eeaa136103eb1910c6b4615ed48bab8ed6095f5c86324d895b496cbf9c6aaa95c69ab441a2
+Salt:     None
+Password: love123
+Attempts: 2032
+-----
+Hash:     ba39897ea8127a48594bf673648c82d051abe4bdb91187c1b642f2b2cd05f4d0afb43fe548443d4cf90a2c9bc50fd3e43dae899424966e4b43273594aba8f6c2
+Salt:     None
+Password: password22
+Attempts: 2614
+-----
+Hash:     9d4b80bd217271026fc879712c460d25f47465e68c6354db3e1ca48a751b8114378cc168f85cef6403ff511d1f37de16063a092393093e79f56a5d6d80aca4d5
+Salt:     None
+Password: samsung1
+Attempts: 3222
+-----
+Hash:     90e96b2b1b29703c7a3f10b56666dddcc5417619ac139265035aa54b3a249332e68c994fa9bef5074c8136108d11e9a135a98934d8041ff291249ea8069302a8
+Salt:     None
+Password: Master1
+Attempts: 5295
+-----
+Hash:     9c602f651222729d56c65a2c2f83c880638a1569d0697a207bd94b30119e381e5bbe4f9e21b98a8004685e714f4ee135bbe99f3df5be4e9efe445a3823c89219
+Salt:     None
+Password: 333333
+Attempts: 87
+-----
+Hash:     4a6c27445783b7be90fbfddf5312b37817c299193dd5b8c5559fd38f02f126eb71471f5b3015d48354e9c610bb052ba072ef3052576a4a62af95aa52a984c20d
+Salt:     None
+Password: kathy
+Attempts: 2010
+-----
+Hash:     b52f40581528be4c0339357a85477b0b25e573d3aa0769045c9df16a7562a3a2397cfc0c805dd92844a4573ace666d97c8aaf675470b51a6b357366aba4f4de7
+Salt:     None
+Password: Overlord
+Attempts: 5461
+-----
+Hash:     0ca7b26f9b446c24c564342863d09902ad898eeced83bb9a695cd2ebdfea7a83517913b9781a003a42c6236c27d7872366f6c185d03f41592e17bbb1eaa08e92
+Salt:     None
+Password: 123123qq
+Attempts: 503
+-----
+Hash:     e32ef19623e8ed9d267f657a81944b3d07adbb768518068e88435745564e8d4150a0a703be2a7d88b61e3d390c2bb97e2d4c311fdc69d6b1267f05f59aa920e7
+Salt:     None
+Password: abcdef
+Attempts: 902
+-----
+Hash:     71320e4d017e893b8626b782c122c795312c6146c7bbdcd78be8d24e84dedd1d3e063c6b71294c48139482057422a4a8a260313fdf95f46e0137323288ec22e3
+Salt:     None
+Password: best
+Attempts: 1418
+-----
+Hash:     4cf5a5be41f417cb2087f1f17e44734ae9b1677dc6b0ed3b80de422cc8e5607980ed08334540c15966485db039927bade22d3dedd5fd3b3f7d9743c20310882c
+Salt:     None
+Password: 22222
+Attempts: 45
+-----
+Hash:     58432e67b165b24c60e1f10b6f1e6703263244bdd582e265450ea2bbc051fb4b9f5d7b9303f824adcf59f75ade4dfd7f2f9f3a08a58ac2793b21963d6f859048
+Salt:     None
+Password: unicorn1
+Attempts: 3522
+-----
+Hash:     ae5184c0199d0fb9605835bebb779e04d5b3cd08aa6bdca20a72ed58a73db8545ca87be5dbb0dc0bb301825e922dc68d37b79c623599a578045a370d118ac1bb
+Salt:     None
+Password: Bruce
+Attempts: 4667
+-----
+Hash:     70aabdb8be001e2d38e2bc05c4cbff1cea137577a07b52c6954af01dfcaf72de1d6d294cda4f293fb3113efb80bf2a3103a52e0a5742f9f30d2a56e8fe1ca7a9
+Salt:     None
+Password: Iloveyou
+Attempts: 5220
+-----
+Hash:     92da10640797339db9ffd4c04c2a3510e6963565c4685c5ff11003ab9f53b4266a78e0a281979b9432f7d78d9d2bcd060059c3909dfd0c5a4809da3101282eea
+Salt:     None
+Password: Network1
+Attempts: 5338
+-----
+Hash:     262fed13c44600dd182d3224cda894193d23eb88715b2c55749595dcd56cdc2d854527daba207a7cf4dfc2bccaaa9b4b914d3c964260ed903a3cab8e6f47dae7
+Salt:     None
+Password: Super
+Attempts: 6604
+-----
+Hash:     244d89afae7f861490f5412c581c0305b18a3ed3c8e3127e9560d80b8226028045369bd2613b70709ef773f8590698e91de5e5f82c87374a3abc8a3a3c044719
+Salt:     None
+Password: Q1w2e3r4t5
+Attempts: 5930
+-----
+Hash:     53d69b9a5642ea47ffca69b1eb6038bc3b844bcbfedd9c106fe376ee5de0bf36fe5a66c51907e4dd820c5fb54155427459e0b2cf8a5951ec5fd6b9de0009a267
+Salt:     None
+Password: asd12
+Attempts: 1184
+-----
+Hash:     d2fe540822ef6b28b7455bee58b24984daeaf85a974b8a0a21142ed1c193941a1385224181e837501292b0d8f96a2c638c2a36664730cf37201f6b48aa7a6c72
+Salt:     None
+Password: letmein123
+Attempts: 2023
+-----
+Hash:     57e23bfd8050c6a7971a6455cccce120f26ec4a8b5c2dfffcedd389b51b8607e9ae27445ba24adec5bcd095578d456fbfcd4af9606c01958feea31c90548f55b
+Salt:     None
+Password: 74107410
+Attempts: 146
+-----
+Hash:     60638862e9eaaa4f0bb55d0ff802891a6fb3bac1abef4e15f5ce95b63955572029625dfdef2faebc34a9b0741c4c94d6199a5cd29cd4d0d2a5fccd7303172b4e
+Salt:     None
+Password: butthead
+Attempts: 1432
+-----
+Hash:     f1f92ac309c6ee3c254aa02d24afac8e6a513c84d2b1c3e9c050375a14641b13f95260cc337e914f5ac0c32136239ad991d465ed0685aa122ea5e52b79fadf25
+Salt:     None
+Password: abc123abc123
+Attempts: 851
+-----
+Hash:     e16d6b316f3bef1794c548b7a98b969a6aacb02f6ae5138efc1c443ae6643a6a77d92a0e33e382d6cbb7758f9ab25ab0f97504554d1904620a41fed463796fc2
+Salt:     None
+Password: 54321
+Attempts: 51
+-----
+Hash:     730bb68d3f5dff9d6abe26629612256baf7e5ad1a72c2c636bf5a1a5dcd14fbe497b31dbbc0918850bcc1bfcb3e7f25f4021a2fcdf05d948396c0ec871d1b3ec
+Salt:     None
+Password: 2004
+Attempts: 5
+-----
+Hash:     3e9c58615f275ef2bc54e2087299bd9e2fbea8542cd00ac6db8d06943d66773556c79d548586679faf3d6f5b1182a8be3bdd77cf4e10448f21cd181c0392b7e5
+Salt:     None
+Password: 1q21q2
+Attempts: 609
+-----
+Hash:     01305c714d6144e9a7c6dae8c2f5f7c2239a2625105a6dbad83ab06b42f8b638b2958b74e610a6f79c58c2781463be0508b8629eb639dc0e89624f52ae9746ab
+Salt:     None
+Password: buttons
+Attempts: 1433
+-----
+Hash:     ec4308472f2574073a781469de13364f75c31e93d6a4e327b65597d80f86f2aa8fc908ce278ceff779e70b37c5d60b6f67b240ac6a6e2b826d253503bab115be
+Salt:     None
+Password: 2wsxzaq1
+Attempts: 669
+-----
+Hash:     79a91f9564994dea6455d25a359127d42010694736af230a5a477189deae99ef1b587cbcbce346b4a22d4e9b28432fac955ae2a56899da4ac2c381d5070decab
+Salt:     None
+Password: password99
+Attempts: 2625
+-----
+Hash:     eac42e7a2e8928e857d09f8ac7d5ffc71e650c658bf559bb4f33138832e1e59599305cc873f14e558177f485bb73f736e4f2ad5819721e618b3304babbcb9a2c
+Salt:     None
+Password: nick
+Attempts: 2136
+-----
+Hash:     653e45295498ae23499c80d7ef070f1b47dede84750e0fb604d7deeaf0dd25f4099b7463f2dbee3d5c4bad930a99bbb842ac98fa7f6aa2e349c14c7e217b83fd
+Salt:     None
+Password: qq12345
+Attempts: 2776
+-----
+Hash:     bc286b1d22ccf623575d276a1813a8cbfd2ad1fc25d0704ebc7eeb8476ad292914b0f9404564704463ff6bfcc182641c97f9c4e24fe09f63f78b4aa081fda834
+Salt:     None
+Password: Merlin
+Attempts: 5303
+-----
+Hash:     d4945b725a942879492152acd401c94206c55e0ce35721c3f3163c71915ddfbe3aab5ee83779e8dde8b3fa54a1472dc21526bd80f6dc72efb39ac35ac0c2219d
+Salt:     None
+Password: q1w2e3r4t5y6
+Attempts: 2694
+-----
+Hash:     c9edc566bc11358b69fb4a5e8368632d7cbbdaa10dc4e6b525402354f59c2cceb2a93e13332f65ab92d838826155b4ea3e8b8d2b22fe2dc7a626179280bc9c3a
+Salt:     None
+Password: 1236540
+Attempts: 111
+-----
+Hash:     ce5af0629aeec6c9286a5a6928d821ebfa13208d3b9e59f81a4604c671264da45cb1fa9e79d879809781f1ebf8ae451ecc44ba55e80a502f5914bf4f55f40f0d
+Salt:     None
+Password: felix
+Attempts: 1588
+-----
+Hash:     17c8f5af0e37ff674f470d12c00d11eee86b09b83bbda028f2f0679ea2312174cc9bf59e9629112b7b3c3192908e9353d2a98c9ad803de9b56eda7420f1e2c30
+Salt:     None
+Password: password21
+Attempts: 2613
+-----
+Hash:     5630fa4e304e9dc0c18b47376dc77ef0a342895f44868ae20e85fcc6834df8d2186faad0bd985aaa171d58807b8e09e4743e5bb9d4d47dc6dc2b8c52e9b31cd4
+Salt:     None
+Password: passwort
+Attempts: 2632
+-----
+Hash:     d9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85
+Salt:     None
+Password: 123456789
+Attempts: 155
+-----
+Hash:     ccbe915322e20e805b34bd08a1e93db4e2353c5dd82e069a9ef8617055d9695eb9e4413a6a4d0560c3c0bbcfb38676e6fcbd0351fb7b4b61b4b91eb8033146a4
+Salt:     None
+Password: king
+Attempts: 2015
+-----
+Hash:     31869e26177713133a234d89e7c9860ae1df66264b6b01504e48ba1f6de14295a9da45cc84a13d9d307657fade5a95a25ab40dba9c5285dfdcbef2489cf75485
+Salt:     None
+Password: asdfgh123456
+Attempts: 1287
+-----
+Hash:     c9e9ca76e5f69955b433a710993927e836dbf70fe4f88bfb3032ef9cf72b38a44e5bb59ee3f2b4c122adcc42ee6268de152a62bdaf42718da7925605c02fcdf1
+Salt:     None
+Password: 3333333333
+Attempts: 190
+-----
+Hash:     e6c83b282aeb2e022844595721cc00bbda47cb24537c1779f9bb84f04039e1676e6ba8573e588da1052510e3aa0a32a9e55879ae22b0c2d62136fc0a3e85f8bb
+Salt:     None
+Password: Password
+Attempts: 5760
+-----
+Hash:     c783c200a06d80ae0a460fb598b397eccf3ed338d3980befbe4054ae6a52605c208def26cac61838e016cd925cb49ec5bdcc1589b3479b7b5fabd374f50c8bfb
+Salt:     None
+Password: qwertyui1
+Attempts: 3129
+-----
+Hash:     7f947425427788833eda6f7d69e13751bae3f1e2c82dd1da26bf9180bf52f9e9eeb82de1560df5e7d8755a1a859f113401d62d12d5e9acec8af7ce9faadc608b
+Salt:     None
+Password: admin12
+Attempts: 1029
+-----
+Hash:     18ce6df4b09c64e28c94b2b78357ea46da3b9371cb5421dd081f197ee9cd4e0ac2037b33fadcdfcd265aa125a5e30c312628bf8f26d9c6ab74f99a529b301820
+Salt:     None
+Password: Password12
+Attempts: 5820
+-----
+Hash:     581d136f991e204ef15d894066095c857e57318a3676f6d8cd24ae806f37bc7357ecbb3aecbaeceae92178e4b6b8316a8a6a8128292ebac0c1dd70e2bff60282
+Salt:     None
+Password: 12345678900
+Attempts: 198
+-----
+Hash:     ac252532745ed172e5cc279fb402070940acf256c18c0b898a8f8bbf5f4587b5991f6fbecadf3c2ee0a3a0446e88195698575b7d56cf46a649361ecf713918b3
+Salt:     None
+Password: 2005
+Attempts: 6
+-----
+Hash:     b1db8b683bf3be35360e35d80db84b139d87aa3ffc21ac9ddb60af95fe0c694a30a3ae6b2468c94c3223c13fda8f8b45e2085cde506c51569af3257f5657bc27
+Salt:     None
+Password: 5555
+Attempts: 31
+-----
+Hash:     0c4f22c8d979def2ab3efdfe62f294372d0ec22c69b62334ad58b4306ceed310a0010414205660df0afa6850a1ad201f2b803af58475f18d43c7f0b9fe7777b5
+Salt:     None
+Password: asdasd123
+Attempts: 1214
+-----
+Hash:     d59f5c04ebe1aec32853570be286d5f894b455f3fc5b932e79f3c01143acd059d3b4604621067e8bb6eca956faebe53971d46530f0cb44bf59de4a2d90a8daa6
+Salt:     None
+Password: abc123456
+Attempts: 843
+-----
+Hash:     12b03226a6d8be9c6e8cd5e55dc6c7920caaa39df14aab92d5e3ea9340d1c8a4d3d0b8e4314f1f6ef131ba4bf1ceb9186ab87c801af0d5c95b1befb8cedae2b9
+Salt:     None
+Password: 1234567890
+Attempts: 179
+-----
+Hash:     3566c33c35c59ba2587bac2a81526cf33ea0928111ed9e1616aa43fcffbc3f5d07e058c80898cd286095b7587ad5edd3511fd943fd7d7743b1ded724262026f3
+Salt:     None
+Password: fred
+Attempts: 1632
+-----
+Hash:     318de64eedb085973abebd3f99f6ebdd216ab6c08145fc5e7a5a5b68e0d461cfa6f17b9e819307848d57dbde0b0ab8aaff1059df848055c28a91fb3afd6b8187
+Salt:     None
+Password: Einstein
+Attempts: 4805
+-----
+Hash:     b40d03386fb8fd7dc6ca9c6f8d680dfc58d60fd6ea72c63f573cc5bfbb09695746a849c91517c235cdfeaca4e734208f184bc08aae06797748988e95928f80b1
+Salt:     None
+Password: 123123123
+Attempts: 153
+-----
+Hash:     d98e90ed1e6b4e7a9a76c43e97cc080334da80b82c3efba5e2d9aeb2d61c06f9db0a469ec4bf30aba544891e452ccac84286e69807a74cba5bc6c62b7eb3eec7
+Salt:     None
+Password: password88
+Attempts: 2623
+-----
+Hash:     c0d5d09aaab80397d7dd4c00ea92dc4a259ae853eeb8b533042e999583a4467e277d0874eb76c1598e73261a0e821338f05388ac64a66ce27f8609e7eae33f6d
+Salt:     None
+Password: 1234qwer
+Attempts: 553
+-----
+Hash:     99b51d23c6502a9b0345f024d0d5f34c7cba4ecbdb8d8bf58330a859b071bfde0d66f518ed6483fb234ebf774e717e7a26f9223d7d7871afeae26185ebfd1579
+Salt:     None
+Password: bb123456
+Attempts: 1413
+-----
+Hash:     8c7c9d16278ac60a19776f204f3109b1c2fc782ff8b671f42426a85cf72b1021887dd9e4febe420dcd215ba499ff12e230daf67afffde8bf84befe867a8822c4
+Salt:     None
+Password: password1234
+Attempts: 2591
+-----
+Hash:     5555489390e0f492c15723881fd2b005fad9138930e0e9338c5849813a3b33ec40d1e5a9dc488471f203d92b7bb52b7cd0b0575402c0275ca25ee87eb3906725
+Salt:     None
+Password: Pass1
+Attempts: 5704
+-----
+Hash:     03f6054e32299f5bae91d4443dc821b0f3538f1bdfd89ef145fbc280d9418cf18fa653cecd9a6c0e759bddd124eab93a0c3fafecf8904ab9a944c94572d72726
+Salt:     None
+Password: 123qweasdzxc
+Attempts: 584
+-----
+Hash:     c40308b4138466f4ba0940c87925d9859781743b61186abc90897f83a73f5aacfe2102114776b73816b123d02da8ecaaad69f09d8c3edbe2c894026e0342aa77
+Salt:     None
+Password: copier
+Attempts: 1489
+-----
+Hash:     96fdc0eb41643756404a3cae567d672b71fd80a1590bed0eb289ea2353851aa55411e25d60d9db76ede174b98f9a04a2211a7325c552ee54f3cfbfb6e89805bf
+Salt:     None
+Password: q7w8e9
+Attempts: 2723
+-----
+Hash:     ac096f5238c3c7460df94893a0025956860090ef6d4f972161587014d31484f8614c3bbc54f3653a5a8f438e029ce0970597a9e9badc5b857992d18cefdd6382
+Salt:     None
+Password: 123456ab
+Attempts: 536
+-----
+Hash:     9102f378bee0002c76ca50108c4db05597c716ef9642205f7cf7508123ef2e040abfb31502441017a414e61683a102941e608b1f57b5b23320e0024f2eecce94
+Salt:     None
+Password: Pete
+Attempts: 5890
+-----
+Hash:     a873b40bc70f2c721ef3836cc3762fdbe696509cb861fe41826d20e62e267ccdaca5eb8937a4a873cf2ca36d97b9a4ac4880aafdd17c9d45ca4bdbb483da8353
+Salt:     None
+Password: 5050
+Attempts: 29
+-----
+Hash:     190ff9714c66c5d84176f73234cd9e0e97bcd1a40a9105d5f50837fbe974445392257cc08bc918d5aedb292de252700f53775fb2b9dae60e1335b9d5f05f9e24
+Salt:     None
+Password: Manager1
+Attempts: 5289
+-----
+Hash:     36c213b78793c40954ed148770b9300b5b8ba5628f879291ba687fe664b8b8508564c81d9ae4be33787708bb9c543e50842a186ab9526d313fa4663d2caa6a56
+Salt:     None
+Password: Qwert1
+Attempts: 6236
+-----
+Hash:     c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec
+Salt:     None
+Password: admin
+Attempts: 931
+-----
+Hash:     7c796cd95934b0b00ab5554b009a94977cbbe9a988ea72328fb0efe5204b5bae799011d29991db16b07d38773357076ec4c889c332cdfdebece2ca7a052dc58b
+Salt:     None
+Password: gfhjkm123
+Attempts: 1676
+-----
+Hash:     9c6d7952755415c26ff3c5dc3cc1ee281b56c8542c8619e1d5133a49387d9b26deab3d0d140849a84ca8d13b34cca329af6878ab27d505ccccd473b3a7c56c2a
+Salt:     None
+Password: asdfghjkl
+Attempts: 1362
+-----
+Hash:     552dc2e616c351e1a6ffaadb32dbacbaaeeb8359a9f6ec33668e9265997c8aa8fa8b501c6759b989742bf0b4e566ecf2079f9359d3224ecef116ce42c4ec07ad
+Salt:     None
+Password: password12
+Attempts: 2583
+-----
+Hash:     516d58719dc815aad8a079ff3baae94e95b1cb47ace90ca21e429f1d830e2eb10dbbf1973405d06421cce3d0d5ba38ff5860c67bcf574abd91b8ceb5be7fd061
+Salt:     None
+Password: 1qazse4
+Attempts: 651
+-----
+Hash:     3be85577900873886781e8cfde3694047c8976e5d1935e6b79bfd1c8291263cc2004aebe00a7b8f27d0b27653155663ad0d8252383647c64672ab696721f1fb5
+Salt:     None
+Password: accountant
+Attempts: 909
+-----
+Hash:     3287aa71013d67416d2436d7e0569dad522a2ae694552182ed5d450e959801ce03489e76c90fea07324490e7f89fbc919ca847da996d859e48f6fa62a64d7059
+Salt:     None
+Password: change1
+Attempts: 1445
+-----
+Hash:     b5ece5743a8cdc86f3c52e0e13323b77c155e5acfa1155dcf2bd8639322a89ddf94d3cf14487278666c8e565ed7819b786ed2f468bd00fb82abe4d4632676aea
+Salt:     None
+Password: qazzaq
+Attempts: 2772
+-----
+Hash:     19030b0346846cf5f087b9d10f401c0335192cf72b441f30d15dc6ab84d03d7681cedfb12a7a71ae02d8cfa70a3e71bf4159e82fec3a8051fe38ca379a68b938
+Salt:     None
+Password: qazxswedcvfr
+Attempts: 2771
+-----
+Hash:     a3e8882db900b2665c5fc925bd1ce97d28fe38788f78507c83015c05ead4acad6392ffc3e8b09a469a9769ed682d58cc790be36f64a2ec26d23dcd17dc2f9185
+Salt:     None
+Password: 7654321
+Attempts: 118
+-----
+Hash:     da9c71070c1d28c0d52c604c84c8054a5af947979ad30e06ea2da4e0382373c641cda4962a452671b9f419822693927644dc9933f0cba6502175b6d6ea961fd1
+Salt:     None
+Password: aabbcc
+Attempts: 793
+-----
+Hash:     b7eaabbe3ba922f8e8aa59fbe5392559b4249efda553cc6e4acd6694d65fc668303f386bfd949819bc74c363f6123f21337a34b144bc1ec5f48b3de2a99e1d51
+Salt:     None
+Password: 123ab
+Attempts: 557
+-----
+Hash:     590cdca7402835e770e3d534ad6483dc6469738f462d8ba474dbbadbeb61021927a0ef397c1d639aa76231173bdef7dd5ed382ae3d060e849cff3daeaa3df82d
+Salt:     None
+Password: 11235813
+Attempts: 126
+-----
+Hash:     b123e9e19d217169b981a61188920f9d28638709a5132201684d792b9264271b7f09157ed4321b1c097f7a4abecfc0977d40a7ee599c845883bd1074ca23c4af
+Salt:     None
+Password: teste
+Attempts: 3492
+-----
+Hash:     a58a1cd8c72d39ca2297405b03fa321d7f5f6047d3dce16a5200be9bb47e88e5407ce460afab625b8ccd0ec02b522773d3dd233e1bdac67cdb04751d303f699f
+Salt:     None
+Password: 5662
+Attempts: 32
+-----
+Hash:     2372613d238095760c6da39b035d364c20de30378263ff1be5438101ba5dd229c834b4b39245279cd2fcb6c47fc47bc729549e0d8f3d5e0cb00a638216e3267c
+Salt:     None
+Password: Network
+Attempts: 5337
+-----
+Hash:     0f0626a5f0161a0b89c30ae5b295028a46a2f09640f9f3ea16ef0fa9ec19af0a3e55baf24455892ae0252215c75a913279009197188656eabb6eb1da90d5618d
+Salt:     None
+Password: daisy
+Attempts: 1498
+-----
+Hash:     3e720266b7b7d8084466a12ec088fbfe1a5361a35619cd73603c1f935b153eebd7233249e1b50be05d56b95a78fafacbf8fb45b9b8d6d144932ab00754073486
+Salt:     None
+Password: 8888
+Attempts: 36
+-----
+Hash:     aae445b3423b0b11a64bb83408e8d1ae506a76db4d59e054e1ee318eff6775b3663a1a93adb16c83f39a6e7402cc5e0e0009f50b4166ca2f995c63aa5d26b610
+Salt:     None
+Password: 3edc4rfv
+Attempts: 676
+-----
+Hash:     bed473c486c12ef364f7632671aa8b78eb029dbb4381e3a47caf0273f58b18d51443a3860ab79d7ba8c037b4de632ce09c55bf072e323d0b8094e6ef964f8f9d
+Salt:     None
+Password: Pauline
+Attempts: 5885
+-----
+Hash:     102eabd43e88bb12bb4db284594e64159d04237029914ef8b061d063a56d768023efc5575b4ac229aebe146cba287a531e973188ec394c7b0444f36d98b6c020
+Salt:     None
+Password: dell123
+Attempts: 1538
+-----
+Hash:     c6ea9d5aca1bccb2e24202054a2c016c2eeb1bcde7cfaed6edad153f08060bee90d100878c4246706045fd03254dd6d396c21a0083d720c1b8c58ac777e77ba3
+Salt:     None
+Password: 222333
+Attempts: 82
+-----
+Hash:     d7c19c06cc6dd910671c6d5bd83d62b70c0f9e9fdd911f900f441f83f987fbc0864b1acb67163d22278f6245edfa2bda0862b063580892963226461072ac0d1e
+Salt:     None
+Password: Qwerty12345
+Attempts: 6298
+-----
+Hash:     ca69a8824c186d50a0b4c8b316fda270e9f06c181a11e853f429cdd88957a54511281b52383de170f48f14b16f72a7c3d8964e9ddc530ffd5a3b8fa711e31b12
+Salt:     None
+Password: temp1234
+Attempts: 3459
+-----
+Hash:     8d578c040ff8cc0337bf8ea4bee400d5380df2142b3f4359b29cb27d5c4ee249854c422c0d011c2b1443afe797044b5145d449455d1100d02fb80450a8a0d416
+Salt:     None
+Password: 2019
+Attempts: 19
+-----
+Hash:     9053e6191b2c62602fddad574df11aab5176f8a81e3465b8c1d8acab97d62ad93948d4530095e812f4e176e4e178c3019a133091e427b45b88722be12b9a19b6
+Salt:     None
+Password: sales
+Attempts: 3220
+-----
+Hash:     1392379478c88443c458ed72e88c72522d3a9ac1b93764c71383969a352d1c84a90f9b3230d04d0ef627954224e44df761757922506b92c1f9baf4460230ba44
+Salt:     None
+Password: 987654
+Attempts: 102
+-----
+Hash:     cf2cb0db303ac3b1530137dd3b240cb6022865edbe11427772d37f43eee4f9eda26c6f6dc64d390fee2b28deeeda2563020b2f8b4fe672163e19bda77a172902
+Salt:     None
+Password: Carmen
+Attempts: 4676
+-----
+Hash:     cb8eee9b0006ff741d19a899f2f6ceb472cbc448a49e06144194ddd3c2ccc4088f0ef1ddd2221b2adb3a4b43100eb4250546b48187b2196a885e5af15e065f5c
+Salt:     None
+Password: traffic
+Attempts: 3512
+-----
+Hash:     66a2d78a8cd30f00d0f8e43434731ce3c9351ce9c7f66bc1cd2e105edc994be0a9106c85bb7eed09a421de36f4af0dc2f24bdc64f8645ce7efd3fd909b93785e
+Salt:     None
+Password: secure
+Attempts: 3236
+-----
+Hash:     95de55f038143f0037ccf7f62b3647b828548d5a73b9f7b3a2113b435e3e1b81239592e1a616cab79aa39a3802dc1e7e6bfa1b54f8bb77849e1669349223e690
+Salt:     None
+Password: dell
+Attempts: 1537
+-----
+Hash:     8ebb9880203427aa4fc435401c03d95cabf5466288d53a807e2e113d298439c84ccb4b29a3b0635116381cebd35eb214bdcba9b62b3eb8c97209fce959d2e23c
+Salt:     None
+Password: pasword
+Attempts: 2647
+-----
+Hash:     716280a95a7860c1854caaf45b63fc4b67b4aece0370ea6ec5dc21cc3b6794ea7f10d724aca13d57c81a7e92ae64929d90be8c1cf449fe86e91937a9a6e1f2c6
+Salt:     None
+Password: windows
+Attempts: 3584
+-----
+Hash:     ed13d35f710a6e65b36ee8620d5b94cd11849a473bf5e8a691fadddf71dd0f93d319a02ec2ff84f6d7607a3928cd1886d2b42aedd553debd40fe0bcfea09dc33
+Salt:     None
+Password: qwerty1
+Attempts: 3055
+-----
+Hash:     7e083c44ed63c13dfba3be353d3a2c993fa66fced0b7ed4e468e43155cb71390efb92ad2d75c3ebc6f063bce79253cebb79a06b749a204b650de4ce2be1e83d9
+Salt:     None
+Password: asdfg1234
+Attempts: 1256
+-----
+Hash:     31a3423d8f8d93b92baffd753608697ebb695e4fca4610ad7e08d3d0eb7f69d75cb16d61caf7cead0546b9be4e4346c56758e94fc5efe8b437c44ad460628c70
+Salt:     None
+Password: 45678
+Attempts: 50
+-----
+Hash:     b73ea38f2abda6717e76b779c1816213ff6241b63a4ffd8346d4d7cdf52a022fe58d6164a4b09c3b7e49ee3f2ab9a9c2c60e5e6f375fd0ad8c20397b08521df5
+Salt:     None
+Password: blood123
+Attempts: 1421
+-----
+Hash:     cd3ca530caee1aabac0ebbd2ea45c568bdd1442da5724d22ad5c51461fccb3f304806658486c0790053683cf875a5ebb62514404008aeccce9bcc3f7bf5adee8
+Salt:     None
+Password: start
+Attempts: 3365
+-----
+Hash:     e1aaddf4f8aba4a18a5e40b424f75ec34c65c2c66479c18b378520c28e980acf90ae28b53b00541eef1bc85bd351c8a72b9208c54e8e4ff5a63a482362b04983
+Salt:     None
+Password: a123456789a
+Attempts: 723
+-----
+Hash:     0cb774e492653d60b84fe3dc039d8075760fa0a935a7a93ec3dfca54f94a11272969b30d31d2d8b004c98a8cf9721d458e05cd4d47791279110f6964910dfcc7
+Salt:     None
+Password: Fuckyou
+Attempts: 4873
+-----
+Hash:     b2c92d8c83341b3c41678c18d603cfc082a7884b10753e6ff5c420ba50e8cb9d03594b508ccedb4b87d9108a052b2971e37961858931bb276e6b2d8a05403bc5
+Salt:     None
+Password: a12345678
+Attempts: 720
+-----
+Hash:     81c6cc8bdbe0e9588766d84ffae3a06f1348b81f8273ebac14f5ba6ccd2cf14a6d52ebe0dd6e0243cd623aadd8da8fb38209b706a5ebc19d617c530c68044d27
+Salt:     None
+Password: Curtis
+Attempts: 4733
+-----
+Hash:     a9c09df0de4c29a62502e016098de038387835b010493d78e9c8b93a3b4296b2ee7d335e26c798622091b31382f4740a044a52b5b9c939bcedf9d636248bcff5
+Salt:     None
+Password: welcome1
+Attempts: 3566
+-----
+Hash:     17fe95a8f04b084ae496053b9672e5b4fdacfc31c3265bf17ba3ee8a0645175fcaa296b11d1a8d214e76972c59f6b9f402ecdfaa545870e79ea60239c1d8e558
+Salt:     None
+Password: Server
+Attempts: 6478
+-----
+Hash:     1e5ddee36106b9990fee0ee14d6f7e87c43d4a05dc6090a570c7efcbffa09f5612dae0660d3ac29a744c75d82b1c22cb4e9372381505d608069efee9b3386283
+Salt:     None
+Password: micros
+Attempts: 2071
+-----
+Hash:     cc6e628dbb7bee98573da9135f46cc912898c53c3a0e3fca0849ee679fc303660e3acbc0f4790314b13de000b7b35a81f0fcf45ae76ee56ae92e069c674e9e7e
+Salt:     None
+Password: maggie
+Attempts: 2047
+-----
+Hash:     cb3749bb5316bce144cf1928bde8b1b235bf38422b4a217b4736a896ff90fe3028931ae2b4d4286c1452456caac55b3139216b80b8506f819a77fc996d8a400a
+Salt:     None
+Password: Zaq12wsx
+Attempts: 6893
+-----
+Hash:     5db44490524f6e1385ca3d28b76f4d1285cb420aa23843d0bd281d42c9b1aeb7ac6e302a4dff9d25bef98c963923042b7fc8022457e3b3d14527a051fef808ef
+Salt:     None
+Password: 74747474
+Attempts: 147
+-----
+Hash:     2f5fb2a469a918a84c1a467d40e4ca2250f1bdaae45c928d616e51e5d73db7d56470eff626211e710083957e3b40b6ac55b58d5130e02edc4acc1f3d91f5302a
+Salt:     None
+Password: asdfgh
+Attempts: 1280
+-----
+Hash:     cd73d0acb4afbdee6c13a4c6f4f6571d7ea1521a16396c5f86a4c29a2dd6b6a823e74e4d99718a4063c09472b7928dce98ec6e667f737caf36b0841e9f27764c
+Salt:     None
+Password: asdfghj
+Attempts: 1308
+-----
+Hash:     95781e0d7f01e083b1e2e7223369e3ebdbdb08ae04cad119d66c5adcaf35b0e7d4128a81de4ea7c08a579e917dab4bead100ccc5dc4793010ce053d099e0e087
+Salt:     None
+Password: asdfghjkl1
+Attempts: 1363
+-----
+Hash:     3739c45752ae710e5838b1b3f64ccd91dfa1f56abc3651e38d8399d1d8badcc592bffbe89358ebba31a4a64de3e1607166e84b243f267d59ef613008a879578c
+Salt:     None
+Password: 123212
+Attempts: 68
+-----
+Hash:     2f078ff4f34a3c1d59a3dd1eac85e629c92800814bb442e81aa366849e59f0088b880af3ab2e1ff1dfc2e5c15217044bec27b61a15d259a7fcb413e5067aa5e8
+Salt:     None
+Password: asdasdasd
+Attempts: 1216
+-----
+Hash:     02d30bd6a3db4d422c17b38d38a58c4fe982f1c53ff2abca3849defa8b0b142147e5692c8841e073dbdfe8af9c7535fed61c53c98943f9e087c331317d8bb216
+Salt:     None
+Password: Master
+Attempts: 5293
+-----
+Hash:     6f017f6885ba78a82ba253b230205f069700f74d019222db0b04b1223b3a3cb77497152077ee3db0e49e992cf6980fa2d6771778b3a17310a978dfd22ebf5301
+Salt:     None
+Password: 66666
+Attempts: 53
+-----
+Hash:     2d71c4f17342118d8498b20e68b5a035b77e4c693f142977ee98850e9810d91414af053ca307d59303481cfd3701aab24823357f3bf138f494f7f11f047c462d
+Salt:     None
+Password: 777777777
+Attempts: 167
+-----
+Hash:     1fabd59c6773b327aae65e37851e8b3f6fe43affc22425f2e05bed404bb103b2f8a16f316745c4b931cf80617e896fde7fe6e3e90fd872d4aa0a77b64db3c43b
+Salt:     None
+Password: asd123asd
+Attempts: 1195
+-----
+Hash:     5c8f7a1239c1d77e01791902ef4b7147b77630983bce5574018b54a7967cd00242a2b50cc7c839a1ecc6999f5d472e6ee47ecd2d3255e3705f48cf27a63aedc7
+Salt:     None
+Password: 2222222
+Attempts: 113
+-----
+Hash:     91308aab101c368123805705d41b9e94db9b1ea72948ce5b89b2ef27c93ebfea7609c226f618528647e00d9dacff4a9f57aee879bd997f84b2b306136a8e5456
+Salt:     None
+Password: Albert
+Attempts: 4361
+-----
+Hash:     9ca0536ceb245f5c7a3ce3a09f6646c60ae3f301e3fc65bf837fe8121e41ddbe2d0efdc9bfffb8c7670dd4602c056704d5b5eb5c4d1b2174a3bfef8ca166cf49
+Salt:     None
+Password: angel
+Attempts: 1130
+-----
+Hash:     930427f91ec541c2a6fffb9b83fc2c8b90d0919f4932f2f6f885e662a164424e2955c1acae7c6821f80322639b24febce9bb4dc057b6156ffd95485d66b5d8f5
+Salt:     None
+Password: videos
+Attempts: 3542
+-----
+Hash:     f42bdff0b89b6abc5e896f68099e03665e7c93df12745d46db36850edf7c83f0dbfb0fa681a0f8b520805630e461b84d7c9b0a35cffa529445285727937dc3d1
+Salt:     None
+Password: Pa55w0rd
+Attempts: 5676
+-----
+Hash:     c6ee9e33cf5c6715a1d148fd73f7318884b41adcb916021e2bc0e800a5c5dd97f5142178f6ae88c8fdd98e1afb0ce4c8d2c54b5f37b30b7da1997bb33b0b8a31
+Salt:     None
+Password: Test
+Attempts: 6721
+-----
+Hash:     887084ba7f7d0e9d4a22a7b2ed905a2ea84ff34509c5e127fafe206aa56f721567ee600b45f6a7eb78bd68c6661cb09e1fc709c6e8a3efb3b8aeaf98f73d7b9a
+Salt:     None
+Password: Fuck
+Attempts: 4871
+-----
+Hash:     be46d13afdfc6318946843475f998bcd75bb72988f96ca784e8fd133624572fbb361993c2898713d4501e5ff5f98ad0fd28e6ac8ed00653e42282e6c69965379
+Salt:     None
+Password: morpheus
+Attempts: 2090
+-----
+Hash:     200057456de74234004fc59db0a9329b34c9c697a5e4fe41cca1a8eb387cc251d4c5f74d7bd6d5f53e32079c20cdb662eb4753490ad91d873a71a42065aaf10b
+Salt:     None
+Password: pass12
+Attempts: 2468
+-----
+Hash:     661bb43140229ad4dc3e762e7bdd68cc14bb9093c158c386bd989fea807acd9bd7f805ca4736b870b6571594d0d8fcfc57b98431143dfb770e083fa9be89bc72
+Salt:     None
+Password: admin2
+Attempts: 1060
+-----
+Hash:     aedea4e2fcca6fce0bcb9f06c46bd11d95332dc3adaa2639af1811880217d4be8161151092b0ab468b89dc49c789b28fa1af9b5fae8e379b1c5ef48d775a6704
+Salt:     None
+Password: temp123
+Attempts: 3457
+-----
+Hash:     2e3f76e8309d4ee14762b902c201e7f3fa245dfbf114031e8bff6c0b8e8aa2514267359e64970fbd7e1a4efbd1020d8148032387bc9796b58986217a3098a8c6
+Salt:     None
+Password: qwert12345
+Attempts: 3003
+-----
+Hash:     8a66a0b584df7ae52d53167e0f4afd4e3472e93667489894f64ca49bc0d9dc66b4c96628963324b024efadf4ebe655f2f963e8abf4d3c95b120c53ed0d892ed2
+Salt:     None
+Password: qw123456
+Attempts: 2795
+-----
+Hash:     3d020c0e4c856941640b0125403c0ee9a44dcfccd2d92d10cad701799fb3c32dcc0ec77c870d6cb9b093e3e41f466c5b586a745df5f4d126aa16a2b0e5161cd3
+Salt:     None
+Password: q123123
+Attempts: 2682
+-----
+Hash:     f8ebfa36256b06e3252c201b5586f370323d8fede25ef475ecf7df3b12e8d238569e5e6660329dd2f8ae54d61139e21f141fceaf8d1d2d4af258794882e8f384
+Salt:     None
+Password: 2525
+Attempts: 23
+-----
+Hash:     e0b9ba61fbc73006b820880187859d7b102d1076513c7909c890062f7972ee52846025689791a3a07dd6ff332ab2dd07f61d4512ba727dffb8e51daeaf12357f
+Salt:     None
+Password: 999999999
+Attempts: 171
+-----
+Hash:     ebbcfecbb97654304f3aee0228236ec4d94fa0593ea1ec8236fc3e2b9e6b01546d9ee62550d8ff30d3df9edc65517caa75dcb6dd358e11a9ec5d7cdf8911b0c0
+Salt:     None
+Password: 123321
+Attempts: 69
+-----
+Hash:     3ca19a1cbfd9309019c2c4a2f2a8f616ed7e0fd1e156f9a35a88a1b66fa078236e1924978386988e11a388eadaa33272e3f7a602266c2e883cfbfc1f2cf68338
+Salt:     None
+Password: Zxcvbnm1
+Attempts: 6935
+-----
+Hash:     58b5444cf1b6253a4317fe12daff411a78bda0a95279b1d5768ebf5ca60829e78da944e8a9160a0b6d428cb213e813525a72650dac67b88879394ff624da482f
+Salt:     None
+Password: admin1
+Attempts: 1024
+-----
+Hash:     4646213e358dab24b938a7220e623d8e184ba8dfe47d608f34c17b396478fc3842b92f0044961d6252bec93a0df1b323b59fdea1bc04fe47d826cb6e387b0fdc
+Salt:     None
+Password: Q1w2e3r4
+Attempts: 5926
+-----
+Hash:     8a8cd2e12f947f846c411c5465ec77d3f1964d375bcbde8be53c4d8df378c329ce97749d4191116d6d337a42dc51e9243a2b7bb86bc5f37975b518ca842f9a71
+Salt:     None
+Password: germany1
+Attempts: 1673
+-----
+Hash:     ed184d9a7018790a9b005ed675c71d2ab538d145aa3e0dc8423da82ec08ef1b7a4fd498ca5b4726600ff25cb9ed0c861af7ba66fd60ca2c12cc509e16b6d5f15
+Salt:     None
+Password: 12332
+Attempts: 41
+-----
+Hash:     b49eaf3a26bf6c758751698306dcb4a0859ded3aae03c62af51d87f58336e09216e2f09ea21c46ac026f99dedc90fef0b6960a77f7cbc3103c935577ec2a9432
+Salt:     None
+Password: 18436572
+Attempts: 134
+-----
+Hash:     3f588461c4a6d0764f8e3f925ce8a4b5b4bb6c072c2458faacfe3a46ec414164dd3425c56e16ed62348ab3e63a1737e40559fcc2df9eb4d381af9412a848704e
+Salt:     None
+Password: abc456
+Attempts: 857
+-----
+Hash:     0f4e49e88d2b8b8501a4ba7a2a320a1e496c2d4a1d1cba1c068822cf690a339349fdc3d3d8545f97236e3f07f9cf40eefd8f590ca3f8aea4919adef66361b506
+Salt:     None
+Password: David
+Attempts: 4767
+-----
+Hash:     cc522bbbf0333d122688be592db8818ef6565139076c19986cd1d967ac03c7df0852e973514594bb146787a11dd965a1b3e24cdf3f6f056c68f359389da78d97
+Salt:     None
+Password: a1s2d3f4
+Attempts: 730
+-----
+Hash:     64bb0ae3efdd054aff98d1c04432967b8e5bde522feffc55f85234b27990a8fa8d2cc553e7af34595e8c48de97768e929a15c2a183657c42c172e0f9269c95ec
+Salt:     None
+Password: jackson
+Attempts: 1996
+-----
+Hash:     f68a41e098cf7ecb8924645bfe335941beb068e7bebaf0bba26549c0693560df08cace69debbc59f6d2e30a328570dc331c1ec2f998a43cd0340b08065d4318a
+Salt:     None
+Password: daniel
+Attempts: 1500
+-----
+Hash:     64f7f18205912a136f910e4f5d835308b4003a1f57dca7b9b03f5abb7ab35a4cfc0eec1c82dd6ab1cdfb06ab945784b0fc9606a40f4df2bf60260000c55ebaa5
+Salt:     None
+Password: asd123456
+Attempts: 1191
+-----
+Hash:     f4bf441683917fed9ea6166845b3bb12a54352143a952fce8aaba7684c0a0b28f55b10576acd9c711471af35f1414bc1de43340a4674e7909921fe9694d05bb5
+Salt:     None
+Password: a1234567
+Attempts: 719
+-----
+Hash:     f358a8caf95e1889d88444d054c847506d1448fcf03336a621bb9d62ad228d47ca467c0a61d56933f59cc59edb0688270549b4c5d17a6f4937b077d643b868ce
+Salt:     None
+Password: office
+Attempts: 2142
+-----
+Hash:     ef2c7b78cc9cacfb18262d2ed698cdcca598d413946ed0d743285d889c87ad29ecbf3f9de43338dd1c06d33dfbb43a4bc95aac2301e63a426bdd3e2a582f2da7
+Salt:     None
+Password: asd12345
+Attempts: 1189
+-----
+Hash:     e459bdfdd2278c003b3fb035af74010dc2e96e1ced7eab9514e94a2cc42b9a24478187818189eb1fa356f4c938fecc4bbbd6e15c443935d6e7f2b092cb91f742
+Salt:     None
+Password: dream
+Attempts: 1552
+-----
+Hash:     b8a59dc0ccab9e8c864a220ddccb579e9cb74bfa51851766b67206c85d3e37be048a483eb8c25dc702047a2edd02926f7f2a6c065b1f817df934c2a1f0284059
+Salt:     None
+Password: 2008
+Attempts: 9
+-----
+Hash:     69f43b17b91a7ec20351dadfaf8884daca3826d2826190eb2a20f421609493a4da48ca522820eb72786cfc4870c79114372273e8740ecc5fba253fe0fe2f92e9
+Salt:     None
+Password: Frank
+Attempts: 4868
+-----
+Hash:     d06119381419bf36ba2188ef0809e6ea41409ff21f1091ae50f56e3412badea30c31f7a4e5732628c427bb8bda24d9a1251e77f7a334d3fe591cea7775684172
+Salt:     None
+Password: mole
+Attempts: 2087
+-----
+Hash:     8cb0c3135a68b1d88894597c20f906a0fced0123cd9310acccbd7496d4663db62fa86d02d4653fc1da1769cae804551bd0d71f5daf7359c8f1883cb9572834bd
+Salt:     None
+Password: Corvette
+Attempts: 4727
+-----
+Hash:     4fdde5d31eabc83bdf7ef9e1470119f3875f22f10c18ac3cfa7116ad86e01c7b07c5342c85cb1accdc72af08932cc98ad4f910b3094d1d51d7be5fbc6c306752
+Salt:     None
+Password: aaa123
+Attempts: 780
+-----
+Hash:     3615f80c9d293ed7402687f94b22d58e529b8cc7916f8fac7fddf7fbd5af4cf777d3d795a7a00a16bf7e7f3fb9561ee9baae480da9fe7a18769e71886b03f315
+Salt:     None
+Password: Hello
+Attempts: 4970
+-----
+Hash:     2b4e48014fd2f40555e56468363e3c47c110fd657a456e7b340f45ea3578778650f298997225c3ebceb993dede92b361328aeb94733f09c2569260542828c9c0
+Salt:     None
+Password: asd1234
+Attempts: 1188
+-----
+Hash:     bc547750b92797f955b36112cc9bdd5cddf7d0862151d03a167ada8995aa24a9ad24610b36a68bc02da24141ee51670aea13ed6469099a4453f335cb239db5da
+Salt:     None
+Password: password1
+Attempts: 2577
+-----
+Hash:     1d255920ada6ac787656b393e9e0b5845aa1d975f1db4015f80904da4c232786444e6dc87e719981bd4d8596b4d0f937d6e464cbd7424a3a0aff6059fa0caee1
+Salt:     None
+Password: asdfg
+Attempts: 1252
+-----
+Hash:     0e7f00807516fa6836c67001a9d3c1539b9a6c7f76f7573bf6a810e9f742553634803f6ea83ad6274dc029aa37b1ac320330fd9bce0b7ab2ce4f2ecd283173e4
+Salt:     None
+Password: Jacob
+Attempts: 5234
+-----
+Hash:     c3b4ee486d985c44fadc4ef86c2c86e1b53f8702d36e5fde5c8c495c7d5dba3ebaa2acb1594c0ee1103b2729ddb5f2cdd9198c97d6e750a1c8e108e9e9aed0db
+Salt:     None
+Password: 1234567899
+Attempts: 180
+-----
+Hash:     9513eb867cbbee254ae2f8573479b5497910d5314dfeb9e466fd4227c985f49fd7a55153cb9638e82d7934c387ecfc83eaf0f77e004fb6a5d39119faabfd3979
+Salt:     None
+Password: 1980
+Attempts: 1
+-----
+Hash:     4f8847d67b81a84c1b8de3173928d3840cba937aec34103b82752d1bf23c1ab5082997feb1bb50832b9529c49e721283d6c3c6824291bf6c490deba02a7ece5f
+Salt:     None
+Password: passwordpassword
+Attempts: 2629
+-----
+Hash:     f17e7f8dfeeb25489fc0506d251022ef63e87ddc11b7239ed8336c55a360d4996003c7ef7b875628874155c31cfa53306da059293b0fba7e454ffcd91b9c5415
+Salt:     None
+Password: master1234
+Attempts: 2060
+-----
+Hash:     22e7e9d85b7fe6004f7b9f3aa592ea9ec9ce098682e8192fa83785f1784c768d1d1ac3b8afcae88666f66aec24739ac133e9d4adc7506f1a5f1f6078cb27c674
+Salt:     None
+Password: 11111
+Attempts: 39
+-----
+Hash:     33d9a2e5226ebbdc20c32f7536583a3ffeb8b1c4a58bf34183f9767cd712ef9bb794a06637bd79aca911a2f91758c824eecb79fc655e73d74a5e248ba3d58824
+Salt:     None
+Password: magenta
+Attempts: 2046
+-----
+Hash:     644bab3f0d9142e7dc3c7407b01dd0397327f967a79fe6af913e54a967bc922d2b20982ff2f686764cab3663a153f177e5664ac47773ae86b1b33c24c93411a0
+Salt:     None
+Password: qwer12345
+Attempts: 2950
+-----
+Hash:     5e78a67504dccd435d557fff139f086747366125cfd3259f41c059f5bcb5455050c053028fbc0748cc321f7462d3b488633fd7bc89d5f37e047e5b83e8b1a47a
+Salt:     None
+Password: Windows
+Attempts: 6821
+-----
+Hash:     ffc5f27a44e52f80b688df8015263ffd9c0136851921d49f253597dc460e8784bf10e22a9289a057a2a6158dfeac9275f04d2287b19eca08ba769ed0ba1c25fe
+Salt:     None
+Password: qwerty11
+Attempts: 3056
+-----
+Hash:     fe0d8456dd3f1a0f68cde11860c34bddce97dcbc20f389f534af8c4c49e225f6307ca16e414ac04c8d67b80821690edceb86f8de0d5286dd37ee562e3dcf2e80
+Salt:     None
+Password: Passw0rd
+Attempts: 5725
+-----
+Hash:     8d2e1d45e47aeaeaad4c908af5e66b1fbe877609fcd31e9f07bc3e210d817d5924dd23039f8c96bce732b34956e3e96a97f72b86850c8ce03c975444899b501c
+Salt:     None
+Password: 222222
+Attempts: 81
+-----
+Hash:     cd714d8864b22e5b5e0f05576843058225ee4303c3bb3b34234333f88fb4d136d93a58ecdceefd78246736cbbc35152051104e9f0397e4cc8de7b7582231fa15
+Salt:     None
+Password: setup
+Attempts: 3344
+-----
+Hash:     6fe832a280bf20e4e15ac696cfc112df8d9f62232453230218d6da7ff8217559a3b59bf3cd4695adcf9067927c4e053389dbf8c5d6d74f7532303e4b34932337
+Salt:     None
+Password: system32
+Attempts: 3446
+-----
+Hash:     6af6d18ccd9dc2b28f831dfed21528c791fc118197235a4e1a9457258f12c3ad71ebb7b1a1e1403a61701d2a5b5724c68df73412b7f6ef8a40da4c9d0ebd5785
+Salt:     None
+Password: gigabyte
+Attempts: 1713
+-----
+Hash:     e50b647180a6c9ae2112d59c40d22f7b2e4d307abe7687ba48d127db8e9de49b19f6e39185587d317b23689244515632fb1305c545f5750a873974a18fa3aaca
+Salt:     None
+Password: passa
+Attempts: 2480
+-----
+Hash:     cb9adc4282ab2bf08cf27a1d9509d0ae235f959cf9b54dffdfdf795e031c3ca49223da9d6b24bdfa9f4ca6a3b0d384a95e9e5029988d4492d3e01280c7eaeb37
+Salt:     None
+Password: zxc12345
+Attempts: 3684
+-----
+Hash:     adfb6dd1ab1238afc37acd8ca24c1279f8d46f61907dd842faab35b0cc41c6e8ad84cbdbef4964b8334c22c4985c2387d53bc47e6c3d0940ac962f521a127d9f
+Salt:     None
+Password: letmein
+Attempts: 2019
+-----
+Hash:     3124b17bf416b0d2fa322e322533dee8bd133c53213f809d6a21b5d474f6ea1317fd0cec5cbc0a683d7b502324076f8731832a996bf04fd2558d4c0ac2ec6f0d
+Salt:     None
+Password: keepout
+Attempts: 2011
+-----
+Hash:     ab8b097aea2e7be69fd8899987b2f1d511ebcc3a165d796d5e85af0741ebad46fcf97c11a1f42811862464de0de5428c26b2882b51ef84dd4aec8b30a945e261
+Salt:     None
+Password: A1234567
+Attempts: 3956
+-----
+Hash:     ed74cf28e117c5f6dc9d4b8dfd76a7728d86000884abe0bffab1b9c881e0006ca6e057331ec536449b407bb0c5d4d947caff50d94e44772eccb6e6ad155e1a71
+Salt:     None
+Password: home
+Attempts: 1976
+-----
+Hash:     268e1b2799d8d2b09565e4fa32efec16a23b4f44ac2ebf5e37b0b4afde1f35fa98a771a59e805d5109b2ecd7ca56f4d989d8ede57db68a5a03b756e543c5a4d2
+Salt:     None
+Password: windows1
+Attempts: 3590
+-----
+Hash:     115205a3335083e27e42de11bef019a6fae4b80cdd53970a056d8729b16bd46c35fa2f31d77e36a84d114febd65838fae482fec229c2ea783d0cbbc687a53dc8
+Salt:     None
+Password: ironman
+Attempts: 1993
+-----
+Hash:     d7ae5af3a94c42ceeb80b087ac9accb80446a76bc5ed6dbf12253fd2124b2f08c1e5ad81520e66e6e452dd9f1f484648b885a388855372216e6f3c2c71c9b1ce
+Salt:     None
+Password: p4ssword
+Attempts: 2411
+-----
+Hash:     79596ec8eb4333da656cf67fa72a949496e5abd30484624ebd76545666b15a9b5a3fcded3e826919b437290e562e069d547c0b3804ae478e3c1d09b01f4edc49
+Salt:     None
+Password: zaq12
+Attempts: 3654
+-----
+Hash:     2f5773b840670466cad0f2bff114e25c2e8c924634ff7843077ac93f29aab8747349e62ba73325f266cadd6ab6ab689b154b266b3f8afe7cf46ad363d3dbf24c
+Salt:     None
+Password: export
+Attempts: 1582
+-----
+Hash:     23fc2006d82bb35c85cb7e028333a9332501f11d3e3a20fb22099388a7956898a83bcd3d3dd108c1224263e6510e94bdc8617ea331f050a04f1da53821ab3837
+Salt:     None
+Password: great
+Attempts: 1720
+-----
+Hash:     bc590c4e1ec829dbdf5dfdbbd34e9ecec27c4c15ae000be1070dd4dec873f944e0de2e607d3c0de10911da5efd7f9d234c5241a1a284ac1aebc74818e4d3e2b7
+Salt:     None
+Password: a1234b
+Attempts: 726
+-----
+Hash:     078b856cc884fcef79e2749d603cefc9a57a87918d2de7ab853c630901b0e3c9d943056f196bfa8ae09b2778126b0fa8422d566114867e6f68154c9af776d504
+Salt:     None
+Password: 99999999999
+Attempts: 199
+-----
+Hash:     77304db8413765eeb83d82d5f146030e106a3e85202d9b0757a84dddc19f92bee44f2e646a2bce8187772c6c543853410a6be683e5e8340f2b428ec0c4755751
+Salt:     None
+Password: passwords
+Attempts: 2630
+-----
+Hash:     40d306df4fbffce56c38ce96948d6bac43f8f0eb91a7918e0bb6ebb31e1f6d9fdf9de33c31f9bc0d79cf9453040b78ab6d24f4893cef2b4187ffb504635ea906
+Salt:     None
+Password: 55555
+Attempts: 52
+-----
+Hash:     4ce18085d50ac35207a3e167aafb7cfb42ada855a377bb3c19e0cc0ac55f0d72c862deb698ce7f68411ffb916489cb4563c1c4fbaab9c5fde46de9475713cb8a
+Salt:     None
+Password: 1q2w3e4r
+Attempts: 616
+-----
+Hash:     bf2968cee581bf3b29c2ba0ad0af2a41d1eae97e048c5294f02f2702f5aa135d2386b6a955320a5930f60c720e99c1594757c6804ebadc6f2076ed3a6753f9de
+Salt:     None
+Password: welcome123
+Attempts: 3567
+-----
+Hash:     69efc236a417bb3710b615ec8e4fd6fbd7df66255c105f6b44fad0fa87d15d24ed9eab8f2e5bfe40697e4a3c0a750442ed85dfdab783cb869510d7af5ef0a5c4
+Salt:     None
+Password: Boomer
+Attempts: 4663
+-----
+Hash:     ddf52391052db70c4afa199a251c8a55e566bbe0d4f26b3505843aa5e63e6c976d5df5bbae9279c449f03809abc9f13e7deb8f14b80427a2e5ad8c6c38d3da19
+Salt:     None
+Password: 159357
+Attempts: 77
+-----
+Hash:     799f1cffadfaaeb7263270f5d3d90b14b97c01d21b454729c32af1a455fdf8904006bc4cc66e2ed747a1f6cafa6fd6a2652790880a0182f85c155bc1377034e1
+Salt:     None
+Password: jeremiah
+Attempts: 2000
+-----
+Hash:     f1891cea80fc05e433c943254c6bdabc159577a02a7395dfebbfbc4f7661d4af56f2d372131a45936de40160007368a56ef216a30cb202c66d3145fd24380906
+Salt:     None
+Password: changeme
+Attempts: 1446
+-----
+Hash:     94f68ebd1fa098a2836ff0c4e5bbade527c22d162703c24a51827cff8a5528a7a151c49747bba5b2959f5cc32f9e087c88e93246d8b1549b7290fa0801c55ea7
+Salt:     None
+Password: 369963
+Attempts: 89
+-----
+Hash:     855a56c8f36e0ec6a96e485b75bee482dfcaae5a20a9dec5b3eda2d222b4a0eccd1a1311edc780265520ba769d997b0420506209654136a4b4e7f2a249d59c9e
+Salt:     None
+Password: develop
+Attempts: 1546
+-----
+Hash:     196b66b6e0a63b1ab8a5d288aa27b67d568820ac37f319e3e4e0f8c999a79050307c36e2561d9d3f41e24630c292538e8fe59a82578a69b888eb9c1d03cec619
+Salt:     None
+Password: Mobile
+Attempts: 5322
+-----
+Hash:     06c41e69e41453ae974750d3394763a75fdaa537765256f042d4f434580029df66fbb6f9afd364bc8005aaf85958a5c298e7412c086f65871db8047853e5dd9d
+Salt:     None
+Password: 8888888
+Attempts: 121
+-----
+Hash:     b69a0cbef28247a869aa944dcac03c0ea6e2a101280e8162cdbd0a9222a9f7ba2b320314227cf94251cbd82f8a39bc2fd85ec2632847bda5c1d9f44beaf37fe2
+Salt:     None
+Password: asdfghjkl123
+Attempts: 1365
+-----
+Hash:     6308d8f6a7ccc9f77e41be5331a52c71c0bb28ecbd4669b960d60dd505dfde9ddd7a30cd26bb308010b3819699daba7caeb791bf6a4153605fe56d1fd3d5df41
+Salt:     None
+Password: qwertyuiop
+Attempts: 3172
+-----
+Hash:     d3c795b4425e3cd0e045a975a2b8a5a36b28b9f29f50258f1951a3ffdbb816da83f38138f79aceba69d22d6cbf34f9913faf17e68835093f0085314f4ca81877
+Salt:     None
+Password: Qwerty12
+Attempts: 6294
+-----
+Hash:     ffd60d0c2d3c923ccee978753b2bc63257f45feb5065af8e2a02cff3359526fcea3bb5a00619713fedf9f66db14cd14a7aabaee01fea1b825d41474daa4038e9
+Salt:     None
+Password: merlin
+Attempts: 2066
+-----
+Hash:     4c32a4f3a49200ea16f734efb2137e0600d8f30596f5bc53eccdbad93a2f451daa3a3eff0b0cd52e35dce5fc15e949b0f1a0f05ae443df7d90ec12398cd1846c
+Salt:     None
+Password: infinity
+Attempts: 1986
+-----
+Hash:     cbd48a00031111bd51396ef6065d718a10ca58f43c717eba920b683e6df4105e2288d3c3a465125c47dcd49a39d87061bb4c613834bd971784349888969d9749
+Salt:     None
+Password: qazwsx123456
+Attempts: 2759
+-----
+Hash:     3e81b883406366ac143bb030af12244c9c77b4eb6b7b8ab4d935d3bcd89dc8ab3b54d3c4e28a03aced42621578b658ea596eb10463ed31e78853d3129d9c22c4
+Salt:     None
+Password: einstein
+Attempts: 1568
+-----
+Hash:     bf369ddff24957d0f5698925d6710a98cef7b927adca932b58d70afc000d8f7bb23ea0900ed365b717598372ce8aac03d415a08f9e6e648e1b639abddfe63767
+Salt:     None
+Password: start123
+Attempts: 3366
+-----
+Hash:     6f3fdfeb9cf99fb85fea0a8c2085ee8ce5d121a27acb99472790ec662a3033daa1f7a19ec4b6fcb990c7126bb1d4ba5d99e61c3b93a63c97cf9efc6042912322
+Salt:     None
+Password: qazwsxedc
+Attempts: 2762
+-----
+Hash:     8756869d440a13e93979197b5d7839c823de87c2b115bce0dee62030af3b5b63114a517f1ab02509bfefa88527369ae0ad7946990f27dcb37711a7d6fb9bc893
+Salt:     None
+Password: 123456abc
+Attempts: 537
+-----
+Hash:     1e1bd7b4a2d36a821011acfa43aa7625e18ad0a76d5193b70cf43d1f6753b4da53c0b015a63d4d0054cfb0cfc38008a3bcda476af402b55ba10b3bf3667dac2a
+Salt:     None
+Password: 123qweasd
+Attempts: 581
+-----
+Hash:     eec013a2a7208c51fd20f975aad231b2e21e7c1d9e228b2480e33c8f52ac482d82c8514cbeb6036d7fc76cb6262ae5780bbc628b0a6f2df32e5255a21d4732f4
+Salt:     None
+Password: aaabbbccc
+Attempts: 791
+-----
+Hash:     0c1f33f5e24f7256fda4539cb28e446e38523c2ca14f85223c3f4e54afd96c4f1c222f298ee28d4b4af3c7d39917e39fbd94e7eaada82db52a05b780e129e976
+Salt:     None
+Password: A123456789
+Attempts: 3959
+-----
+Hash:     2adb3d7507510202e803c0bd192458a0b2c1eabe4544fc031625682deb2b2eb46902b943eca54834c1469285a74a1121137766298232b8dcefbd7698c6fd5b20
+Salt:     None
+Password: albatross
+Attempts: 1123
+-----
+Hash:     a4de86a0a2d333fd97525fde24770741525cb52dd6919510cc7b2dab21ed38338199e7c85739879f1a56c51d06d5ff4f0d35f6538f59f0cb16958fc798cc4b16
+Salt:     None
+Password: Daisy
+Attempts: 4735
+-----
+Hash:     207f6482588f8021bd70a133d047ac312417d5219176097ee6dfb3ff6f17ad7dddb7894876d94f4382b225afbd8444f2bdd11981896c94bd8c647b7152baf2ea
+Salt:     None
+Password: Password2
+Attempts: 5837
+-----
+Hash:     77c7ce9a5d86bb386d443bb96390faa120633158699c8844c30b13ab0bf92760b7e4416aea397db91b4ac0e5dd56b8ef7e4b066162ab1fdc088319ce6defc876
+Salt:     None
+Password: data
+Attempts: 1528
+-----
+Hash:     bd2b1aaf7ef4f09be9f52ce2d8d599674d81aa9d6a4421696dc4d93dd0619d682ce56b4d64a9ef097761ced99e0f67265b5f76085e5b0ee7ca4696b2ad6fe2b2
+Salt:     None
+Password: secret
+Attempts: 3234
+-----
+Hash:     0c37e396eb80940bfa9328c20d7e0d7dfb8354dd809eb6508b8a0f01683fbdfd697115b6bd5f99a004751b13c4d837b2dace6588cc406cdf0a81083255dc7e34
+Salt:     None
+Password: woaini
+Attempts: 3620
+-----
+Hash:     14029a1ddb21b1385070500f8cdacb19656ee80e3579dd8b4b1284cee5980955f0b49b0b96eaed94cedf7fa3ca7968384214e8af3bdf7694d11fecf9464aef48
+Salt:     None
+Password: black
+Attempts: 1419
+-----
+Hash:     6cbeadf2e660444b6c51397f91ddf2dddbf2dcd4b6a8a3093c91b57c6d435cfe4491df22740b11994ada48e61991bcfa7e9fbe3cdb24f93295458a1626a561b5
+Salt:     None
+Password: Asdf123
+Attempts: 4463
+-----
+Hash:     7e2feac95dcd7d1df803345e197369af4b156e4e7a95fcb2955bdbbb3a11afd8bb9d35931bf15511370b18143e38b01b903f55c5ecbded4af99934602fcdf38c
+Salt:     None
+Password: 4321
+Attempts: 25
+-----
+Hash:     878ae65a92e86cac011a570d4c30a7eaec442b85ce8eca0c2952b5e3cc0628c2e79d889ad4d5c7c626986d452dd86374b6ffaa7cd8b67665bef2289a5c70b0a1
+Salt:     None
+Password: abcde
+Attempts: 899
+-----
+Hash:     8f225ddd400f8a0d6b36b85c6ccecc0436cea6a8e32f203fc5cef7932ffe5a0788eef1a1faf4acb307c5f831292574d6d05d3cad23f2468577b41c4c31ffc37a
+Salt:     None
+Password: q1w2e3r4t5
+Attempts: 2693
+-----
+Hash:     25e51733567311d123b8dc95f9deaba0934d0dd779f636262e2be2a1431918bbf026e36eace61465360530a7ffabe0d1448014ae5de1410340ebdcd2eb3826b1
+Salt:     None
+Password: Phoenix1
+Attempts: 5891
+-----
+Hash:     73d9fa4a1c798ffbbadd88fe580e82e4ec178d470fe3030bdcc6921988794c52f51eef9a1a79f785d955023b8d8223551261ef3bf11d2c981391851a16aed0ee
+Salt:     None
+Password: School
+Attempts: 6468
+-----
+Hash:     3cb487d64e3e24f8136e308b384a81531ae01dce9a77f2aee868b8182e23f8cd888accc8b3df42ec3fd5a12859714f0f4ccdfe7a729c708f63f623ee217cc4c5
+Salt:     None
+Password: 2468013579
+Attempts: 187
+-----
+Hash:     e86bf7b1dbf5cf0b394f5a400a77b82597a59266826755ae71845e0557e7c3eed5310aa73959172a55e7fb086e1bebaa33c25c1ac4a3a44c4abfa0463aa61d26
+Salt:     None
+Password: Butthead
+Attempts: 4669
+-----
+Hash:     af538b3c7941c29320e68699f07382082d4d9466aa24bd78e6c7c67036970de1afbbd5e670b447205b2b12b5022aa9f0487d682ac06c32deeec91de95994b211
+Salt:     None
+Password: 12321
+Attempts: 40
+-----
+Hash:     746a5a2664633cb15829e80cc8d5dd7368b1d939756e7b069df9df482e2afc3c44029ec71ffbf7cc9916719d861b60fc34b5bd6a4f2cb0fe7747d99d5b219162
+Salt:     None
+Password: password01
+Attempts: 2567
+-----
+Hash:     b8db8640f46b16a8b80f8c7ee70e30feab1d0a9c6871174079abd2d1777b0ad21eb2fd6b8f6238d24725cc339cc17bf15624474eb5fe419a16f9a45f149dff96
+Salt:     None
+Password: Qwert123
+Attempts: 6238
+-----
+Hash:     efabab53a073a1ffee40a4295cc909b16ec469a19bcdf4f9292b9239bc53ec4bb70e75cb916684d2fb5e05a490906fe353e0420d52268646f2d667c7e1801e82
+Salt:     None
+Password: ghjkl
+Attempts: 1682
+-----
+Hash:     f5877e17fce9efcc2d5b49635131ae459a75d978134a03b973a41507f403bec51d87f31492ae9236481d06eeda62542943b289784bbcc59b3e55b5c9e835ae27
+Salt:     None
+Password: Daniel
+Attempts: 4737
+-----
+Hash:     c12834f1031f6497214f27d4432f26517ad494156cb88d512bdb1dc4b57db2d692a3dfa269a19b0a0a2a0fd7d6a2a885e33c839c93c206da30a187392847ed27
+Salt:     None
+Password: Test123
+Attempts: 6724
+-----
+Hash:     94d40e6fd3ab1392033db0be53c613cfcbccb063b223bf716bc0036dc62828c8731bd4bf34737528a21d976889f887c8c629668ecccedeac8b165139aa10005f
+Salt:     None
+Password: qw1234
+Attempts: 2793
+-----
+Hash:     05f70341078acf6a06d423d21720f9643d5f953626d88a02636dc3a9e79582aeb0c820857fd3f8dc502aa8360d2c8fa97a985fda5b629b809cad18ffb62d3899
+Salt:     None
+Password: one
+Attempts: 2173
+-----
+Hash:     9056636483979099e1fbd885bc1712feaff0c93bd75f178ab372d98d8f3b57992641d42e7c6171fa710f6576c00b8b42fedcd76bb0dfeee1055f44343b357bf1
+Salt:     None
+Password: alaska
+Attempts: 1122
+-----
+Hash:     e2faed4d576965fa87350c8765d04735605bedf184d25bd9100d7fc2bba9fcb06ce219e3055bc776e39d1d4c47f1dcdddc5a6f883cf634e0b97c5b271e88941f
+Salt:     None
+Password: Brutus
+Attempts: 4668
+-----
+Hash:     1b410f24a4839d34cdc107907ba5f4885579ec2578bd06d7dbad5593e4d97440eb559dc0529e25bb6c16ad9db5031d91ae7ca40a4862bb68a82187f8aaa454b7
+Salt:     None
+Password: 159753
+Attempts: 78
+-----
+Hash:     e580637b16b3409f563a373f396cfd519864a0ecf1bc50c187860599a50a69a107db86c310b68e26ab516427454ff3eb7b0d083b73f846ca65f0e6671dff1a03
+Salt:     None
+Password: solomon
+Attempts: 3360
+-----
+Hash:     58d4e51ce6ba56e80b162bd20988f1bc69a5ceb87743bc29930529517051560774ed9fb41aa92c3dcc48eabd919edfde1ebedd4f37c11fc6ea9a51550f6f2b53
+Salt:     None
+Password: 2011
+Attempts: 12
+-----
+Hash:     9040a19ce8acee009516b4ea917066e06a5deb15f5879c5645bf3e9b7c8877e512be42bccdc08b2370194d9427adcf1855fce60036fa73f689a281d898fb1a48
+Salt:     None
+Password: staff
+Attempts: 3364
+-----
+Hash:     5169c0ac1c6a65ed873a7f2d5a096fafce07c894564a79162f5903da43247dec46cf8ed8da4f5d7af0d9f6ab2549b84f8bc377dcebdadf7b330eb612b9b085b1
+Salt:     None
+Password: Asdf1234
+Attempts: 4465
+-----
+Hash:     50e0dc4455bcb1ee80adb942d153c6b0eb17b31d603b017fa77f60f60f68fd7d0565cb486783f29cea210313c97f0f9d49e64e6730053bfa1448d5b826309184
+Salt:     None
+Password: iloveyou
+Attempts: 1983
+-----
+Hash:     a54b6bf67a275b7d10fb3cc9f0d6bee936539d9dcd679d1b3d2151b6f72f276f0114784f031e18e363716f73358d92b4fc51ccde221106d40292e798c7f526f8
+Salt:     None
+Password: 1234567aa
+Attempts: 531
+-----
+Hash:     8aa781ba2088f6b192c1e4a217903eb74a3c3f65f95baff49b453853e8c03b3a6abc42bb497bd6997908dc384e7ff647211df19fc49445fae8def1792a4b1bde
+Salt:     None
+Password: Asd12345
+Attempts: 4426
+-----
+Hash:     6cb52b86f3a58e82aa9a79ef12267e422e20513693783265ff080445f73e6b2c2c04f402ba025240a4437270dee64347af73a264e6b8708509dad69296421cd0
+Salt:     None
+Password: qwerty12
+Attempts: 3057
+-----
+Hash:     c939074b8c2748c6fccf2821992cebeb87a6a3c225dd12cf75b2497f0ea6d52426cf63e86fc91033818e3e00ad29a948277b6342b024d1d6d89abb3fdfdfeefe
+Salt:     None
+Password: 2012
+Attempts: 13
+-----
+Hash:     b7e30c0cba1d93924d2d9791595210f967b4594e6bf4ff080ef083c11600f85d347be5d98ca15532137d278eae517e2e757fd00d54f6b7ae77da59ae47684d80
+Salt:     None
+Password: pass1word
+Attempts: 2475
+-----
+Hash:     fbfdee525b7833b94ee564b8378b710c08cda73fba3950a127fe6b6ffcdd0d0b56fefaa53d491527c63439406c281d1df4e9351d034cc948e7c4344e8a803c3f
+Salt:     None
+Password: ab123456
+Attempts: 797
+-----
+Hash:     7da69c876bb7656c6064f0886209fa6bebc81c6a764623c834ce99fb4c340e9813f8d510da4cfcb208067a2a4751510a66715206a9837a32d30e9b4437cc867c
+Salt:     None
+Password: 2323
+Attempts: 22
+-----
+Hash:     e619ae0214c4b9feec707e7b3200b57ef51d200e034ba5c643010e9f2f18a2f5ac1ac2a183ca2c425db316712f36454b2b0c37f80a19bab34f1fab37962d464d
+Salt:     None
+Password: zxcv1234
+Attempts: 3695
+-----
+Hash:     8b677021875b7b7ab558f043e1ab1691e80856a2e0631bc6becdc1aaad7a54a9841ef5a7256ef9d8f0ae06da18dcebec3ccb0956840d0fef1efb745a65d7707c
+Salt:     None
+Password: 1a2b3c
+Attempts: 598
+-----
+Hash:     249d582a7d42908f370f4c2fcb7060778b5e4aa0f05fd9d123995cdfb45ada5493b63ee1bde4d47ad0c5bf09a07a4714455d17bea38fc3c58afd89e4a5735a08
+Salt:     None
+Password: 1234abcd
+Attempts: 547
+-----
+Hash:     0e4c15942854b744353d350b8cbfd6b556289359b20aa5dd8a9a584f3de703f082ab06bc972f7b5149b44bbf9fa45ae484fe8e358f895aba42b31c0142369718
+Salt:     None
+Password: nnnnnnnn
+Attempts: 2137
+-----
+Hash:     ecfae1db70aa30c43ecc66e53de541e6d91d2bec69b649d5ddf4b6a7f2c485f3cc29c1dfcc710f6a2119c1e38b27f1f55594fea80bb8925881fd20324c0e5d52
+Salt:     None
+Password: 9876543210
+Attempts: 195
+-----
+Hash:     61e28b5389e47dd020e8812b255bd58109240eb4cb1af36ed649f9fcadb954b4ff5a53428263786ade33cbcdf768dfabef4cb44729a434d1ded20d48857dd45a
+Salt:     None
+Password: Letmein1
+Attempts: 5258
+-----
+Hash:     d47926eec6978d4103a7c7c31e098cc03516e3217a13869b22a55ff2db1cdeba5e0ee000be75cb3e3551da3ae411cb59ee2035faf430d440052af906ac573c15
+Salt:     None
+Password: abcde12345
+Attempts: 901
+-----
+Hash:     514cced049c27692ff86d29c7f939a470fa403d5189d4245309015b95a5a17617d7faa4477a8e45faa41c42c8c4edb698b01c8965d0b68e67d4902255b6d8ece
+Salt:     None
+Password: 456789
+Attempts: 92
+-----
+Hash:     ee352a4275f6b3c42f43128fabaea87976a0343b8c3539c81d7066b8816151d88e8811aaabb1274d7c4969a21bb2e988a7209ae082d6981142dae394bc441930
+Salt:     None
+Password: 10101
+Attempts: 38
+-----
+Hash:     290cdcaab07595d41dda81be97b19b9dd2f0ccd7594268d075a9eac22121c2fb033469f384c988ed20749aa4ce0f46f5c592a9468c8609c8de1b6a5bad56b596
+Salt:     None
+Password: Manager
+Attempts: 5287
+-----
+Hash:     d716a4188569b68ab1b6dfac178e570114cdf0ea3a1cc0e31486c3e41241bc6a76424e8c37ab26f096fc85ef9886c8cb634187f4fddff645fb099f1ff54c6b8c
+Salt:     None
+Password: abcdefg
+Attempts: 905
+-----
+Hash:     8f617aa9f00c81431a989600d4eb93f564fcd9cbc5883fdd37636ec2777e90d59750cc85987275610bb9f1993cf6b7e6b8c61f6c538048c6a7a9c8c6a3c0d03b
+Salt:     None
+Password: asdfgh1
+Attempts: 1282
+-----
+Hash:     a5e809b68cd631a48a35c0602d96e303153f5bd155ef2c0390a878bed3d21db2925fee31a5d3152a6e5ec15278aa3e2a9f73fde3669bef7afc190c1fbde6cc01
+Salt:     None
+Password: qweasdzxc
+Attempts: 2931
+-----
+Hash:     c099a6a7c044ddaa94f07a4e43cbd59ad13d3f4afa657877ba21cff99431dc253d7baa5c8c3d786b2ee3fa58c1b3e80689c11c292fa929d1e7e955290c61609d
+Salt:     None
+Password: abc1
+Attempts: 820
+-----
+Hash:     8251f0b8959671f8a8b853734cf27248c1ec41db4c7836154b555dadabf3f3a183fbe90704ec0b17daedf72d029c2d384f5140aa73f81f9eed5b81ccb38d8e9b
+Salt:     None
+Password: 4444444
+Attempts: 115
+-----
+Hash:     248501d02a4d7c15a52f1854d84027bb7b2de2558e0b3a321c6c482dc42a62ddde271dd10d0ff69c693c8b3ce4fecf0002b1f27d7796d30eb6382b5fc5ee5574
+Salt:     None
+Password: 23wesdxc
+Attempts: 663
+-----
+Hash:     d189cb55ffd27ba4407fd6bc61fa15560cf27b03f37cab4e5f126a9e0271fff6978a333333d2fe2ce3db01fbf61a5d62bd35f3b552b3c5b0072ffde513ef4ec7
+Salt:     None
+Password: zxc12
+Attempts: 3679
+-----
+Hash:     d9b41e1ec67a116e297be7fc1d34bd3ec8f475cad36d6b0196c636fc094877acc414980506431611f7da21430cda980423625bf8b6402ed84bdb768a15617b41
+Salt:     None
+Password: windows7
+Attempts: 3604
+-----
+Hash:     d4848e2b6ccdc8a9381737990ef573b62b95d83de3014b46642464c0b9daabd2b2f69fbacc0f4062e6adb2f961519ffd298dcea0a09e72a4ae1e1aab7ca37073
+Salt:     None
+Password: q1w2e3
+Attempts: 2685
+-----
+Hash:     a8cebf1698dc14282c507b1e1cfb7f2c9d5216aa7bd0854b50561e02c2b99d9a38945ec0f81e55f9699062b1eac6d0083411c839ba2b27c6a15b494463bc5c73
+Salt:     None
+Password: 2222
+Attempts: 21
+-----
+Hash:     ec268cc7b63cf3d172ef2e45e491fc46f5309d611ae15fd0a0a1dd4c0bdb4d830b3ba39f46760410dc6aa77bc0dcb3c0ccf392755648ea1e77f2a0f43cb95a98
+Salt:     None
+Password: time2go
+Attempts: 3506
+-----
+Hash:     c70b5dd9ebfb6f51d09d4132b7170c9d20750a7852f00680f65658f0310e810056e6763c34c9a00b0e940076f54495c169fc2302cceb312039271c43469507dc
+Salt:     None
+Password: abc123
+Attempts: 822
+-----
+Hash:     faf97a895094009a849f2002d91d128f35b4a6e21472a1de53ced10c4635ad8e5b1e3ff30eb834d3553309e7867abb1a38fdabb361893fe762d77efb86bc180c
+Salt:     None
+Password: passw0rd1
+Attempts: 2498
+-----
+Hash:     b30db96cd808bb65d1b6dba858d6c6acf38008e27299ce5b74faedad05d5700d5fee09deb3a242cbc54e22030eacf754dd7628b54e584e723089e87a23d8b9e4
+Salt:     None
+Password: 88888
+Attempts: 55
+-----
+Hash:     79436de4353142e7257ec359c2d92e02f66438246e67cac015e16c0e2d68a7aac5e580348629e6df4bb81dd1366c7b8ca932f1f0885ab1762f48ca1990ea9be1
+Salt:     None
+Password: energy
+Attempts: 1572
+-----
+Hash:     ebb484d2d43c264ce74b2792560a4960fb81653414d3c09064ec318996b9a0a4e107034ac8919b6723ac125b02e86f17073359f9f0a3669474144b2b67b9eaf7
+Salt:     None
+Password: qwerty789
+Attempts: 3096
+-----
+Hash:     3351255abcce3e9b77d840ae3deab77b59e5af4a2764692e6b780a107250dfd15240d1845a6a29cb9823e59a69e49cf95e56b32010c2cc8990ac14d375a7c452
+Salt:     None
+Password: university
+Attempts: 3529
+-----
+Hash:     274a91d963475a541cb072db6e7009f74a90382830c61f522d1a3b04830852c134ee445a9a7c6edabd54c55f4b702e876891502af9bcf4a09bd0fb1686f17f75
+Salt:     None
+Password: host
+Attempts: 1978
+-----
+Hash:     7eaf0dddb195f8c87c6558cc2deb290a6deaaa7212256efaa1ef9b13522172788821c6b7966fe30aa70bccb72e5bfdf9b2f41eb84539d4bb7276eab23b9bd1de
+Salt:     None
+Password: As123456
+Attempts: 4386
+-----
+Hash:     d6afe88ac526c5e817a9877009da962246da51846e688dfc5f40f45ef8c2fa97b8cbb3f2972e70fd1e9d5f612e1d788b1f20fa81e412bac00a1688c0d31fc059
+Salt:     None
+Password: China
+Attempts: 4688
+-----
+Hash:     15c48c08a1877b48bc192c3292ce4504bcf12beb34fd92217d058be6cd1bc048c156604c11457c1a3a3041cf480a3d6ecb80e1e5abf360bbbf666b99c9c98b44
+Salt:     None
+Password: overlord
+Attempts: 2224
+-----
+Hash:     983c0b448f310df9febe3151477f30c3ef248f80363d90e5c2bc6b37c9b32766dc335d39c239ecfefc6063b4c8efe9b7efa7e7e4639128b13bed98f597d02c39
+Salt:     None
+Password: qweqwe
+Attempts: 2937
+-----
+Hash:     762526a74e45c79281e64eb949d4391d0c289f17d6acf68992f3001bb99c135fa14f81bfda8fa7eed8986a4a858bcf3d3f1423ea8b512afb83f0ba28bcf26e14
+Salt:     None
+Password: a123123
+Attempts: 704
+-----
+Hash:     e0b50e3adb85ce07a41196709ba642886ba828a354acee42eae7559bc7c623981897f56020699ed61fa052f4784bf37e76eff016ee065d77bc158dd172eabd76
+Salt:     None
+Password: qwerty123456
+Attempts: 3062
+-----
+Hash:     d6077a19f538d5331ba96f19a590cf0ee5f39ac2d742fbf3a871af5f254040bc0fe39b1e0599c0a73cafdd6696e47869a7f4de1e5c6d02ba13e77ff951962eef
+Salt:     None
+Password: blue
+Attempts: 1423
+-----
+Hash:     17e4f6c4d8ce49496747b9d822b64e610db729b9553b5ccf391bf5caf10951dc4e2e24d9d34f9f56ef655a85856849052fc9c3f60a06525d8fc271a46cfae50c
+Salt:     None
+Password: sergey
+Attempts: 3239
+-----
+Hash:     f1ecb37cc45de7b5e816917b042f258e37bd81e95a4352723c172d20095418d82e3c05838912b8801f4f0d215969c0188509868f26735eddc5293880ef0a4c06
+Salt:     None
+Password: 987654321
+Attempts: 170
+-----
+Hash:     be2c7afdf506f9782615c5f3bb094925d235fa8b3fc677083e5d7360c72c3973f863704932abb916b741b96e25c8f64cf775cc0993da9a0741d3cc9ff6883b26
+Salt:     None
+Password: 77777777
+Attempts: 148
+-----
+Hash:     82f45d98615a93bb5671480747211437eda830e091f66993677d66be6f8899347981913435ea87594f9e734468a3ac3a9e26713fd8be71ff50e36b694be3d812
+Salt:     None
+Password: christian
+Attempts: 1454
+-----
+Hash:     d54292c4f20cc6e202ae6d56d92b0825e1ef526a510eab61e9cd63f6f3b13c81a374ace54522d8b5328a697e4b431386cbd39c04753d581fe67c1f7ae5033c6a
+Salt:     None
+Password: qwertyuiop123
+Attempts: 3176
+-----
+Hash:     a97461efce828b57cd52801bccd5a0db0cf139e03c2539cec250739a15808133ba13809c84b935e45931acab19a2d6e586d7c213751ec0a88ee3a18b4d2fb059
+Salt:     None
+Password: qazwsx123
+Attempts: 2757
+-----
+Hash:     e2ecde176367ee7927447b3861ef020510f27830513d9ea9c41f4fd75d1ab53e08b6fe4904c54e05a0b32de1cf9f4a0886edff373d497d330759250d110f49df
+Salt:     None
+Password: asdqwe123
+Attempts: 1391
+-----
+Hash:     26c669cd0814ac40e5328752b21c4aa6450d16295e4eec30356a06a911c23983aaebe12d5da38eeebfc1b213be650498df8419194d5a26c7e0a50af156853c79
+Salt:     None
+Password: demo
+Attempts: 1539
+-----
+Hash:     f69d6a5747a55eff041697ea80f4e63674d5db145aa534a36f2fbab5197ceed27f456bce64656776825b10873080dcfe0b4812122594ee9f71ff6f8d801fe8f2
+Salt:     None
+Password: 1qaz1qaz
+Attempts: 645
+-----
+Hash:     64288945ce85c9acd5801493a7c71940d0c2aecfae85df2f90f3e3325974481d9b91428d6e9049e0ad336a2e2bb32b0435c4698b56d67ee906028f85ce36f697
+Salt:     None
+Password: accounts
+Attempts: 910
+-----
+Hash:     d08442323d39ca622ebc69d90c23c0d580d74a9ecde1184b963f482c6763570d7bb969cc8187d4d552a41c1fd2026293528bfc60e29d551c457edb425266fb09
+Salt:     None
+Password: asdfghj1
+Attempts: 1309
+-----
+Hash:     58dd4ee3ab205388bfacb7af20649703e7098197e8e0aa3764cc12217233c3606860c4627883af75838e6582fffee294156392cc7eb100040e76cfb5540ede3c
+Salt:     None
+Password: trustno1
+Attempts: 3515
+-----
+Hash:     1febc13a3e70e3fdb026793cd38eb9007681c18536fcd951cc929809dd0052fceb2fe57b8f0a1801bdea0a95c8e29d8805ddde14f766b2155ab7d79abb43ec47
+Salt:     None
+Password: Winner
+Attempts: 6845
+-----
+Hash:     dfe0a1a42d8d5a69d4279f579e4042faff582e4dd6132be6c00096cd92bdd5c031d8804ea3ec4c841e1f1d3038ab1c86cec229c9b32cd14433cad1b6581747f4
+Salt:     None
+Password: as123456
+Attempts: 1149
+-----
+Hash:     bf22dbc1aaf695c326738be82a47fdb8f085d368be75f8fc6f4734b5701221f6300bd9dd8bd694d578bf632f113ef919a571368c5c3e971a9e59d339157970f0
+Salt:     None
+Password: zaq12wsx
+Attempts: 3656
+-----
+Hash:     443647bd06b4309e3cc46b605aef2cc66eda7f1fb437c155c68e269ce11c05895af4b8c3725c4a0170dcd130e0c3e78d1d0c85f3d13e54f08c19f3cad06633c4
+Salt:     None
+Password: 2020
+Attempts: 20
+-----
+Hash:     db08fc98c9897a7ea9ccd50ff639f5197124ff1890f0f26adc6ae8b20a877098d380c99994adb43a3a2018dcfc47b9caf26f4c4b49702b4b11227435109829aa
+Salt:     None
+Password: 2018
+Attempts: 18
+-----
+Hash:     4274e12dc8240ca991aefc9005b1525142744e3cae6aeb2502efdfa499b55b61f84c3d12882e27ce3929b5b2dfac551800d6fe6f2dafc3de60377a53b11291e1
+Salt:     None
+Password: qweasd123
+Attempts: 2925
+-----
+Hash:     30742f7f20839c29ca52e6456cda55496cd5f158a18fbac7fade81b92c23e2cf17c3a31af1ef0f24a8a4240738956c2c834298925de672af08f539bdf77e6c20
+Salt:     None
+Password: corvette
+Attempts: 1490
+-----
+Hash:     8f4faa56adb1735cb5d09b276f7da84204963659c50531968d70ffde85ebe06fea028d630ad79588fd609d18236a4783e2d17076bedaeae17b18d00145738efd
+Salt:     None
+Password: 456asd
+Attempts: 679
+-----
+Hash:     e6ecb29c15b63f878db83ee7936163e4868815723bcec94f457150b435e52ac1e9a281c84a5346ee768dffb5a7943e9ad028f98850abb66addca4bda0669485e
+Salt:     None
+Password: 10203040
+Attempts: 123
+-----
+Hash:     735a0838bc6dbf708bfa928fc956e5af7dd3e64d5abfd27a537985f2334e3fcbc79cf2d01888d00427343ff868ac72d312628cc5e41e91c3e600f737554cb02e
+Salt:     None
+Password: Qwerty1
+Attempts: 6292
+-----
+Hash:     e39a3a0649af24d4eb81ce06f012618069a4b24446a12f8d03f4ebe6419cbf6b45891fbbb1533b6c9bee27c7c2551861a33fa07ad77501d352f681c310010d27
+Salt:     None
+Password: as1234
+Attempts: 1147
+-----
+Hash:     9cfb3da0d41daab9a9eab107396e63bc7e37160b0bdaf4409a99bf115289b9da9d5f12d0df9928d87ddc4fa10f6f564730fe7d20b80f3df643fffd3d116cd82c
+Salt:     None
+Password: qwerty99
+Attempts: 3102
+-----
+Hash:     93f4a4e86cf842f2a03cd2eedbcd3c72325d6833fa991b895be40204be651427652c78b9cdbdef7c01f80a0acb58f791c36d49fbaa5738970e83772cea18eba1
+Salt:     None
+Password: 123mudar
+Attempts: 569
+-----
+Hash:     b01b399274e90a52579178c0246c085c0b2b4ae8728b5f456c285a03f08776cc79bd0270fd470ec62354fa347ae1c243a68be656d4e27f4c94fc5fdb9dc6dd1f
+Salt:     None
+Password: guinness
+Attempts: 1723
+-----
+Hash:     4ba19a6767c143149b1edc3feb6e3c77e1d8c3f5e0725e0c57bfabbacdf29b383759cbb3d2bfd27067173dd8123010d781cd319ad1ffa1c0b1c73c56233889b0
+Salt:     None
+Password: diamond1
+Attempts: 1548
+-----
+Hash:     3c19109a53e1f15504c13b6e38461e4671f4c7c24400db253afcc610664c2a1e288c0a8a94054fb0a0b2e64e9f3473890937340ac1fa7c89d812f92c3467d616
+Salt:     None
+Password: rainbow
+Attempts: 3202
+-----
+Hash:     8309dd7c52675caaf669868c10bb5616d28daec1e47001277118e7832a22fa7e624a497edcae4a8eb0c74b9f2f64882ce7978492b99cc4975fccece756c4712c
+Salt:     None
+Password: smile
+Attempts: 3358
+-----
+Hash:     cf3059915ff31dfb87a2aefb771314ac691129be12332767ace9d4a09888d8ae55eee12f097ded3069ff085b9126d4901dffef59e54557c8dbd82a3eec68235f
+Salt:     None
+Password: sexy
+Attempts: 3348
+-----
+Hash:     50fcfba8132c9b9f3745f2dad5a9dc152450aa7145bd6a6914523837fdf57a8e4838646e9b4df62ccfb086b36c075a22695e43ddbadf0e9fc2b5d3fc27bf01f2
+Salt:     None
+Password: samsung123
+Attempts: 3226
+-----
+Hash:     233444d601872c58e54060f69cd7cd6538801d1a19b9a89dac0c37a146151b766ffe3739012607ac3a0b42f21a54149d1844271856cd72748e075721169cd46a
+Salt:     None
+Password: asdf12345
+Attempts: 1230
+-----
+Hash:     410752b9f6fef035ccb2b469bcc473d7d43e93a108332bc1eb3208412d599bb4478eea687c69f962d7670410b06deaeac77578452f7c2454f3100d017a802b7e
+Salt:     None
+Password: a123456
+Attempts: 709
+-----
+Hash:     984a8d837c5b2108673cf1d734a150fc43a98d1a02cf41ccbba07415f3780cc9c0252f7535e4e368928b2664ebaeb14dd19de26a674ebd23a5707bdc80341734
+Salt:     None
+Password: 123789
+Attempts: 72
+-----
+Hash:     bc06d88485f0dd86b54a181fa191850744f2c233e82635f43cc01070635ae9887cd7a30097d7c5c39d2046eb367ad4729fecf93ef519e8b1dd254f45f23673ae
+Salt:     None
+Password: 1357997531
+Attempts: 183
+-----
+Hash:     3189ef512857b454d146f1c8feec3506ffb3e400e970564c11a6da77cb2886b7fd69432132a38a0d689d987a337e7269e83b13aaa3b89ac8e264ca8e7ad24a23
+Salt:     None
+Password: System1
+Attempts: 6681
+-----
+Hash:     5fc2ca6f085919f2f77626f1e280fab9cc92b4edc9edc53ac6eee3f72c5c508e869ee9d67a96d63986d14c1c2b82c35ff5f31494bea831015424f59c96fff664
+Salt:     None
+Password: manager
+Attempts: 2050
+-----
+Hash:     04341078e6b43c93de776c94050e6471dd03654e7110a23ed2ef45656380d7901737a9636bcbaab8e5ac07d8f0f61b525ae6bb6f7582932737e5a5ea5d43361b
+Salt:     None
+Password: asd321
+Attempts: 1213
+-----
+Hash:     423889b961337ad0f5dfa9caecf9adc06848fccdf56cfbc5c3a57defbef7ada23e543ca81062c6fbcbb1dd0ca6d74268fd3a504650b739918557675c92cbf592
+Salt:     None
+Password: qazxswedc
+Attempts: 2769
+-----
+Hash:     f2a46a9101d3b65c419c98a9ffe73c154196bc3e87379491746cf5a70ee0b5e4d308b27b28f77960582d8ff88ab7c3c4930860436bf05d6d5517c8e3f9efb8e5
+Salt:     None
+Password: security
+Attempts: 3237
+-----
+Hash:     ed71cd7b6d39f762ececdd307b18badaa81f920a51ac0f1e5e7376d0a739f703acc736709ecb7111ce2013d187a2a02ae3c47ed7ca9208ccfa9487745a681f07
+Salt:     None
+Password: ass
+Attempts: 1395
+-----
+Hash:     06cee714a509270222061fa08bab8185a73734f791925fa3baccdc5790bf6f6f2f9e2b9ed874c42b952f515957ec7b39677081da9cb9d308b866b80e8998f879
+Salt:     None
+Password: A123456a
+Attempts: 3962
+-----
+Hash:     f102f3598f84cab6e0730a87fe28dbbd37fd8a80daac849e79662fce6ca93f5f32e65d837836aae953ea5657088cd2cd55ef0299d411e03431aa900164098ba0
+Salt:     None
+Password: Pa55word
+Attempts: 5681
+-----
+Hash:     4463ac8164cbeec014bf9ea9119f189e4e7c86a9e2859526edd8794390726d4f5566947509d77b07eaa82ed277b05a6a23ff74285d0d78cad8d4a0a784ae6ede
+Salt:     None
+Password: Martin
+Attempts: 5292
+-----
+Hash:     690437692d902cfd23005bda16631d83644899e78dc0a489da6dca3cb9f9c0cdcd9dd533bc59102dc90155223df777672328c9149354de239f48c58f0a1d44a6
+Salt:     None
+Password: 654321
+Attempts: 94
+-----
+Hash:     ff041026f943e4cb16c836385d41430b50632bde7619e9ed7fd1e721fecde90cf2a65ee358bd844a01875f93e18233f8d2455cf2d8e0a18492558f57e306e22f
+Salt:     None
+Password: Qwerty11
+Attempts: 6293
+-----
+Hash:     b532af9c7d856bc8a41b8073b43776b0f41d8287434738b51bdb8a062fb8595742e3c84be4cfff20f873da3020e99582127328ed97ecc457ab98dbe971f71a18
+Salt:     None
+Password: 123321456
+Attempts: 154
+-----
+Hash:     1d39a1e50a75a131e2dbe868f1178c6ff57d24b68b4b32ffc659fe552ade14730b63af2f4fab048132229446f7838fe072cd0dca5453bdfc9ff3e47508076625
+Salt:     None
+Password: target
+Attempts: 3449
+-----
+Hash:     733c8373edc5d58c828d4050aa493529731547eeed2bb9c3ca57da790c61171446adf27ee828e7337791b59a91dff30e9de1ce878b725dc8a4622e1e68c63f07
+Salt:     None
+Password: 33333333
+Attempts: 138
+-----
+Hash:     290295170cf0721418a3fd7c77081cf3d5312dc9d5ad7d2a7c123e177bb1cf051b4d20491ec3ca6202e42088b556e6314d924ffb41c1d886ad62815ee1e5723c
+Salt:     None
+Password: carmen
+Attempts: 1439
+-----
+Hash:     ee26b0dd4af7e749aa1a8ee3c10ae9923f618980772e473f8819a5d4940e0db27ac185f8a0e1d5f84f88bc887fd67b143732c304cc5fa9ad8e6f57f50028a8ff
+Salt:     None
+Password: test
+Attempts: 3484
+-----
+Hash:     65c9f6714cb595fb8dab7d84f416e83d9958f6daadbfc8db461af2ed3561cb699bdd00f7fcac63dec1ab00a07b2bba5577119142366aa2b1bc7a1c78fba2e9e3
+Salt:     None
+Password: qaz1wsx2
+Attempts: 2747
+-----
+Hash:     0d0ad73261befb9f41d7b13bf84f05c445b79fab131c8f76116e4c8427cc903340c893885869e6ac6741523057d676bf37e434276965fea08991c4c54afff401
+Salt:     None
+Password: qw12345
+Attempts: 2794
+-----
+Hash:     b70dcc3a46290fc0885d3498f8c7ab46f82173a0c7919a754f48ed2c833f4725b91216ec17a25e98f2db15982f790161e42a1df2a7925447620f41b8199fdeae
+Salt:     None
+Password: asdfghjk
+Attempts: 1335
+-----
+Hash:     72feec8f21b445a38010cc6bf46cd97d49eb1852b976959d123de95fe72884105c56228539a3a7c084425ba753ad114968bc79b1590fb2bb3c0daed8b15c45f4
+Salt:     None
+Password: zaq1
+Attempts: 3652
+-----
+Hash:     770b1c15d8c7381addacf8dd0e04b9f4f80e7ef4d6109b3a8effd30d923b9f8069bee7ea6909a6e80baeff798dae8b6ad429d90bb1f967e2df87f19ace94512b
+Salt:     None
+Password: qwerty1234
+Attempts: 3060
+-----
+Hash:     db218b44cbc1a4c2e4e593d1037de7f7e384fa94d326f2e0a732db5491eab7bedc4e3270639b389c599045aea7d9891c136e01861d10c18311ff32b1bc7ae532
+Salt:     None
+Password: 1357924680
+Attempts: 181
+-----
+Hash:     1d362c619ee3cc907ed55846dd8acd943a63d03a6320c84c56e3b8edff37cec319bc0e5b05310e284dcc0f65a11333bf16d8dd47e8434daeebdef635fa1e736a
+Salt:     None
+Password: Diamond1
+Attempts: 4785
+-----
+Hash:     9983885b17ec71fc68184d464d99150f38eeb542cc94be3f348cd202a4b19cdf25b8de3e20d5eb670851ba76ebe8b11a559cdd0e0fdd54a8716e62fcab6344f5
+Salt:     None
+Password: Happy
+Attempts: 4968
+-----
+Hash:     40a15e32a4eb947f3fe914463f8001af5b556014c593aec4ca569a4c70c9aff1bc117c510054f00e0026adc619527b09c2bbfbfb4d22001a510bb912dc46e592
+Salt:     None
+Password: Internet
+Attempts: 5227
+-----
+Hash:     4dce62f074214c38a87d7b1d2201a62057f479d2a39aa77fccf3f203a4c8e8e9478b778550ffedf2dff62e47650c5728382a1a3f4dd9a40ea00ca29fd15dd3d5
+Salt:     None
+Password: jordan23
+Attempts: 2004
+-----
+Hash:     4ba27b50a992278da9b87c5c75427589d70f2077ec5a42c26e33df55248cdde2f577416b0f345563e9c9fa4b9157921c24601c9cbe77f429c4d99cfe1d3c86e5
+Salt:     None
+Password: Online1
+Attempts: 5438
+-----
+Hash:     7977015a5f9d175fba9a10b977a5df5e07514ad0036670ed16b5e3d95440eaf9de7e41aa4719e976189048d9b6844b62fe7af44052719e966d3b72de950b1566
+Salt:     None
+Password: toby
+Attempts: 3509
+-----
+Hash:     bc30ecc758c63691c69e66d846326670924bff9609b5febf39c1e86cca8fb72783ad5e5b7076359e6d709bc58cd379ade1495945f8591e9876cb2634e43139a6
+Salt:     None
+Password: Abc123
+Attempts: 4059
+-----
+Hash:     e2548de2d7fdace0fd6c91ce11c5b1c7b0b3806d8a2879e233e92feeabce6843492fc9fd49b132e92848906ee8468db325d228d1eb46d065e76b0238346a6a52
+Salt:     None
+Password: idontknow
+Attempts: 1981
+-----
+Hash:     266f65c1112842550947cb7a08929a7c3ccbdc3bd88e52ab19c693e18d6c1cbaf7164575f84600f7c16a61ffbc353894fe7d4270524f221f902c32aa0b31c619
+Salt:     None
+Password: 1qaz2wsx3edc
+Attempts: 650
+-----
+Hash:     47ad9734ac0f457886cfa8670468257786454e0af6cda848c4ca1929dee3a3afd1f3cfd730f7ae7b0c7625afb3989206f1ca37b0263b364667dc63338278931c
+Salt:     None
+Password: 45674567
+Attempts: 141
+-----
+Hash:     2bbe0c48b91a7d1b8a6753a8b9cbe1db16b84379f3f91fe115621284df7a48f1cd71e9beb90ea614c7bd924250aa9e446a866725e685a65df5d139a5cd180dc9
+Salt:     None
+Password: test1234
+Attempts: 3489
+-----
+Hash:     498ad5123733c1e8fdc55bae5febc47aca3ea726c9408f4987db5c5b196258bc573c76498fbd5be09a137062f92ea2423f69a3aaaf5ffd3b80b1e96df4f96d17
+Salt:     None
+Password: 7777
+Attempts: 35
+-----
+Hash:     68587ee138311b9b42c147fabac565345b66d24e03d0c62f13849f86d63382d104ec3fbdc5929b53c031172d0f06b0f8717ca617a602dbf693796d2b612287a1
+Salt:     None
+Password: dentist
+Attempts: 1545
+-----
+Hash:     dc686f36f5f3ac1f4c6a25eca95e4bae0fef5be9c0174277eafb051e8a6330b22fdae7f1b45e0eed4a4075d547d650a9f5e24cfa58861343d5fbe8a269895079
+Salt:     None
+Password: beavers
+Attempts: 1415
+-----
+Hash:     52d0e5ede8df0f4bebaa1eafb84ea0e65c696214838259f148ea41640ef5573dab63e0682c736e08ea98cc3b2eb6814158210d31b22426af15449eecb5d33768
+Salt:     None
+Password: 12345671
+Attempts: 129
+-----
+Hash:     4157158f7a391e8120a04e7c77d7e96c3ffd36a706208e4ec82b3443d03cbe1464bb0b5a12e8be16a0e0b7092ca46ceee8cc4e02d515d528670b33b1bc533d51
+Salt:     None
+Password: A12345678
+Attempts: 3957
+-----
+Hash:     15b783ee7902bdfedc5cfe4d0a9b0f0a15c7e608a0656605e8d6512b7b30d0d520996f2faf066901388a973a43f949035da68824d13d3e54821f0731c83ac25b
+Salt:     None
+Password: zxc123456
+Attempts: 3685
+-----
+Hash:     b894dd847286b6b521ccf7fc3300736b5f1daa7115aac2e2ae2704e26cb882af2264fccd5df99fc312fba6b9b49815edadfbff4f70253ca7d8da9e2535960e77
+Salt:     None
+Password: connect
+Attempts: 1488
+-----
+Hash:     fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff1226583e88e0996293f16bc009c652826e0fc5c706695a03cddce372f139eff4d13959da6f1f5d3eabe
+Salt:     None
+Password: 12345678
+Attempts: 130
+-----
+Hash:     ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f
+Salt:     None
+Password: abc
+Attempts: 801
+-----
+Hash:     94b91a7e3bfe0f28245d3958184f642497249a7437d1f20c3292f2c34f5009f38277b30a9c03e2dae1b64b423ef854b0e652945f69c61ae71c989a329cfc4004
+Salt:     None
+Password: 40302010
+Attempts: 139
+-----
+Hash:     01e0b0f1040a7120cdabda0d0bf95fa6c0010a2f3b4464dcf4e33a4e259e1402651f341d2dfecc4f0518ef3c5cf2082f8db1925df5d9e2779dad398e9cd02b50
+Salt:     None
+Password: love
+Attempts: 2031
+-----
+Hash:     82a6fc9f7e732e9f144c961cc545e68bacc71b074e900b5253fd3d54cfc35b2cc293ff6498f9b5b1d9d9d3c1804149f0dbdfdb52fd5b869aa837cc24615bb4fa
+Salt:     None
+Password: opera
+Attempts: 2220
+-----
+Hash:     6dc11066df8072017fba3944a62569dd36addc9d490bb1d6c682b057525377568315320b6dc9862b13919ab983996765bdfc8cac2c14ccaaa8876879e5d6ae79
+Salt:     None
+Password: 110110
+Attempts: 59
+-----
+Hash:     b445ee8ec5dff557c555315b14c40c2468a5b206e8408f5b02836a80549fc2600e29915c0ac82d778deed6cdfd480be6dc73d9b36e06f4762a7ec83eb846d2fa
+Salt:     None
+Password: 1qazxsw23
+Attempts: 656
+-----
+Hash:     4a8297e0f3b5a9cdd831fd1913032992989c6a0bb04d470cb2fdce2567b2554d77795c48101166ffe37efb7236257c09fa5da703b6cd3eb7aba1530734899841
+Salt:     None
+Password: Passw0r
+Attempts: 5724
+-----
+Hash:     5b722b307fce6c944905d132691d5e4a2214b7fe92b738920eb3fce3a90420a19511c3010a0e7712b054daef5b57bad59ecbd93b3280f210578f547f4aed4d25
+Salt:     None
+Password: pass
+Attempts: 2448
+-----
+Hash:     bd877cf94f1a63123c8bec5abdd126b988361989e473efb80fc6cd5b5f21a0b83850212c94b50a7018538aa741ee5da65610b4da6c18e42edaea07e1be5629cf
+Salt:     None
+Password: qwer1234
+Attempts: 2948
+-----
+Hash:     70b7159d3975e33c4cf368cc3be119488c1064d6b49cd27b9b9c2d256c81f21291c2759a4315abeaf0aecf562312ee53a08825791282f6f5fc24502936123315
+Salt:     None
+Password: 12211221
+Attempts: 127
+-----
+Hash:     11961811bd4e11f23648afbd2d5c251d2784827147f1731be010adaf0ab38ae18e5567c6fd1bee50a4cd35fb544b3c594e7d677efa7ca01c2a2cb47f8fb12b17
+Salt:     None
+Password: password4
+Attempts: 2619
+-----
+Hash:     d7fedaa8ec248ec91fc13f36a1ac5648c1eafe5eff697dc3c67fd177f803ba0761ebc0fa6512fa142f5356ab53605db37512057e777088a648f1c6d55422b51e
+Salt:     None
+Password: qwertyu123
+Attempts: 3107
+-----
+Hash:     6bc5bcdf130ca34d04c83478c035c130a47e0ca6194045051da1c654e531bf9d6a581862d6dbfcf049180d0e64fc942ba361a3ca42c891090f571711aade112c
+Salt:     None
+Password: 66666666
+Attempts: 143
+-----
+Hash:     63d60919c6157f87b0fd7116cabac1f474c3a47d75fc9a3b7ebf1e1e89c7f3cc6cb721a5342cd8133789be680458b12816ad3bdcef24638c1d6d32bc9cd2c609
+Salt:     None
+Password: flowers
+Attempts: 1595
+-----
+Hash:     71935a41446e857f569f0506bbf9cadf00b59787f1bcde304f37583355dd3a106ec0fca15674ad3ee14fb96eae787d67468f768ca37382d485fabf041326f128
+Salt:     None
+Password: 2003
+Attempts: 4
+-----
+Hash:     35ad15b2d691a1f51ce3fc7205e31dc0632587d910952c9e3cd4bef9340d1919b2778841b0e72ae22228d50967595f0e8a0fa5cadb6c80a4981cb9d47b536898
+Salt:     None
+Password: seven
+Attempts: 3346
+-----
+Hash:     e8ed3be9d701d0ce99f657c64f421675ae0d72bd5d17103076f1979c2aa9bc4131a324275533a02440e44e787aa70377ede5f841da263836cfb188148e1a0085
+Salt:     None
+Password: 555555
+Attempts: 93
+-----
+Hash:     7116392ce6459d0a62c0fdab8a3d55bc8ff33f29d32417f10688c31a885ed3aa5d950a3ed6a22704c836aa3f4ab2c8e875ee93eb77a52e3b68ea3fad766042a9
+Salt:     None
+Password: underdog
+Attempts: 3518
+-----
+Hash:     3f307966cf1cf4f175100f0baa92547b72c204bde9f6c91cc31af7ca483690503e7c9901582326e4fa48614bcc88c1c83b6279b0ff92fa59b7f06eaf08bafce5
+Salt:     None
+Password: 2007
+Attempts: 8
+-----
+Hash:     3221165cd160f1b37e5544d92dd0b68cf00d6fb30a04826e9d8533f6051f7d9334a3bea9517c146e5e20591bda7fc450a53e71e6485764c72945dafa851da0fc
+Salt:     None
+Password: montana
+Attempts: 2089
+-----
+Hash:     d7ec786f3155f94121df9658afa2c3dbb7fdb07d526b73c615045eada4f552b9c56ca4d53c9b66ce072e0f193b7a7a6f2534470eecc1a475d5fd7d74dbce57a9
+Salt:     None
+Password: 1234569
+Attempts: 110
+-----
+Hash:     4f1adee75727d83439509de2b028b18d14866b37a5669b1149e50aa7cfa6d0e8e3847aed5b9dfa3564ce4e5e2683f4a707ece1693101c4da4ad6f550c5f676db
+Salt:     None
+Password: 123abc123
+Attempts: 561
+-----
+Hash:     0ed618136e052991099a6ff537f8cc5cdb1f561a8adc73bbc123b21f6025e53b386a1cd10fc3dbc9dbf2c428c17184e960ebaca6217ecc37a95b3b07e8cf482c
+Salt:     None
+Password: Microsoft
+Attempts: 5310
+-----
+Hash:     c1a9af6c9e6043908e6676d52acfd301b7a348d751aa102a8ee789272dd18c44bfa5eea155ca2e0e14be4e5c69d2a4faaefac12e8105b7fffd752c15b5c974ec
+Salt:     None
+Password: Zz123456
+Attempts: 6939
+-----
+Hash:     dbe40abda343f8309e3112bd7b5f927b2d966c9dccdf158e22574a0024d46c4b89332903f2c04c30dc2f0757defd7f03ffb5adedf33083d2c7c056e74a814cf9
+Salt:     None
+Password: michelle
+Attempts: 2069
+-----
+Hash:     b607470c8afa2bccf6ac41683fa9643d1f1b4599ddba13b505c25be47b3bae554c2328848887707c07fd4893a34a41241f9c023fc2e6e16847e482980b340095
+Salt:     None
+Password: abc_123
+Attempts: 815
+-----
+Hash:     bfe4061063f26368135b17a67062d0d49f67fb486fc8d24b27312b880be67c27fd0e62e9ab45e1cafb8da1f0612d7799cc4b8c6119a2d08aa1eb6958de5ae696
+Salt:     None
+Password: miriam
+Attempts: 2080
+-----
+Hash:     b9b98573caeb79a7f38a1e4912fd055f51bcd1f66cb01676b41ab72f9384cd632502ee72c7e351e5e62a4b82b1006cb6d746402db95dce55cdb8356891af6a80
+Salt:     None
+Password: Install
+Attempts: 5225
+-----
+Hash:     35327062b437c15c3c2c3158f5643003e892a64591be21244453d38c340c314fc3c37f32cb04ff8f3fc066ad79467d49183f2961dcdced10cfa49b3fa91b1488
+Salt:     None
+Password: attitude
+Attempts: 1398
+-----
+Hash:     ca35369a63357757b180838e564613045e19597a478cf5aeb178bbc46fb5a5889aab625f7d4da7bd89418b6140faed6b9330e8a1da1d40f22c3f84c353d2b54d
+Salt:     None
+Password: joanne
+Attempts: 2001
+-----
+Hash:     8e16db990a0c0f220b67e8b7b3ff918e1f5460164e0f7f412dbc6e9f6282c9acb3132a58ca3fa8b45f566fb60eaebbe35667f80b0ce860f707e5049ea604e545
+Salt:     None
+Password: qqwweerr
+Attempts: 2783
+-----
+Hash:     a4d4483fe1604a52d0b5ae1a717f7391f08e490afeb4e06e03dcc045eb175e17f491433eb7ca26796b0aedb58ac0dddc50fc30aa4c8ed52211dc1a71dc8de3af
+Salt:     None
+Password: qwerty12345
+Attempts: 3061
+-----
+Hash:     1e53125d5130816a5e6ab3f160ed93d1f498edc3fdacf89ec901c749a09a2d01e1713a3c454f221af5a8069a9fc4829e648a8fe51cd43e35ab4e6c11e8f4bd54
+Salt:     None
+Password: 11223344
+Attempts: 125
+-----
+Hash:     4e1b09490ac4d6e112e743d9330ebb658d44b9627a56184c3204dc85cbf5b574dee6e9e6f536e66b593d5c16ac9b46acdda400c51ec4f00ba9050e7575a4bbe7
+Salt:     None
+Password: 784512
+Attempts: 100
+-----
+Hash:     f50c18fbf32633fb597094da976713b524d23d2b05de9a4567aa98efedbfaabbfed97ea9e791b63af5d9970d3009e40a96847f55dd7e31b0aeda05d2c44f0a91
+Salt:     None
+Password: 2010
+Attempts: 11
+-----
+Hash:     eb6689158408aee35adb6b7ed148d5458073554439a184ad9b787d834c7eaa1df7103ddda2b31ff608de184d7d4f4d08f82bc86884a6ed0fa93e30d31e6bf055
+Salt:     None
+Password: Welcome01
+Attempts: 6802
+-----
+Hash:     022d1d86145af7879271d564a3faabe609d44876e76657c9371d240e1f8f6d8cb78d4add7ad6de15f88798e0ebc9a9a28a312ce7e31163a638974f3f93fc2552
+Salt:     None
+Password: changeme1
+Attempts: 1449
+-----
+Hash:     31537790a5afa956262ad116a0f06486c7074d5573cd7281b6f952bb4f342c4534307232c48f22af32f88d59adc7942bf90a094f2028d775f5a26d6ee4a42a83
+Salt:     None
+Password: Digital
+Attempts: 4786
+-----
+Hash:     fd37ca5ca8763ae077a5e9740212319591603c42a08a60dcc91d12e7e457b024f6bdfdc10cdc1383e1602ff2092b4bc1bb8cac9306a9965eb352435f5dfe8bb0
+Salt:     None
+Password: pass123
+Attempts: 2469
+-----
+Hash:     4aeb2000b9de5858f5e5e0b7eda52f253caf19582c67cbbb453be6987ecc1baf27d75670e39f78058fb1ebee3d16b83d1cbdc8d3628636377b2458ea5bf12ff2
+Salt:     None
+Password: 123qwe
+Attempts: 573
+-----
+Hash:     0d62434a87293f2c4fccc158b6759c813f8808c90ac986c7fa36a98b9bfed81f05b0ce4dcce3410659d943bf75a424238e5dad930ea543633542a150ff035e92
+Salt:     None
+Password: dental
+Attempts: 1544
+-----
+Hash:     4bd0cb619949f118b0e1ac71f8383d569bb4ade2b1d2109d140bee58b86fe859e8edb3bfce9822ac0cced4ec6fcb5ebd38309c144da8201350c3bc365d39e2dd
+Salt:     None
+Password: 314159265
+Attempts: 160
+-----
+Hash:     30c078b9b1377a227959a5e6e69522a3c48d04735583678b6f4e256e3866f459c77795e24cd5e2ddbc40078c136a3caf94efd056dd32176cb15b96486ccd9c59
+Salt:     None
+Password: 789456123
+Attempts: 168
+-----
+Hash:     e4aed93ec8e0084edaef0cb945aa5acb885792dea7c115f6de9a96c77df0ca617761738c76e965f18aafc30eccbe0dacc9ec1788a7a1bbc0d6ef59b98047c099
+Salt:     None
+Password: 888888
+Attempts: 101
+-----
+Hash:     c45a0a774bd38ffd4634ca52b568934686286911216a22d8b85df262e8acea07f190e9d4470fde92e67ccef462a849f24713b310c58ac992fba4bbae9b0b3a86
+Salt:     None
+Password: 121212
+Attempts: 66
+-----
+Hash:     0ad82dc26a29b02cd1d0bb3969092f2744b833e2c2eff5e0d7df32cfa206f853f3c76ba66c92567313b194b455ab86b0342adbc27f47315f2dd28ecf8cf9d3c1
+Salt:     None
+Password: ab1234
+Attempts: 794
+-----
+Hash:     cbe0cd68cbca3868250c0ba545c48032f43eb0e8a5e6bab603d109251486f77a91e46a3146d887e37416c6bdb6cbe701bd514de778573c9b0068483c1c626aec
+Salt:     None
+Password: Password1
+Attempts: 5814
+-----
+Hash:     b857bfd426f2f54bf1ca0b24f146ec88af8b9b47464137c5a73379725aa0b725b1960eed5e55c6f070ff5e06cad8e8f319d759fe6f1d41d39149d3aa2d4babba
+Salt:     None
+Password: samsam
+Attempts: 3221
+-----
+Hash:     20b84ecaf310affa80540df04fc69d09223e932c6c092f7d63113c7f22d133347ccfe9ffad04c21a8d8c0cae52adfc4d10f27b3d0649f788f48c03e3723afbee
+Salt:     None
+Password: qazqaz
+Attempts: 2750
+-----
+Hash:     0ec10cef3b424a1ad5a2e84a950a552dffe991bd536696381ecae76828c591fb092fd408008bf76849d400d793e9905ec4e396b11783ebf58f5000d5a136ff13
+Salt:     None
+Password: 2017
+Attempts: 17
+-----
+Hash:     b188b93dd1a0fae7115d0c1cea2fc7ce21bbc4a35d088a7362b430a365d4ff27fabbff5d18741c0506e9304ce7f4c53a70cccc2b1778d547dbba2153add2b327
+Salt:     None
+Password: shadow123
+Attempts: 3351
+-----
+Hash:     86723b8a2567e266b93ff25dc9ea0c193dd6e839c0418dff7dec6f83e3e7547b49dc5ff3979dcb7af8069bbc57a7e7aa9ced3b0b4f8aec0d346284a601f5663a
+Salt:     None
+Password: qweasd
+Attempts: 2921
+-----
+Hash:     1af247e88db0afe0fa886fc2b943da6c0160fb6f8931f08d4338ad2e00de79d3b6707f6c8ff9f9f9d2224926cc8e0f2c3ab83bcbb657b987189dbf00470b4d48
+Salt:     None
+Password: 2014
+Attempts: 15
+-----
+Hash:     6953c356c5484d035e2e63a6d04e0db0752ce1b00b0587c7cb9ca177f33203391d12b4a5b824c18d343dbd7e6f0da3cfdebcc471ec04bdb4d12dcf77fca2f034
+Salt:     None
+Password: erica
+Attempts: 1577
+-----
+Hash:     f86bcc84c5a1ec98e94ca18985f01828a2606a38aef735992a3cc56d0055ceaa7f83a33009f8ed8ec11508370e208f8bcdb1d548a3bc38d5328c80e608b49e0a
+Salt:     None
+Password: babylon5
+Attempts: 1408
+-----
+Hash:     b0b4346784996f287ba03ea3b38f040666d5c16fc1c3c0759f33dd9b40ead4fd8c0ced15a95ab8a603c087c8bcc7dd5f2c14011624ed6a69a59db33a5c564f61
+Salt:     None
+Password: Superman
+Attempts: 6606
+-----
+Hash:     7dceb5445d6b2f0d7ab9c4bcdaa9e3347c902ded382c333be74d70ab9747f205d3a8d17f2f944e47a3e6ce7955ca45aeab6190ad1bd91ff94e7b9fb31603c1c9
+Salt:     None
+Password: Love
+Attempts: 5268
+-----
+Hash:     e8d6a802fef1c07b11845fbe3691adf3c84fdfb26b436edd7f08f37207c887a48435547843b7d41281a749ec59ea1ceed6b3d132c904a7c64b84892711cf3df2
+Salt:     None
+Password: Ferrari
+Attempts: 4826
+-----
+Hash:     f598a9bfdd177102b7585cf27a080f81e848c59e88bd05235a331989fca9dee4f8416b1ac4cd52fdd63b6ae1f369b98a236c1133547dcafcd8144257b2619124
+Salt:     None
+Password: 7777777
+Attempts: 119
+-----
+Hash:     d2f75c6f430dae341cc5c46cd7aa147ddedbd0e879ebca6a27d557252e3fa53521deaaa4c8ef3297ba9d89d675415992bf29ecde21b8d595714dcdba84a2e48d
+Salt:     None
+Password: 24680
+Attempts: 46
+-----
+Hash:     5ab61d846138ece645497ff7a2056a974c921d27ff084bfc2edd42944d8f282af9a19a7f42c8359c9ea49d039c32430f40712908085de2f156e18656b513d683
+Salt:     None
+Password: azerty1
+Attempts: 1404
+-----
+Hash:     ab429e6ba56591cca0a834599a13b7aabca2865c47305b360ae35775cfacd667d98f0118296dea2b5a66e9532fcb1dff59f0633771970e82b6b27a1ce35d0b46
+Salt:     None
+Password: 4848
+Attempts: 28
+-----
+Hash:     af249f505d250a9c02d12c736b1c9e819d233d9cbce1a2b48ef547db4f4cfbe7956124e8e97aeb72b407777551b397cecbb821d0ae5b752a64977c9dac70dccc
+Salt:     None
+Password: Letmein
+Attempts: 5256
+-----
+Hash:     d730ef6965b7d0c4cf0e4ff038da4c5a69ae543c2de29ea99af0d1dc200c9182c5f6a2b6bb9732805625b83983e9b921bbb0b6add9f951e2f996f3588d8da110
+Salt:     None
+Password: qwerty2010
+Attempts: 3080
+-----
+Hash:     7913b013f96f5847510294cc98a8c0825fc94f3c7e4602083fa5530dea614cbb10eb478828a3365e31cb5af2a84c99212e948ce39a52af98266d3f509f8bd934
+Salt:     None
+Password: qwertyasdfg
+Attempts: 3103
+-----
+Hash:     c2676ed51859f09849c40287f9196bea17c1dc1b8291fa6e19b9f9bb461386ed87f1d256a3cf6c261bf0f830775e7ebdb7741019443b82b4d34cbc5dcd5c80c4
+Salt:     None
+Password: 8888888888
+Attempts: 194
+-----
+Hash:     fb7daafb37d21221f75d0451fa35dfaacfca509150cecad0e40217b593c5b47566e80c1dd1f74556b3c46a357b699c860976372361a99332934e720a586b7786
+Salt:     None
+Password: server
+Attempts: 3241
+-----
+Hash:     a33a302adb5adde263079ea3022ddce7d968867306fe8392b04a249eb155ca7a7333c9f0ecffef3b0b250dee171711ca1266683e1f43c99f8fc529fcc3c5b424
+Salt:     None
+Password: qazxsw
+Attempts: 2767
+-----
+Hash:     b5283923f9021677a1ff1bbcb7f0bc00bd628eba3c0da6e62f9cdb32532575216d4123c511f99d2cd2605cad53de4d373936647fe4a9f741ac03bc0f7a4031f9
+Salt:     None
+Password: 222222222
+Attempts: 159
+-----
+Hash:     3848a2764510ceb5a7e33f580bcd6d824dca4484aed32234c090fbc3ca294b25305102732a6efecae1f2b16bfc46385a06551717d1d404d64a1dc395909991bd
+Salt:     None
+Password: Asdfgh1
+Attempts: 4519
+-----
+Hash:     914e1a20ac2beeb3f90296a6366b96bc5b300f1d32910c836e3a6e06bc873edb5fd6e5bcf54045d00a2af9fa2e13c515db965475dcc89c778030dd73fbaeefbe
+Salt:     None
+Password: bloomberg
+Attempts: 1422
+-----
+Hash:     18aa907a1deb0008fbc6a6dc730ee8fb347a86ef0ceb84ce0fa48c401e4cb9b0c0ba6a04d900c1fb28309041470dbc4a8b9ca0769fcafb948bae98b1ef6f9db4
+Salt:     None
+Password: 444444444
+Attempts: 163
+-----
+Hash:     3f9821f642f5ae6b27958fda24d9557d406144865192b102701533fe3778186f87a2aa7a2a5699356cbb0cb772af93fe682d19356c5f808c0515524a5de62c40
+Salt:     None
+Password: 1qa2ws3ed
+Attempts: 633
+-----
+Hash:     68cc987dcf38c696502b5e02bd1b175b4eb5b8cc4e7cacf6b51a3b81d5926bfd1fc9dea589c35526e64306f21c9e4e88ea64af4a871e0e36d1214ce667cf2442
+Salt:     None
+Password: passw0r
+Attempts: 2487
+-----
+Hash:     7ee83a6a16d9169c49565ff7f5f0adece6ec50285d4a9c647b56848d2dfb36ecde341344a1e67e2941a4477daf141df855492dc73138a20c6be25d328b7f716e
+Salt:     None
+Password: bluebird
+Attempts: 1424
+-----
+Hash:     5825b782508039faa5f7ab4c8b50b64e5a9e1080c73575fdb1a19892a8f715765bf8d14440d6fd89c05e4d008cdc5fc9617df6d374f1f5ede08644f4e119aca6
+Salt:     None
+Password: triumph
+Attempts: 3514
+-----
+Hash:     521d58c813355f4ae4f7d6cafe420068b350c82f5e20479edff79b34e6bc533f60927365aad3565fff47661b67ff607da85a5fcfa14a8022667a1602ecea5858
+Salt:     None
+Password: qwerty0
+Attempts: 3051
+-----
+Hash:     ca5763c0ffaf8a90513276dc0cbe65c07e9969878db022c969d688889233fbf769f25f7dbfd98d277ad43eada0475c2e328fb8805b985903ecb9a15f9cad4602
+Salt:     None
+Password: gfhjkm12
+Attempts: 1675
+-----
+Hash:     75203099c58cd68368f88666b5aaa14171b30c756f849bba198f6cd70e368fe45a4990a5ca0dd105a718b1a1185eb0e15a6071155e9d8187e0bfd4c3cbc80435
+Salt:     None
+Password: qwertyuiop12
+Attempts: 3175
+-----
+Hash:     d22c8fee0bd56e8b8fb8ff964831383aa0071eb4b6dc314e91c170918bc220f175533dd59cf87f549cb95a017344a2d47d5248f5036e83f5f0c8a817303556ba
+Salt:     None
+Password: blessing
+Attempts: 1420
+-----
+Hash:     605978e1db09be707828668c5e20756918f18eb25fd825620bd967c614058c94fec8da52e6d71ff84b10ef985ac2943c306957abd31f39514392966eaa3f3073
+Salt:     None
+Password: Gfhjkm123
+Attempts: 4913
+-----
+Hash:     8d4a24fb25f827b32ff76e71622f9ee7191a7d5434ef133c32048a1ace3836cf0145bc472ffad3431a33445828422b2366da74d264dcbb12c6e76197291b9cd5
+Salt:     None
+Password: qazwsx
+Attempts: 2752
+-----
+Hash:     86f7cac31d1dd2cdbb9cd1af7262eeeab4b4d0bbb0493fba4ce8ec255670310a47cb25ce6e5c886d98158ae211ec91f27ca35be48ed8ed80f8fd5353d991ecdf
+Salt:     None
+Password: 302010
+Attempts: 83
+-----
+Hash:     86800df1b4e8c0fa4c4d914a67479e333cbb9420a0429cb6d94d5d66aad17a77c74d31eb56785bbbd0575702c1754b70e4dbcccc138e3df110dae4d3706a1d99
+Salt:     None
+Password: Ironman
+Attempts: 5230
+-----
+Hash:     ec9be2505b527c8607c467745efe1ebf9baf126ee5f53c5aaa93fcc0be72d79fed197fd94615a254f4769b3a92c8abca7faca28f81e0e2d87b8809462098e0c4
+Salt:     None
+Password: firewall
+Attempts: 1593
+-----
+Hash:     71550b8485dd146bc9c3ed78abe807d95b6c1782c6e7713dd99f4f5b08e31d107f4e2c2a745649c32aefe1507eb3aef82853491573c99d45430e6b26f6b023b4
+Salt:     None
+Password: passwort1
+Attempts: 2637
+-----
+Hash:     c4c72b5641ccf4a76ec5e3ed19cf7d7045efb4722e4bd8fabc5a11412327405748e0af4e29a3078176d30c25994cf1253d2fff26e515dc70b9c040008b458185
+Salt:     None
+Password: mestre
+Attempts: 2067
+-----
+Hash:     61f287dac922ab054738c386d324ca6f82df07309cf6dbb8686aa9a4ffa7e7a471c79bf78f9f920df57677c003cb532a1ce4525e2db64a5769fc82b8ebdfd2a9
+Salt:     None
+Password: azerty123
+Attempts: 1405
+-----
+Hash:     a91d24d7eab7683bc73b857d42dfc48a9577c600ccb5e7d7adabab54eebc112232f3de2539208f22a560ad320d1f2cda5a5f1a127baf6bf871b0e282c2b85220
+Salt:     None
+Password: mike
+Attempts: 2077
+-----
+Hash:     047a8f6a1d9e263926ce482e537bde84583d684d0abe1112c1cd2bfca05af058c20366ef10840736953d03dd45986b1a0eb3f424c63ec0cbc5f5583b9f610ff0
+Salt:     None
+Password: teeth
+Attempts: 3452
+-----
+Hash:     f4afa32895a9ed869dfb8782a1787573ced8cb141c28f033b13abcacc219fd00b67e34a36f2aa7755fa9d081e1f9b5b79633f5155e78121111155cf09393ce2a
+Salt:     None
+Password: welcome2
+Attempts: 3569
+-----
+Hash:     e396816ae3b6367fe0384bdeaea3d8f3bb692e0869724f1fb2aabb4b93af3c8ab86c57d044aaa238b3bdd2b18e3ee9f26b55180997b93cf7ee11d50c225eb0ac
+Salt:     None
+Password: Abcd1234
+Attempts: 4120
+-----
+Hash:     0549ab26aefcba2df2f37dc4a2820597b0142f86ac8984214951c44621b63d1696f03cc3093ba1c7c88a7259d5cc83e7396e1614d1a5f3c3c0ad96e70cdfd0d7
+Salt:     None
+Password: 6666
+Attempts: 34
+-----
+Hash:     08b5b6491249d55a305827167308e12bd190200aa0f78b6d59b293398fb1338d1db1fd5e8059cdfd1d2849fe528532066505867250fd29560793d279edc694a1
+Salt:     None
+Password: rootroot
+Attempts: 3217
+-----
+Hash:     330c6371dcc3adc49662d76e1571f752f4176dcc2aff994b68c0d12ac598c8b181c512659b3ef01bfec112b65ae357ea4b6b2d068cbebbccba847b2d81c82875
+Salt:     None
+Password: 13579
+Attempts: 44
+-----
+Hash:     eddcfd3e182550904c0fd596e2916792fafa003249f687153973a21d753c15f5bd8e369a5192e16ac175971d03cbef8dcc8cb5587ca449174ef78ab3da2f488b
+Salt:     None
+Password: zxasqw
+Attempts: 3672
+-----
+Hash:     aca88ca01373017de93185c9b7e4aeccf81499e38aafff6f11a4bf75e2a78dfe07457c748a493ca023dd01d4dd26e93493c3425e61b3bc12b79c186c32bddedc
+Salt:     None
+Password: zaqxsw
+Attempts: 3663
+-----
+Hash:     c0225bde4916276b2058e16c4a00e27557c65472e318e0746523c71b85288ef87a424f9c88dcccbdde9755615327e365aa90f60c813b4d2997306a9cfab168d6
+Salt:     None
+Password: qwert
+Attempts: 2995
+-----
+Hash:     d622f4907bbcff7bec3b41c0aa4725c9ecba4b1e60868cb35661fbded64cb68d64e795578389173ff8d757e063938b9f08150df93b5acb1a8dcfc9abb5c30d90
+Salt:     None
+Password: asdfg1
+Attempts: 1253
+-----
+Hash:     1f86c769b319d953ab017153897f602b2fac6b73b4e64bf942085bd03c414c203c9030d47f33b937c9a3e30ed3764cf60eecbfd4e2284b736302fa837f8751c4
+Salt:     None
+Password: 22222222
+Attempts: 137
+-----
+Hash:     2eccba557310eefe85f995421f53d2a4a099179ad07db6f8a732bb1861559cc0fead3d3adf495741b73d2bcb72ef015c97045e390720d392717b9c9f9a7096bd
+Salt:     None
+Password: qwer123
+Attempts: 2947
+-----
+Hash:     5b9e5ba7f14433f74fc5e97b63bd613776e5d2d14fdd261708be496432b2707d4390eb6f22628fd6a1a2277699adffc0f3fa84df9f63ecb7864d054f2bd21af8
+Salt:     None
+Password: abcdef123
+Attempts: 903
+-----
+Hash:     0fd0aed0f1ba2a2bd6da2f62eff9f313aa3bf7132f795cde1147a591822117450aa1d0e1f7c8331c18fcd0dc3529ac6b696175aa42d764f0eb66450b4884167f
+Salt:     None
+Password: gfhjkm123456
+Attempts: 1679
+-----
+Hash:     2152c754cdb6965aa9e0cf66612862e6cb352381160441c32006f6a23c47d6153061d0410ba026c4b70e5c16b1b2527fd856d137853c7a6c7e09f5b4ee767ac6
+Salt:     None
+Password: ethernet
+Attempts: 1578
+-----
+Hash:     9deb7890ef8895c9a2590f00201736ec5720ab0d1adb57342f0b85e8fc91b5ac8a8adee83da8941c28a93ec94b098aecccf6c1562eb02ddc4fc41cee16325e79
+Salt:     None
+Password: 1qazxsw2
+Attempts: 655
+-----
+Hash:     64eb216513fc7a936d9525145f49dd977f12251cd659c4d70326585d9e2e51cb485e661c691f7f8037f93dd0e1017c56013c0ff5981eb3968440a36ac48e1deb
+Salt:     None
+Password: judy
+Attempts: 2005
+-----
+Hash:     513a6931f3f9e0bfdab955feb6325fd1e79862aecb90ab1e4e26db6d9534a47ab215bfa552a8bc7f8f2eba825b4d843f4e8121be0f5da7b7c627235d124bd3f6
+Salt:     None
+Password: ortho
+Attempts: 2222
+-----
+Hash:     1c67a9aab963fac398b1f7c193b6227996ad813184dca9c17b1e51899b9ffe029e31258861528760484c89fa5250b991e1837a26110a95f729c78edbc9b09685
+Salt:     None
+Password: freedom
+Attempts: 1633
+-----
+Hash:     c7d9defe9aa40bd319fd09f46aec37422f4e14950e6911afc0145250ffd033b4e3bcbd66b1b365cdc99ecb32e8fbb8b9a21fd3d159551a74b932fcd8abebbb2b
+Salt:     None
+Password: Bonnie
+Attempts: 4662
+-----
+Hash:     f4866841127d9b87c3313094f118a1c0ca71260cabf83818716834a27da681214808e9a89c7ed818a40d0e4ba7f7668ab0944a48ed8e03c10b0de9f509509aaa
+Salt:     None
+Password: bruce
+Attempts: 1430
+-----
+Hash:     d2db4e34c6c74f9ee33ad34ecf3b3356825e4d7d73a6f608002eb7825233a484422834bf05786b9265f82a3dc17f3bc74bbaf1a68764c445df180ada3af9849b
+Salt:     None
+Password: 999999
+Attempts: 103
+-----
+Hash:     cf835de3d4ea01367c45e412e7a9393a85a4e40af149ed8c3ed6c37c05b67b27813d7ff8072c1035cedd19415adf17128d63186f05f0d656002b0ca1c34f44a0
+Salt:     None
+Password: administrator
+Attempts: 1093
+-----
+Hash:     95280ae883c49b296ac94ed949e7f709af688bbe07517d9b5cd9584a11498030e2e75c6ecb62c788c28542ac85d5026f0f6b6e0a8e4f585e35e16f2567b9273f
+Salt:     None
+Password: ivory
+Attempts: 1994
+-----
+Hash:     62670d1e1eea06b6c975e12bc8a16131b278f6d7bcbe017b65f854c58476baba86c2082b259fd0c1310935b365dc40f609971b6810b065e528b0b60119e69f61
+Salt:     None
+Password: 11111111
+Attempts: 124
+-----
+Hash:     bbe4ccf8137be174236f17119dcb1cbcae4c307c5bf0498840045bbe31ce50281a36d07dfcce958b09f4ccc2a63426f67a91f6dcb99e52a7ddb74f0a41602ba1
+Salt:     None
+Password: Samsung1
+Attempts: 6459
+-----
+Hash:     ce283e788a8da1cb92176eaf53e67c2dbc0e44a98e28e9135a3713fd2d3facb3b51febdcd62302a251f2f0f2279708373b515c7301b3d1aaf746f0d4e7644f1d
+Salt:     None
+Password: qwerty00
+Attempts: 3052
+-----
+Hash:     59a94a0ac0f75200d1477d0f158a23d7feb08a2db16d21233b36fc8fda1a958c1be52b439f7957733bd65950cdfa7918b2f76a480ed01bb6e4edf4614eb8a708
+Salt:     None
+Password: system
+Attempts: 3443
+-----
+Hash:     7b2f21ea65b27817cd11a796a389af830ce82c486ad9f1ab4090ecdd1988666be51063ea64c7a14be56c6e28f0445aba9dfe79ddc9ac71556e57d040fa5d86a1
+Salt:     None
+Password: Qwer1234
+Attempts: 6185
+-----
+Hash:     5e319bb988ec9857ee5f8e77b0923e16424e72d0ce74c09a394011bd2f441cd0265575173f2699c0d76dac1d07d68e886485bb7d73dc7fdfd9df211499eebff2
+Salt:     None
+Password: Black
+Attempts: 4656
+-----
+Hash:     167a699d570891c5cf3b5b1ad5199e05be08906faff4646035d134eb95bb0bc8a81650aad5084f6efa7f0bc669dd8b41fcd0e7981f8c7fe2e22c043a9f690342
+Salt:     None
+Password: another1
+Attempts: 1132
+-----
+Hash:     3af3808d22fd07d0ad6b5026f89ab8ea3e2b3f47ec8d59618503825021d370e85029e38cf4f4174e36a78ce8e0e9475c8a3b455e11ce3b9519ff82e2d7a6dd71
+Salt:     None
+Password: aspnet
+Attempts: 1394

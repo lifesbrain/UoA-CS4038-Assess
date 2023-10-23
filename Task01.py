@@ -8,6 +8,7 @@ t1_hashes = "./hashes/Task01Hashes.txt"
 def main(hashesPath=t1_hashes):
   task01 = Cracking(hashesPath=hashesPath) # Create a new Cracking object with the hashes
   task01.bruteForce() # Brute force the hashes
+  #task.saveResults() # Save the results to a file
   print(task01)
   return print(task01.printInfo()) # Print the cracked hashes
 
