@@ -1,0 +1,8 @@
+Method: Rainbow Attack
+Hashes: ./hashes/10-million-password-list-top-100000-hashes.txt
+Rainbow Table: ./rainbows/PasswordDictionaryStart.rt
+Total Passwords: 100000
+Cracked: 0
+Quickest: None
+Slowest: None
+
