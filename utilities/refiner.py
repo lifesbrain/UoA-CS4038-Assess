@@ -28,11 +28,14 @@ def reduce (hash):
   reduced = rebase(hashInt)[:8]
   return reduced
 
-def main(startString, count):
+def main(string, count):
+  startString = string
+  hashString = hash(startString)
+
   for i in range(count):
+    startString = reduce(hashString)
     hashString = hash(startString)
-    string = reduce(hashString)
-    print(f"Hash: {hashString} | String: {string}", end="\r")
+    print(f"Hash: {hashString} | String: {startString}", end="\r")
 
   print("\n" + hashString)
 
