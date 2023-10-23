@@ -202,11 +202,14 @@ class Cracking:
   # Takes an array of hashes and an optional dictionary & rainbowTable file path
   def __init__ (self , hashes = None, hashesPath = None, dictionaryPath = None, rainbowTablePath = None):
     self.passwords = set() # For storing set of passwords and hashes
-    self.dictionaryPath = dictionaryPath # ∆ To impliment input validation
+    self.hashesPath = hashesPath 
+    self.dictionaryPath = dictionaryPath 
     self.dictionary = None # Not Opened until needed
     self.rainbowTablePath = rainbowTablePath # path to .rt file or None
     self.rainbowTable = None
     self.salted = False # Set to true if any of the hashes are salted
+
+    self.lastMethod = None # Just a string to store the last cracking method used
 
     # If a hashesPath is provided, create a hash array from the file
     if hashesPath != None:
@@ -316,6 +319,8 @@ class Cracking:
     # Crack the passwords
     self._crack(bruteForceStream())
 
+    self.lastMethod = "Brute Force"
+
   # Task 02 & 03 Dictionary Attack
   def dictionaryAttack (self):        
     # Try to open the dictionary file
@@ -335,6 +340,8 @@ class Cracking:
 
     # Close the dictionary file
     self.dictionary.close()
+
+    self.lastMethod = "Dictionary Attack"
 
   # Task 04 Rainbow Attack
   def rainbowAttack (self, newTable = False, chainLength = 1000, chainCount = 10000, strLength = 7, alphabet = alphabetFull, seed = None, rainbowTablePath = None):
@@ -369,6 +376,32 @@ class Cracking:
     except KeyboardInterrupt:
       print("\nCracking Canceled")
 
+    self.lastMethod = "Rainbow Attack"
+
+  # Save Cracker results to file
+  def saveResults (self):
+    fileName = f"cracked-{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}.txt"
+    directory = "./results/"
+    filePath = directory + fileName
+
+    # Create the file
+    try:
+      with open(filePath, 'w') as resultsFile:
+        # Write the hash, dictionary and rainbow table paths if they exist
+        if self.lastMethod != None:
+          resultsFile.write(f"Method: {self.lastMethod}\n")
+        if self.hashesPath != None:
+          resultsFile.write(f"Hashes: {self.hashesPath}\n")
+        if self.dictionaryPath != None:
+          resultsFile.write(f"Dictionary: {self.dictionaryPath}\n")
+        if self.rainbowTablePath != None:
+          resultsFile.write(f"Rainbow Table: {self.rainbowTablePath}\n")
+
+        resultsFile.write(str(self) + '\n')
+        resultsFile.write(str(self.printInfo()) + '\n')
+        print(f"Results saved to '{filePath}'")
+    except:
+      print(f"Failed to save results to '{filePath}'")
       
   # Print Password Info
   def printInfo (self):
