@@ -1,0 +1,7 @@
+Method: Rainbow Attack
+Hashes: ./hashes/PasswordDictionary-hashes.txt
+Total Passwords: 6940
+Cracked: 0
+Quickest: None
+Slowest: None
+

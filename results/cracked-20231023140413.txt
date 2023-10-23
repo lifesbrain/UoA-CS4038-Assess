@@ -1,0 +1,141 @@
+Method: Rainbow Attack
+Hashes: ./hashes/PasswordDictionary-hashes.txt
+Rainbow Table: ./rainbows/PasswordDictionaryStart.rt
+Total Passwords: 6940
+Cracked: 27
+Quickest: 0:00:00.241714
+Slowest: 0:00:06.523765
+Hash:     5215adcec6d6115f33e123b73bd6b28056e7eb44e06645f19a9caed15e56996212d78501e740dc224bc20bce3cdb0ea30b1b1fe26cc6dbc1b728f6a1b9013fe7
+Salt:     None
+Password: Pa$$W0rd1!
+Attempts: 10000
+-----
+Hash:     7e03f6e661da693ece9e639cf79409fa58583803bc3b4e17a50e0c01020c017fe6fee1db69069070dabec53862d15144c3881450d74c4006419f6a00c7fd6e8e
+Salt:     None
+Password: admin#2008
+Attempts: 10000
+-----
+Hash:     c6ae1ca5381383f66230e91d949a7920e00d98489e579c602a13ddf7da801fb0896db03f6d1246f9a206d293fb510ef1c36b6e4a2e1bbab2720b2ebdc4a0adc7
+Salt:     None
+Password: Copier
+Attempts: 10000
+-----
+Hash:     cfb8be7f4e568f848a599db1ef254614b38339d3ee69110b97873322f560c07d5d1bf0045bb850f9af3515aab6e71c4a106e8a4317b01f879b356320ae730d9d
+Salt:     None
+Password: G00dluck
+Attempts: 10000
+-----
+Hash:     8d42aea76cc489f30bee489136ecccae14679015deb2f56f3ef8147b4e6b7cbb6200c094e52f4085b3d99ac90ece17336478f5610da5897c588a89a3b6b925fc
+Salt:     None
+Password: Boris
+Attempts: 10000
+-----
+Hash:     7d7b522267bc6d98eeeb2b2b3a95b14bfb4f22cb4cd42041ac75615a6e65f1a2f4570d13ebba8ef8ec772c942b2bee6823f12c0d0667c09adcd8957cc966386b
+Salt:     None
+Password: hetzner@#12345
+Attempts: 10000
+-----
+Hash:     6e921d6ea8e1a15e0391ac8ab16b74aaa8b6e355d7621d5f639b57d58fad82155299d44c5c8b280439fd42216c024f5e3435b003761e16070bff3109298f7ce2
+Salt:     None
+Password: pa$$0rd
+Attempts: 10000
+-----
+Hash:     057eee5d988394afb119ab1b3fc61555b98066eca56c6083c8df76d70bbd474c12b93ecb8def1217ed9becc29e95c9ac6667a89f400b7f178320c28d3170ede9
+Salt:     None
+Password: oldpassword12#
+Attempts: 10000
+-----
+Hash:     f85e5f0978f208deb29e201114bbf8d43aa76caef8a6686d1481a5d4bc1b5bbace1daf2e0709291aa8cce40463127920c620c56d1d486a0fb8b8ff12b97ec044
+Salt:     None
+Password: Qazwsx123!@#
+Attempts: 10000
+-----
+Hash:     2aa223c3c43d0285bd8467711ddff7acc0c7441932f6ddd4a3717c89bc54e12f2693c3846faffa8c17f7065183ff3dde71925af41563cccb8a70dde88aacfdd0
+Salt:     None
+Password: Yys9hkx1
+Attempts: 10000
+-----
+Hash:     681201244aa2a4935f74db16e2f4322f9267b7474941fe6e62103ca340fdc98d7c5a798a83e20a61c750ce8372966b4a2f452d16dd90f20e7d71875d11d7f8fb
+Salt:     None
+Password: #Edc2wsx!Qaz
+Attempts: 10000
+-----
+Hash:     6434009228235518267281ccb76ac6d8a0f695cce8bee4bca8a4d07f898293d3a6a004f4cb5915016c505c5eff84f2f3f644289fc20a2efd49c08acf97bdfdc4
+Salt:     None
+Password: Qw147
+Attempts: 10000
+-----
+Hash:     7c57d535c31edf3a2a0bb9b44601517894453deed4aed1ce9b028a2f1e6525c3c6e38220af13eaec2e53b0006e9733f046c9009e94be174abccd4fc1e5a67d33
+Salt:     None
+Password: hetzner#$123456
+Attempts: 10000
+-----
+Hash:     d8e59c9f5a69db8ac2fda3d1dab69cb4c253a9ef076ffb21939b5a476e2a701ac5b19d050fcf8df5699ee4432b25fd3572b7686a3385665129d7f7daf3890f3e
+Salt:     None
+Password: work@123
+Attempts: 10000
+-----
+Hash:     486b4d4517cff2c9d85e14c3fa12ebfba9e2a1319b4d129c54c801a260c8ff80599290a862c290dd714a5786f8b21d058b5510bf6617423c6def7cf27772c8d1
+Salt:     None
+Password: Abcd@123
+Attempts: 10000
+-----
+Hash:     50ed72ce700bf6ff169ebce8acb9accd6408d54e99e260036bbd078b82e04f709a428ddf3b6ab3601444f4ae5aab4330c392f23a1c688be60caf0e673ef43199
+Salt:     None
+Password: Jackson
+Attempts: 10000
+-----
+Hash:     ea9dd3662bd2702c06272f66b0a458b9f3202fb47ddaa2c5c2b363029e893821859453f7105404abc203be7e3b411b00a2d4a07c3e2957f4ee18690812bbe094
+Salt:     None
+Password: Admin#
+Attempts: 10000
+-----
+Hash:     70ac2d4ded11dc7788a520bc6c44a7b139f1500353daa19178ccf8081bd731b615a7397e81e8774f1237e2a30e8d486e2827fde065bf9bd81e2b688024087142
+Salt:     None
+Password: 1@xsw@
+Attempts: 10000
+-----
+Hash:     688602751d004917165ae52783aa77ae6ea96b865f8a9003bac39129c535c0ea19bb558376b45aa8c9da9943e7639d2ad78bc7876a7df2525da51b7321075d55
+Salt:     None
+Password: qwertyu2009
+Attempts: 10000
+-----
+Hash:     f8ca945338852058bea19a6cb5c8cc23e00b8426f9cd7bd57b4be7245706becd5e33192ef2e3017b4b34cc6d75359352447141b4d3db26760b0acfffb63db19b
+Salt:     None
+Password: Q2014
+Attempts: 10000
+-----
+Hash:     d716a4188569b68ab1b6dfac178e570114cdf0ea3a1cc0e31486c3e41241bc6a76424e8c37ab26f096fc85ef9886c8cb634187f4fddff645fb099f1ff54c6b8c
+Salt:     None
+Password: abcdefg
+Attempts: 10000
+-----
+Hash:     5889a05d1a48f7028dfdcbafa9284a8ffc3ff8086d398342e0e715fa2fb87f10f3a3d129fdccd5e1030be1f1c87f64683e222ec576f45c66dfce852e65fa0cd8
+Salt:     None
+Password: Qwert123456
+Attempts: 10000
+-----
+Hash:     49339f7027595cff27df705a574fd5fd07c822a47fd92836865fe4cf7ba81bb2c01edf03a515101fc4e728658726e613eb9bd53ec13c846d177efaf090ddf1b9
+Salt:     None
+Password: B@Ckup123
+Attempts: 10000
+-----
+Hash:     bdb2aa4184ad7f6fb146c7b851a3109a443c56f3c27f67398724dd43f90691bce8eff1e42e0bea7ab201c5cee14e36fb0d851836eac5fa0f918da84ec9aedc31
+Salt:     None
+Password: Admin121!@##
+Attempts: 10000
+-----
+Hash:     bb3193b884cfe53aea717f6fae8811df905ffda33672a4ed8b0694a0f7d5292c11d9ef0d7c9ca9306e1ab6ae3a8af21702549d82856a82ed4f16bd17ace44d79
+Salt:     None
+Password: Password12345
+Attempts: 10000
+-----
+Hash:     75a7797bbfa4362a5e69e9b04966f4b91a9fbe59a273338a0fa79f12ce61edc60e9e4e0792e24d05667ac68c898706b34c16d80c80d613afe7ad7fa38287ef42
+Salt:     None
+Password: 1@Asdfghjk
+Attempts: 10000
+-----
+Hash:     39aa0c74f9f6a74c900aae42697f7f7c05da72000de76c89364ab655c9c832dcbbf320b5a01cdaa40c496a20d5986d72dabd8b40778ab96a21488a19fc20d95a
+Salt:     None
+Password: Qw1
+Attempts: 10000
